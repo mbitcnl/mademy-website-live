@@ -1,0 +1,26 @@
+{
+  "name": "MadeMy IT Solutions",
+  "short_name": "MadeMy",
+  "description": "IT-specialist in Private Cloud, Hybride en Cloud Native-oplossingen",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#E57035",
+  "icons": [
+    {
+      "src": "/images/logo/favicon.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/logo/favicon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/logo/favicon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
