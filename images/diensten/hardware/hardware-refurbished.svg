@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="400" viewBox="0 0 500 400">
+  <rect width="500" height="400" fill="#FDF2ED" rx="20"/>
+  <!-- Title -->
+  <text x="250" y="40" font-family="system-ui" font-size="22" font-weight="bold" fill="#333" text-anchor="middle">Refurbished Lifecycle</text>
+  <!-- Circular arrows (cycle path) -->
+  <path d="M250 80 A130 130 0 0 1 380 210" fill="none" stroke="#E57035" stroke-width="3" stroke-dasharray="8,4"/>
+  <polygon points="380,200 390,215 370,215" fill="#E57035"/>
+  <path d="M380 210 A130 130 0 0 1 250 340" fill="none" stroke="#E57035" stroke-width="3" stroke-dasharray="8,4"/>
+  <polygon points="255,340 245,330 245,350" fill="#E57035"/>
+  <path d="M250 340 A130 130 0 0 1 120 210" fill="none" stroke="#E57035" stroke-width="3" stroke-dasharray="8,4"/>
+  <polygon points="120,220 110,205 130,205" fill="#E57035"/>
+  <path d="M120 210 A130 130 0 0 1 250 80" fill="none" stroke="#E57035" stroke-width="3" stroke-dasharray="8,4"/>
+  <polygon points="245,80 255,70 255,90" fill="#E57035"/>
+  <!-- Step 1: Old server (top) -->
+  <rect x="215" y="65" width="70" height="40" fill="#B0B0B0" rx="5" stroke="#888" stroke-width="1"/>
+  <rect x="222" y="73" width="8" height="24" fill="#999" rx="1"/>
+  <rect x="233" y="73" width="8" height="24" fill="#999" rx="1"/>
+  <rect x="244" y="73" width="8" height="24" fill="#999" rx="1"/>
+  <rect x="255" y="73" width="8" height="24" fill="#999" rx="1"/>
+  <circle cx="273" cy="78" r="3" fill="#F44336"/>
+  <text x="250" y="120" font-family="system-ui" font-size="11" fill="#666" text-anchor="middle">Oud Systeem</text>
+  <!-- Step 2: Refurbish (right) -->
+  <circle cx="380" cy="210" r="30" fill="#FFF" stroke="#E57035" stroke-width="2"/>
+  <!-- Gear icon -->
+  <circle cx="380" cy="210" r="12" fill="none" stroke="#E57035" stroke-width="3"/>
+  <circle cx="380" cy="210" r="5" fill="#E57035"/>
+  <rect x="377" y="193" width="6" height="8" fill="#E57035" rx="1"/>
+  <rect x="377" y="219" width="6" height="8" fill="#E57035" rx="1"/>
+  <rect x="363" y="207" width="8" height="6" fill="#E57035" rx="1"/>
+  <rect x="389" y="207" width="8" height="6" fill="#E57035" rx="1"/>
+  <!-- Wrench hint -->
+  <text x="380" y="255" font-family="system-ui" font-size="11" fill="#666" text-anchor="middle">Refurbish</text>
+  <!-- Step 3: Certified server (bottom) -->
+  <rect x="215" y="310" width="70" height="40" fill="#E8E8E8" rx="5" stroke="#4CAF50" stroke-width="2"/>
+  <rect x="222" y="318" width="8" height="24" fill="#C0C0C0" rx="1"/>
+  <rect x="233" y="318" width="8" height="24" fill="#C0C0C0" rx="1"/>
+  <rect x="244" y="318" width="8" height="24" fill="#C0C0C0" rx="1"/>
+  <rect x="255" y="318" width="8" height="24" fill="#C0C0C0" rx="1"/>
+  <circle cx="273" cy="323" r="3" fill="#4CAF50"/>
+  <!-- Checkmark -->
+  <circle cx="295" cy="310" r="12" fill="#4CAF50"/>
+  <polyline points="289,310 293,315 302,305" fill="none" stroke="#FFF" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="250" y="368" font-family="system-ui" font-size="11" fill="#666" text-anchor="middle">Gecertificeerd</text>
+  <!-- Step 4: Warranty / Deploy (left) -->
+  <rect x="75" y="195" width="90" height="35" fill="#E57035" rx="8"/>
+  <text x="120" y="217" font-family="system-ui" font-size="12" font-weight="bold" fill="#FFF" text-anchor="middle">2 Jaar Garantie</text>
+  <text x="120" y="245" font-family="system-ui" font-size="11" fill="#666" text-anchor="middle">In Gebruik</text>
+</svg>

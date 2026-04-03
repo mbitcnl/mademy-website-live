@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="400" viewBox="0 0 500 400">
+  <rect width="500" height="400" rx="20" fill="#FDF2ED"/>
+
+  <!-- Title -->
+  <text x="250" y="36" text-anchor="middle" font-family="system-ui" font-size="16" font-weight="bold" fill="#E57035">Network Connectivity</text>
+
+  <!-- Central rack -->
+  <rect x="210" y="120" width="80" height="120" rx="6" fill="#4A4A4A"/>
+  <rect x="218" y="130" width="64" height="14" rx="2" fill="#333"/>
+  <rect x="218" y="150" width="64" height="14" rx="2" fill="#333"/>
+  <rect x="218" y="170" width="64" height="14" rx="2" fill="#333"/>
+  <rect x="218" y="190" width="64" height="14" rx="2" fill="#333"/>
+  <rect x="218" y="210" width="64" height="14" rx="2" fill="#333"/>
+  <!-- LEDs -->
+  <circle cx="226" cy="137" r="2" fill="#4CAF50"/>
+  <circle cx="226" cy="157" r="2" fill="#4CAF50"/>
+  <circle cx="226" cy="177" r="2" fill="#E57035"/>
+  <circle cx="226" cy="197" r="2" fill="#4CAF50"/>
+  <circle cx="226" cy="217" r="2" fill="#4CAF50"/>
+  <!-- Label under rack -->
+  <text x="250" y="256" text-anchor="middle" font-family="system-ui" font-size="11" font-weight="bold" fill="#4A4A4A">Your Rack</text>
+
+  <!-- Carrier 1 (top left) -->
+  <circle cx="80" cy="80" r="30" fill="#E57035" opacity="0.15"/>
+  <circle cx="80" cy="80" r="30" fill="none" stroke="#E57035" stroke-width="2"/>
+  <text x="80" y="76" text-anchor="middle" font-family="system-ui" font-size="10" font-weight="bold" fill="#E57035">ISP</text>
+  <text x="80" y="90" text-anchor="middle" font-family="system-ui" font-size="9" fill="#E57035">Carrier A</text>
+
+  <!-- Carrier 2 (top right) -->
+  <circle cx="420" cy="80" r="30" fill="#E57035" opacity="0.15"/>
+  <circle cx="420" cy="80" r="30" fill="none" stroke="#E57035" stroke-width="2"/>
+  <text x="420" y="76" text-anchor="middle" font-family="system-ui" font-size="10" font-weight="bold" fill="#E57035">ISP</text>
+  <text x="420" y="90" text-anchor="middle" font-family="system-ui" font-size="9" fill="#E57035">Carrier B</text>
+
+  <!-- Carrier 3 (bottom left) -->
+  <circle cx="80" cy="310" r="30" fill="#E57035" opacity="0.15"/>
+  <circle cx="80" cy="310" r="30" fill="none" stroke="#E57035" stroke-width="2"/>
+  <text x="80" y="306" text-anchor="middle" font-family="system-ui" font-size="10" font-weight="bold" fill="#E57035">ISP</text>
+  <text x="80" y="320" text-anchor="middle" font-family="system-ui" font-size="9" fill="#E57035">Carrier C</text>
+
+  <!-- Carrier 4 (bottom right) -->
+  <circle cx="420" cy="310" r="30" fill="#E57035" opacity="0.15"/>
+  <circle cx="420" cy="310" r="30" fill="none" stroke="#E57035" stroke-width="2"/>
+  <text x="420" y="306" text-anchor="middle" font-family="system-ui" font-size="10" font-weight="bold" fill="#E57035">IX</text>
+  <text x="420" y="320" text-anchor="middle" font-family="system-ui" font-size="9" fill="#E57035">Peering</text>
+
+  <!-- Connection lines (redundant paths) -->
+  <!-- To Carrier A - primary -->
+  <line x1="210" y1="145" x2="110" y2="90" stroke="#E57035" stroke-width="2"/>
+  <!-- To Carrier A - secondary -->
+  <line x1="210" y1="160" x2="110" y2="95" stroke="#E57035" stroke-width="1.5" stroke-dasharray="6,3"/>
+
+  <!-- To Carrier B - primary -->
+  <line x1="290" y1="145" x2="390" y2="90" stroke="#E57035" stroke-width="2"/>
+  <!-- To Carrier B - secondary -->
+  <line x1="290" y1="160" x2="390" y2="95" stroke="#E57035" stroke-width="1.5" stroke-dasharray="6,3"/>
+
+  <!-- To Carrier C - primary -->
+  <line x1="210" y1="220" x2="110" y2="295" stroke="#E57035" stroke-width="2"/>
+  <!-- To Carrier C - secondary -->
+  <line x1="210" y1="210" x2="110" y2="290" stroke="#E57035" stroke-width="1.5" stroke-dasharray="6,3"/>
+
+  <!-- To IX - primary -->
+  <line x1="290" y1="220" x2="390" y2="295" stroke="#E57035" stroke-width="2"/>
+  <!-- To IX - secondary -->
+  <line x1="290" y1="210" x2="390" y2="290" stroke="#E57035" stroke-width="1.5" stroke-dasharray="6,3"/>
+
+  <!-- Legend -->
+  <line x1="150" y1="370" x2="180" y2="370" stroke="#E57035" stroke-width="2"/>
+  <text x="185" y="374" font-family="system-ui" font-size="10" fill="#888">Primary</text>
+  <line x1="260" y1="370" x2="290" y2="370" stroke="#E57035" stroke-width="1.5" stroke-dasharray="6,3"/>
+  <text x="295" y="374" font-family="system-ui" font-size="10" fill="#888">Redundant</text>
+</svg>

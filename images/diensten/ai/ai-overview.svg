@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" fill="none">
+  <rect width="500" height="400" rx="20" fill="#FDF2ED"/>
+  <!-- Brain circuit -->
+  <circle cx="250" cy="180" r="80" stroke="#E57035" stroke-width="2" fill="rgba(229,112,53,0.08)"/>
+  <circle cx="250" cy="180" r="50" stroke="#E57035" stroke-width="1.5" fill="rgba(229,112,53,0.05)" stroke-dasharray="6 4"/>
+  <!-- Nodes -->
+  <circle cx="250" cy="130" r="8" fill="#E57035"/>
+  <circle cx="210" cy="170" r="6" fill="#E57035" opacity="0.7"/>
+  <circle cx="290" cy="170" r="6" fill="#E57035" opacity="0.7"/>
+  <circle cx="230" cy="210" r="5" fill="#E57035" opacity="0.5"/>
+  <circle cx="270" cy="210" r="5" fill="#E57035" opacity="0.5"/>
+  <circle cx="250" cy="180" r="12" fill="#E57035"/>
+  <!-- Connections -->
+  <line x1="250" y1="130" x2="210" y2="170" stroke="#E57035" stroke-width="1.5" opacity="0.4"/>
+  <line x1="250" y1="130" x2="290" y2="170" stroke="#E57035" stroke-width="1.5" opacity="0.4"/>
+  <line x1="210" y1="170" x2="230" y2="210" stroke="#E57035" stroke-width="1.5" opacity="0.4"/>
+  <line x1="290" y1="170" x2="270" y2="210" stroke="#E57035" stroke-width="1.5" opacity="0.4"/>
+  <line x1="250" y1="180" x2="210" y2="170" stroke="#E57035" stroke-width="1.5" opacity="0.3"/>
+  <line x1="250" y1="180" x2="290" y2="170" stroke="#E57035" stroke-width="1.5" opacity="0.3"/>
+  <!-- Outer orbit nodes -->
+  <circle cx="170" cy="140" r="4" fill="#E57035" opacity="0.3"/>
+  <circle cx="330" cy="140" r="4" fill="#E57035" opacity="0.3"/>
+  <circle cx="170" cy="220" r="4" fill="#E57035" opacity="0.3"/>
+  <circle cx="330" cy="220" r="4" fill="#E57035" opacity="0.3"/>
+  <line x1="170" y1="140" x2="210" y2="170" stroke="#E57035" stroke-width="1" opacity="0.2"/>
+  <line x1="330" y1="140" x2="290" y2="170" stroke="#E57035" stroke-width="1" opacity="0.2"/>
+  <!-- Label -->
+  <text x="250" y="310" text-anchor="middle" font-family="system-ui" font-size="16" font-weight="600" fill="#E57035">AI Infrastructure</text>
+  <text x="250" y="335" text-anchor="middle" font-family="system-ui" font-size="12" fill="#94a3b8">On-premises · Privacy-first · Enterprise</text>
+</svg>

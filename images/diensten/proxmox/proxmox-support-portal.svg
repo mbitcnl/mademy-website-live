@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="400" viewBox="0 0 500 400">
+  <rect width="500" height="400" rx="20" fill="#FDF2ED"/>
+
+  <!-- Title -->
+  <text x="250" y="35" text-anchor="middle" font-family="system-ui" font-size="16" font-weight="bold" fill="#E57035">Customer Support Portal</text>
+
+  <!-- Portal frame -->
+  <rect x="40" y="50" width="420" height="330" rx="10" fill="white" stroke="#E57035" stroke-width="2"/>
+
+  <!-- Header bar -->
+  <rect x="40" y="50" width="420" height="35" rx="10" fill="#E57035" opacity="0.1"/>
+  <circle cx="60" cy="67" r="5" fill="#E57035" opacity="0.3"/>
+  <circle cx="75" cy="67" r="5" fill="#E57035" opacity="0.2"/>
+  <circle cx="90" cy="67" r="5" fill="#E57035" opacity="0.15"/>
+  <text x="250" y="72" text-anchor="middle" font-family="system-ui" font-size="9" font-weight="bold" fill="#E57035">Support Dashboard</text>
+
+  <!-- New Ticket Button -->
+  <rect x="370" y="57" width="75" height="20" rx="10" fill="#E57035"/>
+  <text x="407" y="71" text-anchor="middle" font-family="system-ui" font-size="7" font-weight="bold" fill="white">+ New Ticket</text>
+
+  <!-- Stats bar -->
+  <rect x="55" y="95" width="90" height="40" rx="6" fill="#E57035" opacity="0.06"/>
+  <text x="100" y="112" text-anchor="middle" font-family="system-ui" font-size="18" font-weight="bold" fill="#E57035">3</text>
+  <text x="100" y="127" text-anchor="middle" font-family="system-ui" font-size="7" fill="#E57035" opacity="0.6">Open Tickets</text>
+
+  <rect x="160" y="95" width="90" height="40" rx="6" fill="#E57035" opacity="0.06"/>
+  <text x="205" y="112" text-anchor="middle" font-family="system-ui" font-size="18" font-weight="bold" fill="#E57035">12</text>
+  <text x="205" y="127" text-anchor="middle" font-family="system-ui" font-size="7" fill="#E57035" opacity="0.6">Resolved</text>
+
+  <rect x="265" y="95" width="90" height="40" rx="6" fill="#E57035" opacity="0.06"/>
+  <text x="310" y="112" text-anchor="middle" font-family="system-ui" font-size="18" font-weight="bold" fill="#4CAF50">2h</text>
+  <text x="310" y="127" text-anchor="middle" font-family="system-ui" font-size="7" fill="#E57035" opacity="0.6">Avg Response</text>
+
+  <rect x="370" y="95" width="75" height="40" rx="6" fill="#E57035" opacity="0.06"/>
+  <text x="407" y="112" text-anchor="middle" font-family="system-ui" font-size="18" font-weight="bold" fill="#E57035">98%</text>
+  <text x="407" y="127" text-anchor="middle" font-family="system-ui" font-size="7" fill="#E57035" opacity="0.6">Satisfaction</text>
+
+  <!-- Ticket list header -->
+  <rect x="55" y="148" width="390" height="22" rx="4" fill="#E57035" opacity="0.08"/>
+  <text x="70" y="163" font-family="system-ui" font-size="7" font-weight="bold" fill="#E57035">ID</text>
+  <text x="110" y="163" font-family="system-ui" font-size="7" font-weight="bold" fill="#E57035">Subject</text>
+  <text x="280" y="163" font-family="system-ui" font-size="7" font-weight="bold" fill="#E57035">Priority</text>
+  <text x="340" y="163" font-family="system-ui" font-size="7" font-weight="bold" fill="#E57035">Status</text>
+  <text x="400" y="163" font-family="system-ui" font-size="7" font-weight="bold" fill="#E57035">Response</text>
+
+  <!-- Ticket 1 - Critical -->
+  <rect x="55" y="175" width="390" height="35" rx="4" fill="white"/>
+  <line x1="55" y1="210" x2="445" y2="210" stroke="#E57035" stroke-width="0.5" opacity="0.1"/>
+  <text x="70" y="196" font-family="system-ui" font-size="7" fill="#E57035" opacity="0.7">#1042</text>
+  <text x="110" y="190" font-family="system-ui" font-size="8" fill="#E57035">Cluster node unresponsive</text>
+  <text x="110" y="202" font-family="system-ui" font-size="6" fill="#E57035" opacity="0.5">Opened 1 hour ago</text>
+  <rect x="272" y="186" width="45" height="14" rx="7" fill="#FF5252" opacity="0.15"/>
+  <text x="295" y="196" text-anchor="middle" font-family="system-ui" font-size="7" fill="#FF5252">Critical</text>
+  <rect x="330" y="186" width="50" height="14" rx="7" fill="#E57035" opacity="0.1"/>
+  <text x="355" y="196" text-anchor="middle" font-family="system-ui" font-size="7" fill="#E57035">In Progress</text>
+  <!-- Response time indicator -->
+  <circle cx="405" cy="192" r="6" fill="#4CAF50" opacity="0.2"/>
+  <text x="418" y="196" font-family="system-ui" font-size="7" fill="#4CAF50">15m</text>
+
+  <!-- Ticket 2 - High -->
+  <rect x="55" y="215" width="390" height="35" rx="4" fill="white"/>
+  <line x1="55" y1="250" x2="445" y2="250" stroke="#E57035" stroke-width="0.5" opacity="0.1"/>
+  <text x="70" y="236" font-family="system-ui" font-size="7" fill="#E57035" opacity="0.7">#1041</text>
+  <text x="110" y="230" font-family="system-ui" font-size="8" fill="#E57035">Backup job failed - storage full</text>
+  <text x="110" y="242" font-family="system-ui" font-size="6" fill="#E57035" opacity="0.5">Opened 5 hours ago</text>
+  <rect x="272" y="226" width="45" height="14" rx="7" fill="#FF9800" opacity="0.15"/>
+  <text x="295" y="236" text-anchor="middle" font-family="system-ui" font-size="7" fill="#FF9800">High</text>
+  <rect x="330" y="226" width="50" height="14" rx="7" fill="#4CAF50" opacity="0.1"/>
+  <text x="355" y="236" text-anchor="middle" font-family="system-ui" font-size="7" fill="#4CAF50">Resolved</text>
+  <circle cx="405" cy="232" r="6" fill="#4CAF50" opacity="0.2"/>
+  <text x="418" y="236" font-family="system-ui" font-size="7" fill="#4CAF50">1.5h</text>
+
+  <!-- Ticket 3 - Normal -->
+  <rect x="55" y="255" width="390" height="35" rx="4" fill="white"/>
+  <line x1="55" y1="290" x2="445" y2="290" stroke="#E57035" stroke-width="0.5" opacity="0.1"/>
+  <text x="70" y="276" font-family="system-ui" font-size="7" fill="#E57035" opacity="0.7">#1040</text>
+  <text x="110" y="270" font-family="system-ui" font-size="8" fill="#E57035">License renewal inquiry</text>
+  <text x="110" y="282" font-family="system-ui" font-size="6" fill="#E57035" opacity="0.5">Opened yesterday</text>
+  <rect x="272" y="266" width="45" height="14" rx="7" fill="#2196F3" opacity="0.15"/>
+  <text x="295" y="276" text-anchor="middle" font-family="system-ui" font-size="7" fill="#2196F3">Normal</text>
+  <rect x="330" y="266" width="50" height="14" rx="7" fill="#E57035" opacity="0.1"/>
+  <text x="355" y="276" text-anchor="middle" font-family="system-ui" font-size="7" fill="#E57035">Waiting</text>
+  <circle cx="405" cy="272" r="6" fill="#FF9800" opacity="0.2"/>
+  <text x="418" y="276" font-family="system-ui" font-size="7" fill="#FF9800">4h</text>
+
+  <!-- SLA indicators -->
+  <rect x="55" y="300" width="390" height="60" rx="8" fill="#E57035" opacity="0.04"/>
+  <text x="250" y="318" text-anchor="middle" font-family="system-ui" font-size="9" font-weight="bold" fill="#E57035">Response Time SLA</text>
+
+  <rect x="75" y="325" width="80" height="25" rx="5" fill="#FF5252" opacity="0.1"/>
+  <text x="115" y="342" text-anchor="middle" font-family="system-ui" font-size="7" fill="#FF5252">Critical: 1h</text>
+
+  <rect x="170" y="325" width="80" height="25" rx="5" fill="#FF9800" opacity="0.1"/>
+  <text x="210" y="342" text-anchor="middle" font-family="system-ui" font-size="7" fill="#FF9800">High: 4h</text>
+
+  <rect x="265" y="325" width="80" height="25" rx="5" fill="#2196F3" opacity="0.1"/>
+  <text x="305" y="342" text-anchor="middle" font-family="system-ui" font-size="7" fill="#2196F3">Normal: 8h</text>
+
+  <rect x="360" y="325" width="80" height="25" rx="5" fill="#4CAF50" opacity="0.1"/>
+  <text x="400" y="342" text-anchor="middle" font-family="system-ui" font-size="7" fill="#4CAF50">Low: 24h</text>
+</svg>

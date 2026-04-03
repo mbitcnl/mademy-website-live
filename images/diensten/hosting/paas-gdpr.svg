@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="400" viewBox="0 0 500 400">
+  <rect width="500" height="400" rx="20" fill="#FDF2ED"/>
+  <!-- EU stars circle -->
+  <circle cx="250" cy="170" r="100" fill="none" stroke="#003399" stroke-width="2" opacity="0.3"/>
+  <g transform="translate(250,170)">
+    <polygon points="0,-90 2,-83 8,-83 3,-79 5,-73 0,-76 -5,-73 -3,-79 -8,-83 -2,-83" fill="#003399" transform="rotate(0)"/>
+    <polygon points="0,-90 2,-83 8,-83 3,-79 5,-73 0,-76 -5,-73 -3,-79 -8,-83 -2,-83" fill="#003399" transform="rotate(30)"/>
+    <polygon points="0,-90 2,-83 8,-83 3,-79 5,-73 0,-76 -5,-73 -3,-79 -8,-83 -2,-83" fill="#003399" transform="rotate(60)"/>
+    <polygon points="0,-90 2,-83 8,-83 3,-79 5,-73 0,-76 -5,-73 -3,-79 -8,-83 -2,-83" fill="#003399" transform="rotate(90)"/>
+    <polygon points="0,-90 2,-83 8,-83 3,-79 5,-73 0,-76 -5,-73 -3,-79 -8,-83 -2,-83" fill="#003399" transform="rotate(120)"/>
+    <polygon points="0,-90 2,-83 8,-83 3,-79 5,-73 0,-76 -5,-73 -3,-79 -8,-83 -2,-83" fill="#003399" transform="rotate(150)"/>
+    <polygon points="0,-90 2,-83 8,-83 3,-79 5,-73 0,-76 -5,-73 -3,-79 -8,-83 -2,-83" fill="#003399" transform="rotate(180)"/>
+    <polygon points="0,-90 2,-83 8,-83 3,-79 5,-73 0,-76 -5,-73 -3,-79 -8,-83 -2,-83" fill="#003399" transform="rotate(210)"/>
+    <polygon points="0,-90 2,-83 8,-83 3,-79 5,-73 0,-76 -5,-73 -3,-79 -8,-83 -2,-83" fill="#003399" transform="rotate(240)"/>
+    <polygon points="0,-90 2,-83 8,-83 3,-79 5,-73 0,-76 -5,-73 -3,-79 -8,-83 -2,-83" fill="#003399" transform="rotate(270)"/>
+    <polygon points="0,-90 2,-83 8,-83 3,-79 5,-73 0,-76 -5,-73 -3,-79 -8,-83 -2,-83" fill="#003399" transform="rotate(300)"/>
+    <polygon points="0,-90 2,-83 8,-83 3,-79 5,-73 0,-76 -5,-73 -3,-79 -8,-83 -2,-83" fill="#003399" transform="rotate(330)"/>
+  </g>
+  <!-- Shield shape in center -->
+  <path d="M250,120 L290,138 L290,180 Q290,210 250,228 Q210,210 210,180 L210,138 Z" fill="#E57035" opacity="0.9"/>
+  <!-- Lock icon on shield -->
+  <rect x="237" y="168" width="26" height="22" rx="4" fill="#FFFFFF"/>
+  <path d="M242,168 L242,158 Q242,148 250,148 Q258,148 258,158 L258,168" fill="none" stroke="#FFFFFF" stroke-width="3"/>
+  <circle cx="250" cy="178" r="4" fill="#E57035"/>
+  <rect x="248" y="178" width="4" height="6" rx="1" fill="#E57035"/>
+  <!-- GDPR label -->
+  <rect x="165" y="295" width="80" height="32" rx="6" fill="#E57035"/>
+  <text x="205" y="316" text-anchor="middle" font-family="system-ui" font-size="15" font-weight="bold" fill="#FFFFFF">GDPR</text>
+  <!-- No US CLOUD Act label -->
+  <rect x="260" y="295" width="140" height="32" rx="6" fill="#003399"/>
+  <text x="330" y="316" text-anchor="middle" font-family="system-ui" font-size="12" font-weight="bold" fill="#FFFFFF">No US CLOUD Act</text>
+  <!-- Subtitle -->
+  <text x="250" y="360" text-anchor="middle" font-family="system-ui" font-size="13" fill="#4A4A4A">Uw data blijft in Europa</text>
+</svg>

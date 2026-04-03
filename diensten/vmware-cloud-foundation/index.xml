@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>VMware Cloud Foundation on MadeMy IT Solutions</title><link>https://mademy.nl/diensten/vmware-cloud-foundation/</link><description>Recent content in VMware Cloud Foundation on MadeMy IT Solutions</description><generator>Hugo</generator><language>nl</language><atom:link href="https://mademy.nl/diensten/vmware-cloud-foundation/index.xml" rel="self" type="application/rss+xml"/><item><title>VMware Aria Suite</title><link>https://mademy.nl/diensten/vmware-cloud-foundation/aria-suite/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://mademy.nl/diensten/vmware-cloud-foundation/aria-suite/</guid><description>&lt;h2 id="wat-is-vmware-aria-suite"&gt;Wat is VMware Aria Suite?&lt;/h2&gt;
+&lt;p&gt;VMware Aria Suite (voorheen vRealize Suite) is een multi-cloud management platform dat organisaties helpt om cloud resources te beheren, optimaliseren en beveiligen. Het biedt een unified approach voor cloud management met AI-gedreven intelligentie.&lt;/p&gt;
+&lt;h3 id="aria-suite-componenten"&gt;Aria Suite Componenten&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Aria Operations (vRealize Operations)&lt;/strong&gt;
+Intelligent operations management:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;AI-powered Analytics&lt;/strong&gt;: Automated root cause analysis&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Capacity Planning&lt;/strong&gt;: Voorspellende resource behoefte analyse&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Performance Monitoring&lt;/strong&gt;: Real-time metrics en dashboards&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Troubleshooting&lt;/strong&gt;: Guided remediation workflows&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Aria Automation (vRealize Automation)&lt;/strong&gt;
+Cloud automation platform:&lt;/p&gt;</description></item><item><title>VMware NSX</title><link>https://mademy.nl/diensten/vmware-cloud-foundation/nsx/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://mademy.nl/diensten/vmware-cloud-foundation/nsx/</guid><description/></item><item><title>VMware SDDC Manager</title><link>https://mademy.nl/diensten/vmware-cloud-foundation/sddc-manager/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://mademy.nl/diensten/vmware-cloud-foundation/sddc-manager/</guid><description>&lt;h2 id="wat-is-sddc-manager"&gt;Wat is SDDC Manager?&lt;/h2&gt;
+&lt;p&gt;SDDC Manager is het centrale beheersysteem voor VMware Cloud Foundation. Het automatiseert de implementatie, configuratie, beheer en lifecycle van de complete software-defined datacenter (SDDC) stack - vSphere, vSAN, NSX en Aria Suite.&lt;/p&gt;
+&lt;h3 id="sddc-manager-architectuur"&gt;SDDC Manager Architectuur&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Management Plane&lt;/strong&gt;
+Het brein van VCF:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;API Server&lt;/strong&gt;: REST API voor externe integraties&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Workflow Engine&lt;/strong&gt;: Geautomatiseerde deployment workflows&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Inventory Service&lt;/strong&gt;: Real-time inventory van alle componenten&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Health Service&lt;/strong&gt;: Continue health monitoring&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Control Plane&lt;/strong&gt;
+Centrale orkestratie:&lt;/p&gt;</description></item><item><title>VMware Tanzu</title><link>https://mademy.nl/diensten/vmware-cloud-foundation/tanzu/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://mademy.nl/diensten/vmware-cloud-foundation/tanzu/</guid><description/></item><item><title>VMware vSAN</title><link>https://mademy.nl/diensten/vmware-cloud-foundation/vsan/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://mademy.nl/diensten/vmware-cloud-foundation/vsan/</guid><description/></item><item><title>VMware vSphere</title><link>https://mademy.nl/diensten/vmware-cloud-foundation/vsphere/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://mademy.nl/diensten/vmware-cloud-foundation/vsphere/</guid><description/></item></channel></rss>

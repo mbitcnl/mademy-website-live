@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="400" viewBox="0 0 500 400">
+  <rect width="500" height="400" rx="20" fill="#FDF2ED"/>
+
+  <!-- Title -->
+  <text x="250" y="36" text-anchor="middle" font-family="system-ui" font-size="16" font-weight="bold" fill="#E57035">Multi-Layer Security</text>
+
+  <!-- Large shield outline -->
+  <!-- Shield body using a path-free approach: layered rects and circles -->
+  <!-- Outer shield shape approximated with rects -->
+  <rect x="170" y="55" width="160" height="140" rx="12" fill="#E57035" opacity="0.08"/>
+  <rect x="185" y="180" width="130" height="50" rx="8" fill="#E57035" opacity="0.08"/>
+  <rect x="205" y="220" width="90" height="30" rx="8" fill="#E57035" opacity="0.08"/>
+  <rect x="225" y="240" width="50" height="20" rx="10" fill="#E57035" opacity="0.08"/>
+
+  <!-- Shield border -->
+  <rect x="180" y="65" width="140" height="120" rx="10" fill="none" stroke="#E57035" stroke-width="2.5"/>
+  <rect x="195" y="175" width="110" height="40" rx="8" fill="none" stroke="#E57035" stroke-width="2.5"/>
+  <rect x="215" y="207" width="70" height="25" rx="8" fill="none" stroke="#E57035" stroke-width="2.5"/>
+  <rect x="232" y="226" width="36" height="16" rx="8" fill="none" stroke="#E57035" stroke-width="2.5"/>
+
+  <!-- Checkmark inside shield -->
+  <line x1="232" y1="135" x2="248" y2="155" stroke="#E57035" stroke-width="4" stroke-linecap="round"/>
+  <line x1="248" y1="155" x2="278" y2="115" stroke="#E57035" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Layer 1: Physical Security (left side) -->
+  <rect x="20" y="80" width="130" height="70" rx="8" fill="white" stroke="#E57035" stroke-width="1.5"/>
+  <!-- Camera icon -->
+  <rect x="34" y="96" width="22" height="16" rx="3" fill="#E57035" opacity="0.3"/>
+  <rect x="56" y="100" width="10" height="8" rx="2" fill="#E57035" opacity="0.3"/>
+  <circle cx="45" cy="104" r="4" fill="none" stroke="#E57035" stroke-width="1.2"/>
+  <!-- Badge icon -->
+  <rect x="76" y="92" width="20" height="26" rx="3" fill="#E57035" opacity="0.2"/>
+  <circle cx="86" cy="100" r="4" fill="none" stroke="#E57035" stroke-width="1.2"/>
+  <line x1="80" y1="110" x2="92" y2="110" stroke="#E57035" stroke-width="1"/>
+  <!-- Label -->
+  <text x="85" y="138" text-anchor="middle" font-family="system-ui" font-size="10" font-weight="bold" fill="#E57035">Physical Security</text>
+  <!-- Connector -->
+  <line x1="150" y1="115" x2="178" y2="115" stroke="#E57035" stroke-width="1.5" stroke-dasharray="4,2"/>
+
+  <!-- Layer 2: Fire Suppression (right side) -->
+  <rect x="350" y="80" width="130" height="70" rx="8" fill="white" stroke="#E57035" stroke-width="1.5"/>
+  <!-- Fire extinguisher icon -->
+  <rect x="380" y="92" width="14" height="36" rx="4" fill="#E57035" opacity="0.25"/>
+  <rect x="384" y="86" width="6" height="8" rx="2" fill="#E57035" opacity="0.4"/>
+  <line x1="390" y1="90" x2="400" y2="86" stroke="#E57035" stroke-width="1.5"/>
+  <!-- Sprinkler icon -->
+  <line x1="430" y1="92" x2="430" y2="106" stroke="#E57035" stroke-width="2"/>
+  <circle cx="430" cy="108" r="4" fill="#E57035" opacity="0.3"/>
+  <line x1="420" y1="116" x2="424" y2="112" stroke="#E57035" stroke-width="1"/>
+  <line x1="430" y1="118" x2="430" y2="112" stroke="#E57035" stroke-width="1"/>
+  <line x1="440" y1="116" x2="436" y2="112" stroke="#E57035" stroke-width="1"/>
+  <!-- Label -->
+  <text x="415" y="138" text-anchor="middle" font-family="system-ui" font-size="10" font-weight="bold" fill="#E57035">Fire Suppression</text>
+  <!-- Connector -->
+  <line x1="350" y1="115" x2="322" y2="115" stroke="#E57035" stroke-width="1.5" stroke-dasharray="4,2"/>
+
+  <!-- Layer 3: Access Control (bottom left) -->
+  <rect x="30" y="270" width="130" height="70" rx="8" fill="white" stroke="#E57035" stroke-width="1.5"/>
+  <!-- Keypad icon -->
+  <rect x="55" y="282" width="30" height="38" rx="4" fill="#E57035" opacity="0.15"/>
+  <circle cx="63" cy="292" r="2.5" fill="#E57035" opacity="0.5"/>
+  <circle cx="70" cy="292" r="2.5" fill="#E57035" opacity="0.5"/>
+  <circle cx="77" cy="292" r="2.5" fill="#E57035" opacity="0.5"/>
+  <circle cx="63" cy="302" r="2.5" fill="#E57035" opacity="0.5"/>
+  <circle cx="70" cy="302" r="2.5" fill="#E57035" opacity="0.5"/>
+  <circle cx="77" cy="302" r="2.5" fill="#E57035" opacity="0.5"/>
+  <circle cx="63" cy="312" r="2.5" fill="#E57035" opacity="0.5"/>
+  <circle cx="70" cy="312" r="2.5" fill="#E57035" opacity="0.5"/>
+  <circle cx="77" cy="312" r="2.5" fill="#E57035" opacity="0.5"/>
+  <!-- Lock icon -->
+  <rect x="100" y="292" width="18" height="16" rx="3" fill="#E57035" opacity="0.3"/>
+  <circle cx="109" cy="288" r="7" fill="none" stroke="#E57035" stroke-width="1.5"/>
+  <!-- Label -->
+  <text x="95" y="330" text-anchor="middle" font-family="system-ui" font-size="10" font-weight="bold" fill="#E57035">Access Control</text>
+  <!-- Connector -->
+  <line x1="145" y1="290" x2="210" y2="230" stroke="#E57035" stroke-width="1.5" stroke-dasharray="4,2"/>
+
+  <!-- Layer 4: Monitoring (bottom right) -->
+  <rect x="340" y="270" width="130" height="70" rx="8" fill="white" stroke="#E57035" stroke-width="1.5"/>
+  <!-- Monitor/screen icon -->
+  <rect x="375" y="280" width="30" height="22" rx="3" fill="#E57035" opacity="0.2"/>
+  <line x1="390" y1="302" x2="390" y2="310" stroke="#E57035" stroke-width="2"/>
+  <line x1="380" y1="310" x2="400" y2="310" stroke="#E57035" stroke-width="2"/>
+  <!-- Signal waves -->
+  <circle cx="430" cy="295" r="6" fill="none" stroke="#E57035" stroke-width="1.2"/>
+  <circle cx="430" cy="295" r="12" fill="none" stroke="#E57035" stroke-width="1" opacity="0.5"/>
+  <circle cx="430" cy="295" r="18" fill="none" stroke="#E57035" stroke-width="0.8" opacity="0.3"/>
+  <!-- Label -->
+  <text x="405" y="330" text-anchor="middle" font-family="system-ui" font-size="10" font-weight="bold" fill="#E57035">24/7 Monitoring</text>
+  <!-- Connector -->
+  <line x1="355" y1="290" x2="290" y2="230" stroke="#E57035" stroke-width="1.5" stroke-dasharray="4,2"/>
+
+  <!-- Bottom tagline -->
+  <text x="250" y="380" text-anchor="middle" font-family="system-ui" font-size="12" fill="#888">Defence in depth - multiple security layers</text>
+</svg>

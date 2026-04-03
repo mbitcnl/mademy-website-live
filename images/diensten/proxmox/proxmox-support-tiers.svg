@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="400" viewBox="0 0 500 400">
+  <rect width="500" height="400" rx="20" fill="#FDF2ED"/>
+
+  <!-- Title -->
+  <text x="250" y="35" text-anchor="middle" font-family="system-ui" font-size="16" font-weight="bold" fill="#E57035">Support Levels</text>
+
+  <!-- Tier 1: Community -->
+  <rect x="30" y="65" width="130" height="300" rx="10" fill="white" stroke="#E57035" stroke-width="1.5" opacity="0.7"/>
+  <rect x="30" y="65" width="130" height="40" rx="10" fill="#E57035" opacity="0.08"/>
+  <text x="95" y="82" text-anchor="middle" font-family="system-ui" font-size="11" font-weight="bold" fill="#E57035" opacity="0.7">Community</text>
+  <text x="95" y="97" text-anchor="middle" font-family="system-ui" font-size="8" fill="#E57035" opacity="0.5">Free</text>
+
+  <!-- Community features -->
+  <text x="45" y="125" font-family="system-ui" font-size="7" fill="#E57035" opacity="0.6">+ Forum access</text>
+  <text x="45" y="142" font-family="system-ui" font-size="7" fill="#E57035" opacity="0.6">+ Documentation</text>
+  <text x="45" y="159" font-family="system-ui" font-size="7" fill="#E57035" opacity="0.6">+ Wiki resources</text>
+  <text x="45" y="176" font-family="system-ui" font-size="7" fill="#E57035" opacity="0.6">+ Community repo</text>
+  <text x="45" y="193" font-family="system-ui" font-size="7" fill="#999">- No SLA</text>
+  <text x="45" y="210" font-family="system-ui" font-size="7" fill="#999">- No direct support</text>
+  <text x="45" y="227" font-family="system-ui" font-size="7" fill="#999">- No enterprise repo</text>
+
+  <!-- Tier bar height indicator -->
+  <rect x="55" y="295" width="80" height="55" rx="6" fill="#E57035" opacity="0.08"/>
+  <text x="95" y="330" text-anchor="middle" font-family="system-ui" font-size="20" fill="#E57035" opacity="0.3">I</text>
+
+  <!-- Tier 2: Basic -->
+  <rect x="185" y="55" width="130" height="310" rx="10" fill="white" stroke="#E57035" stroke-width="2"/>
+  <rect x="185" y="55" width="130" height="40" rx="10" fill="#E57035" opacity="0.15"/>
+  <text x="250" y="72" text-anchor="middle" font-family="system-ui" font-size="11" font-weight="bold" fill="#E57035">Basic</text>
+  <text x="250" y="87" text-anchor="middle" font-family="system-ui" font-size="8" fill="#E57035" opacity="0.6">Subscription</text>
+
+  <!-- Basic features -->
+  <text x="200" y="115" font-family="system-ui" font-size="7" fill="#E57035" opacity="0.7">+ All Community features</text>
+  <text x="200" y="132" font-family="system-ui" font-size="7" fill="#E57035" opacity="0.7">+ Enterprise repo</text>
+  <text x="200" y="149" font-family="system-ui" font-size="7" fill="#E57035" opacity="0.7">+ Stable updates</text>
+  <text x="200" y="166" font-family="system-ui" font-size="7" fill="#E57035" opacity="0.7">+ Support portal</text>
+  <text x="200" y="183" font-family="system-ui" font-size="7" fill="#E57035" opacity="0.7">+ Business hours</text>
+  <text x="200" y="200" font-family="system-ui" font-size="7" fill="#999">- No priority queue</text>
+  <text x="200" y="217" font-family="system-ui" font-size="7" fill="#999">- No remote support</text>
+
+  <!-- Tier bar -->
+  <rect x="210" y="275" width="80" height="75" rx="6" fill="#E57035" opacity="0.12"/>
+  <text x="250" y="320" text-anchor="middle" font-family="system-ui" font-size="20" fill="#E57035" opacity="0.4">II</text>
+
+  <!-- Tier 3: Premium -->
+  <rect x="340" y="45" width="130" height="320" rx="10" fill="white" stroke="#E57035" stroke-width="2.5"/>
+  <rect x="340" y="45" width="130" height="40" rx="10" fill="#E57035" opacity="0.25"/>
+  <text x="405" y="62" text-anchor="middle" font-family="system-ui" font-size="11" font-weight="bold" fill="#E57035">Premium</text>
+  <text x="405" y="77" text-anchor="middle" font-family="system-ui" font-size="8" fill="#E57035" opacity="0.7">Priority</text>
+
+  <!-- Premium features -->
+  <text x="355" y="105" font-family="system-ui" font-size="7" fill="#E57035" opacity="0.8">+ All Basic features</text>
+  <text x="355" y="122" font-family="system-ui" font-size="7" fill="#E57035" opacity="0.8">+ Priority support</text>
+  <text x="355" y="139" font-family="system-ui" font-size="7" fill="#E57035" opacity="0.8">+ Same-day response</text>
+  <text x="355" y="156" font-family="system-ui" font-size="7" fill="#E57035" opacity="0.8">+ Remote assistance</text>
+  <text x="355" y="173" font-family="system-ui" font-size="7" fill="#E57035" opacity="0.8">+ 24/7 availability</text>
+  <text x="355" y="190" font-family="system-ui" font-size="7" fill="#E57035" opacity="0.8">+ Dedicated engineer</text>
+  <text x="355" y="207" font-family="system-ui" font-size="7" fill="#E57035" opacity="0.8">+ Migration support</text>
+
+  <!-- Tier bar -->
+  <rect x="365" y="255" width="80" height="95" rx="6" fill="#E57035" opacity="0.18"/>
+  <text x="405" y="310" text-anchor="middle" font-family="system-ui" font-size="20" fill="#E57035" opacity="0.5">III</text>
+
+  <!-- Recommended badge -->
+  <rect x="370" y="228" width="70" height="18" rx="9" fill="#E57035"/>
+  <text x="405" y="240" text-anchor="middle" font-family="system-ui" font-size="7" font-weight="bold" fill="white">RECOMMENDED</text>
+
+  <!-- Footer -->
+  <text x="250" y="388" text-anchor="middle" font-family="system-ui" font-size="9" fill="#E57035" opacity="0.5">Choose the support level that fits your needs</text>
+</svg>

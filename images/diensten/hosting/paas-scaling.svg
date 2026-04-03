@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="400" viewBox="0 0 500 400">
+  <rect width="500" height="400" rx="20" fill="#FDF2ED"/>
+  <!-- Bar chart baseline -->
+  <line x1="80" y1="270" x2="420" y2="270" stroke="#4A4A4A" stroke-width="1.5"/>
+  <line x1="80" y1="270" x2="80" y2="80" stroke="#4A4A4A" stroke-width="1.5"/>
+  <!-- Bars - scaling up and down pattern -->
+  <rect x="100" y="210" width="35" height="60" rx="4" fill="#E57035" opacity="0.5"/>
+  <rect x="150" y="170" width="35" height="100" rx="4" fill="#E57035" opacity="0.65"/>
+  <rect x="200" y="120" width="35" height="150" rx="4" fill="#E57035" opacity="0.8"/>
+  <rect x="250" y="100" width="35" height="170" rx="4" fill="#E57035"/>
+  <rect x="300" y="140" width="35" height="130" rx="4" fill="#E57035" opacity="0.75"/>
+  <rect x="350" y="190" width="35" height="80" rx="4" fill="#E57035" opacity="0.55"/>
+  <!-- Scaling arrow overlay -->
+  <polyline points="117,205 167,165 217,115 267,95 317,135 367,185" fill="none" stroke="#E57035" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Up arrow at peak -->
+  <polygon points="260,78 267,90 253,90" fill="#E57035"/>
+  <line x1="260" y1="90" x2="260" y2="100" stroke="#E57035" stroke-width="2"/>
+  <!-- Down arrow at end -->
+  <polygon points="374,202 380,192 368,192" fill="#E57035" opacity="0.7"/>
+  <!-- Month labels -->
+  <text x="117" y="287" text-anchor="middle" font-family="system-ui" font-size="10" fill="#4A4A4A">Jan</text>
+  <text x="167" y="287" text-anchor="middle" font-family="system-ui" font-size="10" fill="#4A4A4A">Feb</text>
+  <text x="217" y="287" text-anchor="middle" font-family="system-ui" font-size="10" fill="#4A4A4A">Mrt</text>
+  <text x="267" y="287" text-anchor="middle" font-family="system-ui" font-size="10" fill="#4A4A4A">Apr</text>
+  <text x="317" y="287" text-anchor="middle" font-family="system-ui" font-size="10" fill="#4A4A4A">Mei</text>
+  <text x="367" y="287" text-anchor="middle" font-family="system-ui" font-size="10" fill="#4A4A4A">Jun</text>
+  <!-- Calendar icon -->
+  <rect x="170" y="310" width="28" height="26" rx="4" fill="#FFFFFF" stroke="#E57035" stroke-width="1.5"/>
+  <line x1="170" y1="319" x2="198" y2="319" stroke="#E57035" stroke-width="1.5"/>
+  <line x1="179" y1="306" x2="179" y2="313" stroke="#E57035" stroke-width="1.5"/>
+  <line x1="189" y1="306" x2="189" y2="313" stroke="#E57035" stroke-width="1.5"/>
+  <rect x="176" y="323" width="5" height="5" rx="1" fill="#E57035"/>
+  <rect x="185" y="323" width="5" height="5" rx="1" fill="#E57035"/>
+  <!-- Label -->
+  <text x="210" y="330" font-family="system-ui" font-size="14" font-weight="bold" fill="#E57035">Maandelijks opzegbaar</text>
+  <text x="250" y="365" text-anchor="middle" font-family="system-ui" font-size="13" fill="#4A4A4A">Schaal op en af naar behoefte</text>
+</svg>

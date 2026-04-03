@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="400" viewBox="0 0 500 400">
+  <rect width="500" height="400" fill="#FDF2ED" rx="20"/>
+
+  <!-- Title -->
+  <text x="250" y="38" text-anchor="middle" font-family="system-ui" font-size="18" font-weight="bold" fill="#333">Licentiekosten Vergelijking</text>
+
+  <!-- Left column: Proxmox VE -->
+  <rect x="25" y="55" width="215" height="320" fill="white" stroke="#E57035" stroke-width="2.5" rx="12"/>
+  <rect x="25" y="55" width="215" height="50" fill="#E57035" rx="12"/>
+  <rect x="25" y="85" width="215" height="20" fill="#E57035"/>
+  <text x="132" y="87" text-anchor="middle" font-family="system-ui" font-size="16" font-weight="bold" fill="white">Proxmox VE</text>
+
+  <!-- Right column: VMware VVF -->
+  <rect x="260" y="55" width="215" height="320" fill="white" stroke="#ccc" stroke-width="2" rx="12"/>
+  <rect x="260" y="55" width="215" height="50" fill="#888" rx="12"/>
+  <rect x="260" y="85" width="215" height="20" fill="#888"/>
+  <text x="367" y="87" text-anchor="middle" font-family="system-ui" font-size="15" font-weight="bold" fill="white">VMware VVF</text>
+
+  <!-- Proxmox features with green checkmarks -->
+  <g font-family="system-ui" font-size="12" fill="#333">
+    <circle cx="48" cy="127" r="9" fill="#27ae60" opacity="0.15"/>
+    <polyline points="42,127 46,131 54,123" fill="none" stroke="#27ae60" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="64" y="131">Open Source</text>
+
+    <circle cx="48" cy="157" r="9" fill="#27ae60" opacity="0.15"/>
+    <polyline points="42,157 46,161 54,153" fill="none" stroke="#27ae60" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="64" y="161">Enterprise Support</text>
+
+    <circle cx="48" cy="187" r="9" fill="#27ae60" opacity="0.15"/>
+    <polyline points="42,187 46,191 54,183" fill="none" stroke="#27ae60" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="64" y="191">Geen vendor lock-in</text>
+
+    <circle cx="48" cy="217" r="9" fill="#27ae60" opacity="0.15"/>
+    <polyline points="42,217 46,221 54,213" fill="none" stroke="#27ae60" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="64" y="221">Alle features inbegrepen</text>
+
+    <circle cx="48" cy="247" r="9" fill="#27ae60" opacity="0.15"/>
+    <polyline points="42,247 46,251 54,243" fill="none" stroke="#27ae60" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="64" y="251">Transparante prijzen</text>
+  </g>
+
+  <!-- Proxmox price -->
+  <text x="132" y="300" text-anchor="middle" font-family="system-ui" font-size="32" font-weight="bold" fill="#27ae60">&#8364;550</text>
+  <text x="132" y="318" text-anchor="middle" font-family="system-ui" font-size="11" fill="#666">per CPU socket / jaar</text>
+  <rect x="55" y="340" width="155" height="28" fill="#E57035" rx="6"/>
+  <text x="132" y="359" text-anchor="middle" font-family="system-ui" font-size="12" font-weight="bold" fill="white">Beste keuze</text>
+
+  <!-- VMware features with red X marks -->
+  <g font-family="system-ui" font-size="12" fill="#666">
+    <circle cx="283" cy="127" r="9" fill="#e74c3c" opacity="0.15"/>
+    <line x1="278" y1="122" x2="288" y2="132" stroke="#e74c3c" stroke-width="2" stroke-linecap="round"/>
+    <line x1="288" y1="122" x2="278" y2="132" stroke="#e74c3c" stroke-width="2" stroke-linecap="round"/>
+    <text x="299" y="131">Proprietary</text>
+
+    <circle cx="283" cy="157" r="9" fill="#e74c3c" opacity="0.15"/>
+    <line x1="278" y1="152" x2="288" y2="162" stroke="#e74c3c" stroke-width="2" stroke-linecap="round"/>
+    <line x1="288" y1="152" x2="278" y2="162" stroke="#e74c3c" stroke-width="2" stroke-linecap="round"/>
+    <text x="299" y="161">Min. 72 cores afname</text>
+
+    <circle cx="283" cy="187" r="9" fill="#e74c3c" opacity="0.15"/>
+    <line x1="278" y1="182" x2="288" y2="192" stroke="#e74c3c" stroke-width="2" stroke-linecap="round"/>
+    <line x1="288" y1="182" x2="278" y2="192" stroke="#e74c3c" stroke-width="2" stroke-linecap="round"/>
+    <text x="299" y="191">Vendor lock-in</text>
+
+    <circle cx="283" cy="217" r="9" fill="#e74c3c" opacity="0.15"/>
+    <line x1="278" y1="212" x2="288" y2="222" stroke="#e74c3c" stroke-width="2" stroke-linecap="round"/>
+    <line x1="288" y1="212" x2="278" y2="222" stroke="#e74c3c" stroke-width="2" stroke-linecap="round"/>
+    <text x="299" y="221">Ondoorzichtige prijzen</text>
+
+    <circle cx="283" cy="247" r="9" fill="#e74c3c" opacity="0.15"/>
+    <line x1="278" y1="242" x2="288" y2="252" stroke="#e74c3c" stroke-width="2" stroke-linecap="round"/>
+    <line x1="288" y1="242" x2="278" y2="252" stroke="#e74c3c" stroke-width="2" stroke-linecap="round"/>
+    <text x="299" y="251">Dure add-on (vSAN)</text>
+  </g>
+
+  <!-- VMware price (crossed out) -->
+  <text x="367" y="296" text-anchor="middle" font-family="system-ui" font-size="28" font-weight="bold" fill="#e74c3c" opacity="0.5">~&#8364;12.960</text>
+  <line x1="314" y1="290" x2="420" y2="290" stroke="#e74c3c" stroke-width="3" stroke-linecap="round"/>
+  <text x="367" y="316" text-anchor="middle" font-family="system-ui" font-size="10" fill="#999">&#8364;180/core x 72 cores/jaar</text>
+  <rect x="295" y="340" width="145" height="28" fill="#ccc" rx="6"/>
+  <text x="367" y="359" text-anchor="middle" font-family="system-ui" font-size="12" fill="#888">Te duur</text>
+
+  <!-- VS divider -->
+  <circle cx="250" cy="200" r="18" fill="#FDF2ED" stroke="#E57035" stroke-width="2"/>
+  <text x="250" y="206" text-anchor="middle" font-family="system-ui" font-size="14" font-weight="bold" fill="#E57035">VS</text>
+</svg>

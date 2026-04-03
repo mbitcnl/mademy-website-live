@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="400" viewBox="0 0 500 400">
+  <rect width="500" height="400" rx="20" fill="#FDF2ED"/>
+
+  <!-- Title -->
+  <text x="250" y="40" text-anchor="middle" font-family="system-ui" font-size="16" font-weight="bold" fill="#333">SDDC Manager — Control Panel</text>
+
+  <!-- Main dashboard frame -->
+  <rect x="40" y="60" width="420" height="300" rx="12" fill="white" stroke="#E57035" stroke-width="2"/>
+
+  <!-- Top bar -->
+  <rect x="40" y="60" width="420" height="40" rx="12" fill="#E57035" opacity="0.15"/>
+  <rect x="40" y="88" width="420" height="12" fill="#E57035" opacity="0.15"/>
+  <circle cx="65" cy="80" r="6" fill="#E57035" opacity="0.4"/>
+  <circle cx="85" cy="80" r="6" fill="#E57035" opacity="0.6"/>
+  <circle cx="105" cy="80" r="6" fill="#E57035" opacity="0.8"/>
+  <text x="250" y="84" text-anchor="middle" font-family="system-ui" font-size="12" font-weight="bold" fill="#E57035">SDDC Manager Dashboard</text>
+
+  <!-- Management Layer 1: Lifecycle -->
+  <rect x="60" y="115" width="180" height="55" rx="8" fill="#E57035" opacity="0.08" stroke="#E57035" stroke-width="1.5"/>
+  <rect x="72" y="125" width="8" height="8" rx="2" fill="#E57035" opacity="0.5"/>
+  <rect x="72" y="137" width="8" height="8" rx="2" fill="#E57035" opacity="0.5"/>
+  <rect x="72" y="149" width="8" height="8" rx="2" fill="#E57035" opacity="0.5"/>
+  <text x="150" y="140" text-anchor="middle" font-family="system-ui" font-size="11" font-weight="bold" fill="#E57035">Lifecycle Management</text>
+  <text x="150" y="155" text-anchor="middle" font-family="system-ui" font-size="9" fill="#999">Updates &amp; Patches</text>
+
+  <!-- Management Layer 2: Workload -->
+  <rect x="260" y="115" width="180" height="55" rx="8" fill="#E57035" opacity="0.08" stroke="#E57035" stroke-width="1.5"/>
+  <rect x="280" y="130" width="30" height="4" rx="2" fill="#E57035" opacity="0.6"/>
+  <rect x="280" y="138" width="22" height="4" rx="2" fill="#E57035" opacity="0.4"/>
+  <rect x="280" y="146" width="35" height="4" rx="2" fill="#E57035" opacity="0.5"/>
+  <text x="370" y="140" text-anchor="middle" font-family="system-ui" font-size="11" font-weight="bold" fill="#E57035">Workload Domains</text>
+  <text x="370" y="155" text-anchor="middle" font-family="system-ui" font-size="9" fill="#999">Resource Pools</text>
+
+  <!-- Management Layer 3: Monitoring -->
+  <rect x="60" y="185" width="180" height="55" rx="8" fill="#E57035" opacity="0.08" stroke="#E57035" stroke-width="1.5"/>
+  <!-- Mini chart bars -->
+  <rect x="75" y="215" width="10" height="15" rx="2" fill="#E57035" opacity="0.3" transform="rotate(180,80,222)"/>
+  <rect x="90" y="207" width="10" height="23" rx="2" fill="#E57035" opacity="0.5" transform="rotate(180,95,222)"/>
+  <rect x="105" y="211" width="10" height="19" rx="2" fill="#E57035" opacity="0.4" transform="rotate(180,110,222)"/>
+  <rect x="120" y="203" width="10" height="27" rx="2" fill="#E57035" opacity="0.7" transform="rotate(180,125,222)"/>
+  <text x="150" y="205" text-anchor="middle" font-family="system-ui" font-size="11" font-weight="bold" fill="#E57035">Monitoring</text>
+  <text x="150" y="228" text-anchor="middle" font-family="system-ui" font-size="9" fill="#999">Health &amp; Performance</text>
+
+  <!-- Management Layer 4: Inventory -->
+  <rect x="260" y="185" width="180" height="55" rx="8" fill="#E57035" opacity="0.08" stroke="#E57035" stroke-width="1.5"/>
+  <rect x="278" y="198" width="16" height="12" rx="2" fill="none" stroke="#E57035" stroke-width="1.2"/>
+  <rect x="278" y="215" width="16" height="12" rx="2" fill="none" stroke="#E57035" stroke-width="1.2"/>
+  <rect x="298" y="198" width="16" height="12" rx="2" fill="none" stroke="#E57035" stroke-width="1.2"/>
+  <rect x="298" y="215" width="16" height="12" rx="2" fill="none" stroke="#E57035" stroke-width="1.2"/>
+  <text x="370" y="210" text-anchor="middle" font-family="system-ui" font-size="11" font-weight="bold" fill="#E57035">Inventory</text>
+  <text x="370" y="225" text-anchor="middle" font-family="system-ui" font-size="9" fill="#999">Hosts &amp; Clusters</text>
+
+  <!-- Bottom automation bar -->
+  <rect x="60" y="255" width="380" height="45" rx="8" fill="#E57035" opacity="0.12" stroke="#E57035" stroke-width="1.5"/>
+  <text x="250" y="275" text-anchor="middle" font-family="system-ui" font-size="12" font-weight="bold" fill="#E57035">Automated Provisioning &amp; Configuration</text>
+  <text x="250" y="290" text-anchor="middle" font-family="system-ui" font-size="9" fill="#999">API-Driven Infrastructure Deployment</text>
+
+  <!-- Connection arrows between layers -->
+  <line x1="150" y1="170" x2="150" y2="185" stroke="#E57035" stroke-width="1" stroke-dasharray="3,2"/>
+  <line x1="350" y1="170" x2="350" y2="185" stroke="#E57035" stroke-width="1" stroke-dasharray="3,2"/>
+  <line x1="150" y1="240" x2="150" y2="255" stroke="#E57035" stroke-width="1" stroke-dasharray="3,2"/>
+  <line x1="350" y1="240" x2="350" y2="255" stroke="#E57035" stroke-width="1" stroke-dasharray="3,2"/>
+
+  <!-- Status indicators -->
+  <rect x="60" y="315" width="120" height="30" rx="6" fill="white" stroke="#E57035" stroke-width="1"/>
+  <circle cx="78" cy="330" r="5" fill="#4CAF50"/>
+  <text x="125" y="334" text-anchor="middle" font-family="system-ui" font-size="10" fill="#666">All Systems OK</text>
+
+  <rect x="200" y="315" width="120" height="30" rx="6" fill="white" stroke="#E57035" stroke-width="1"/>
+  <text x="260" y="334" text-anchor="middle" font-family="system-ui" font-size="10" fill="#666">12 Hosts</text>
+
+  <rect x="340" y="315" width="120" height="30" rx="6" fill="white" stroke="#E57035" stroke-width="1"/>
+  <text x="400" y="334" text-anchor="middle" font-family="system-ui" font-size="10" fill="#666">3 Domains</text>
+</svg>

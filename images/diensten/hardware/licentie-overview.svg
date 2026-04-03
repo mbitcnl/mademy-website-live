@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="400" viewBox="0 0 500 400">
+  <rect width="500" height="400" fill="#FDF2ED" rx="20"/>
+
+  <!-- Title -->
+  <text x="250" y="45" text-anchor="middle" font-family="system-ui" font-size="20" font-weight="bold" fill="#E57035">Enterprise Repository</text>
+
+  <!-- Large Key Icon -->
+  <g transform="translate(170, 80)">
+    <!-- Key head (circle) -->
+    <circle cx="40" cy="40" r="35" fill="none" stroke="#E57035" stroke-width="4"/>
+    <circle cx="40" cy="40" r="18" fill="#E57035" opacity="0.15"/>
+    <circle cx="40" cy="40" r="10" fill="#E57035" opacity="0.3"/>
+    <!-- Key shaft -->
+    <rect x="75" y="34" width="90" height="12" fill="#E57035" rx="3"/>
+    <!-- Key teeth -->
+    <rect x="135" y="34" width="10" height="22" fill="#E57035" rx="2"/>
+    <rect x="150" y="34" width="10" height="16" fill="#E57035" rx="2"/>
+  </g>
+
+  <!-- Certificate/Badge -->
+  <g transform="translate(210, 190)">
+    <circle cx="40" cy="40" r="38" fill="#E57035" opacity="0.12"/>
+    <circle cx="40" cy="40" r="28" fill="white" stroke="#E57035" stroke-width="3"/>
+    <!-- Checkmark inside badge -->
+    <polyline points="28,40 37,49 54,32" fill="none" stroke="#E57035" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Ribbon tails -->
+    <polygon points="28,70 40,62 40,78" fill="#E57035" opacity="0.6"/>
+    <polygon points="52,70 40,62 40,78" fill="#E57035" opacity="0.6"/>
+  </g>
+
+  <!-- Update icon (top-left) -->
+  <g transform="translate(60, 160)">
+    <circle cx="30" cy="30" r="28" fill="white" stroke="#E57035" stroke-width="2.5"/>
+    <!-- Circular arrow -->
+    <path d="M30,14 A16,16 0 1,1 14,30" fill="none" stroke="#E57035" stroke-width="2.5" stroke-linecap="round"/>
+    <polygon points="30,8 30,20 22,14" fill="#E57035"/>
+    <text x="30" y="50" text-anchor="middle" font-family="system-ui" font-size="10" fill="#333">Updates</text>
+  </g>
+
+  <!-- Shield icon (top-right) -->
+  <g transform="translate(360, 160)">
+    <path d="M30,8 L52,18 L52,34 C52,48 30,58 30,58 C30,58 8,48 8,34 L8,18 Z" fill="white" stroke="#E57035" stroke-width="2.5"/>
+    <polyline points="20,32 27,39 40,26" fill="none" stroke="#E57035" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="30" y="72" text-anchor="middle" font-family="system-ui" font-size="10" fill="#333">Security</text>
+  </g>
+
+  <!-- Support icon (bottom-left) -->
+  <g transform="translate(80, 280)">
+    <circle cx="28" cy="24" r="22" fill="white" stroke="#E57035" stroke-width="2.5"/>
+    <!-- Headset shape -->
+    <path d="M14,28 C14,18 22,10 28,10 C34,10 42,18 42,28" fill="none" stroke="#E57035" stroke-width="2.5" stroke-linecap="round"/>
+    <rect x="10" y="24" width="8" height="12" fill="#E57035" rx="3" opacity="0.7"/>
+    <rect x="38" y="24" width="8" height="12" fill="#E57035" rx="3" opacity="0.7"/>
+    <text x="28" y="58" text-anchor="middle" font-family="system-ui" font-size="10" fill="#333">Support</text>
+  </g>
+
+  <!-- Packages icon (bottom-right) -->
+  <g transform="translate(340, 280)">
+    <rect x="8" y="12" width="40" height="32" fill="white" stroke="#E57035" stroke-width="2.5" rx="4"/>
+    <line x1="28" y1="12" x2="28" y2="44" stroke="#E57035" stroke-width="2"/>
+    <line x1="8" y1="24" x2="48" y2="24" stroke="#E57035" stroke-width="2"/>
+    <text x="28" y="58" text-anchor="middle" font-family="system-ui" font-size="10" fill="#333">Packages</text>
+  </g>
+
+  <!-- Connecting dashed lines from badge to icons -->
+  <line x1="210" y1="220" x2="118" y2="195" stroke="#E57035" stroke-width="1.5" stroke-dasharray="4,4" opacity="0.4"/>
+  <line x1="290" y1="220" x2="380" y2="195" stroke="#E57035" stroke-width="1.5" stroke-dasharray="4,4" opacity="0.4"/>
+  <line x1="230" y1="270" x2="136" y2="300" stroke="#E57035" stroke-width="1.5" stroke-dasharray="4,4" opacity="0.4"/>
+  <line x1="270" y1="270" x2="362" y2="300" stroke="#E57035" stroke-width="1.5" stroke-dasharray="4,4" opacity="0.4"/>
+
+  <!-- Bottom label -->
+  <text x="250" y="375" text-anchor="middle" font-family="system-ui" font-size="13" fill="#666">Proxmox Enterprise Subscriptie</text>
+</svg>

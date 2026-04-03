@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" fill="none">
+  <rect width="500" height="400" rx="20" fill="#FDF2ED"/>
+  <!-- Network of interconnected agents -->
+  <circle cx="250" cy="140" r="28" fill="#E57035" opacity="0.9"/>
+  <text x="250" y="145" text-anchor="middle" font-family="system-ui" font-size="14" font-weight="700" fill="white">AI</text>
+  <circle cx="150" cy="220" r="22" fill="rgba(229,112,53,0.2)" stroke="#E57035" stroke-width="1.5"/>
+  <circle cx="250" cy="250" r="22" fill="rgba(229,112,53,0.2)" stroke="#E57035" stroke-width="1.5"/>
+  <circle cx="350" cy="220" r="22" fill="rgba(229,112,53,0.2)" stroke="#E57035" stroke-width="1.5"/>
+  <!-- Sub-nodes -->
+  <circle cx="100" cy="280" r="14" fill="rgba(229,112,53,0.1)" stroke="#E57035" stroke-width="1"/>
+  <circle cx="200" cy="290" r="14" fill="rgba(229,112,53,0.1)" stroke="#E57035" stroke-width="1"/>
+  <circle cx="300" cy="290" r="14" fill="rgba(229,112,53,0.1)" stroke="#E57035" stroke-width="1"/>
+  <circle cx="400" cy="280" r="14" fill="rgba(229,112,53,0.1)" stroke="#E57035" stroke-width="1"/>
+  <!-- Connections main -->
+  <line x1="250" y1="168" x2="150" y2="200" stroke="#E57035" stroke-width="2" opacity="0.4"/>
+  <line x1="250" y1="168" x2="250" y2="228" stroke="#E57035" stroke-width="2" opacity="0.4"/>
+  <line x1="250" y1="168" x2="350" y2="200" stroke="#E57035" stroke-width="2" opacity="0.4"/>
+  <!-- Cross connections -->
+  <line x1="150" y1="220" x2="250" y2="250" stroke="#E57035" stroke-width="1" opacity="0.2" stroke-dasharray="4 3"/>
+  <line x1="350" y1="220" x2="250" y2="250" stroke="#E57035" stroke-width="1" opacity="0.2" stroke-dasharray="4 3"/>
+  <!-- Sub connections -->
+  <line x1="150" y1="242" x2="100" y2="268" stroke="#E57035" stroke-width="1" opacity="0.3"/>
+  <line x1="150" y1="242" x2="200" y2="278" stroke="#E57035" stroke-width="1" opacity="0.3"/>
+  <line x1="350" y1="242" x2="300" y2="278" stroke="#E57035" stroke-width="1" opacity="0.3"/>
+  <line x1="350" y1="242" x2="400" y2="268" stroke="#E57035" stroke-width="1" opacity="0.3"/>
+  <!-- Arrows indicating flow -->
+  <path d="M170 200 l-5-3 l0 6 z" fill="#E57035" opacity="0.5"/>
+  <path d="M330 200 l5-3 l0 6 z" fill="#E57035" opacity="0.5"/>
+  <!-- Labels -->
+  <text x="250" y="340" text-anchor="middle" font-family="system-ui" font-size="16" font-weight="600" fill="#E57035">Agentic AI</text>
+  <text x="250" y="365" text-anchor="middle" font-family="system-ui" font-size="12" fill="#94a3b8">Multi-agent · Autonoom · Adaptief</text>
+</svg>

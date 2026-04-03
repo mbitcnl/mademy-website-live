@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="400" viewBox="0 0 500 400">
+  <rect width="500" height="400" rx="20" fill="#FDF2ED"/>
+
+  <!-- Title -->
+  <text x="250" y="35" text-anchor="middle" font-family="system-ui" font-size="16" font-weight="bold" fill="#333">NSX Security — Distributed Firewall</text>
+
+  <!-- Shield icon -->
+  <rect x="205" y="50" width="90" height="100" rx="45" fill="#E57035" opacity="0.1" stroke="#E57035" stroke-width="2"/>
+  <rect x="205" y="50" width="90" height="55" rx="45" fill="#E57035" opacity="0.15"/>
+  <text x="250" y="95" text-anchor="middle" font-family="system-ui" font-size="20" font-weight="bold" fill="#E57035">NSX</text>
+  <text x="250" y="115" text-anchor="middle" font-family="system-ui" font-size="9" fill="#E57035">Security</text>
+
+  <!-- Distributed firewall bar -->
+  <rect x="40" y="170" width="420" height="35" rx="8" fill="#E57035" opacity="0.12" stroke="#E57035" stroke-width="2"/>
+  <text x="250" y="192" text-anchor="middle" font-family="system-ui" font-size="12" font-weight="bold" fill="#E57035">Distributed Firewall</text>
+  <!-- Lock icons -->
+  <rect x="60" y="178" width="10" height="12" rx="2" fill="none" stroke="#E57035" stroke-width="1.2"/>
+  <circle cx="65" cy="177" r="5" fill="none" stroke="#E57035" stroke-width="1.2"/>
+  <rect x="430" y="178" width="10" height="12" rx="2" fill="none" stroke="#E57035" stroke-width="1.2"/>
+  <circle cx="435" cy="177" r="5" fill="none" stroke="#E57035" stroke-width="1.2"/>
+
+  <!-- Connection from shield to firewall -->
+  <line x1="250" y1="150" x2="250" y2="170" stroke="#E57035" stroke-width="2"/>
+
+  <!-- Protected VM Segments -->
+  <!-- Segment 1 -->
+  <rect x="30" y="225" width="130" height="120" rx="10" fill="white" stroke="#E57035" stroke-width="1.5"/>
+  <text x="95" y="245" text-anchor="middle" font-family="system-ui" font-size="10" font-weight="bold" fill="#E57035">Production</text>
+  <rect x="45" y="255" width="45" height="30" rx="4" fill="#E57035" opacity="0.1" stroke="#E57035" stroke-width="1"/>
+  <text x="67" y="274" text-anchor="middle" font-family="system-ui" font-size="8" fill="#E57035">VM</text>
+  <rect x="100" y="255" width="45" height="30" rx="4" fill="#E57035" opacity="0.1" stroke="#E57035" stroke-width="1"/>
+  <text x="122" y="274" text-anchor="middle" font-family="system-ui" font-size="8" fill="#E57035">VM</text>
+  <rect x="45" y="295" width="45" height="30" rx="4" fill="#E57035" opacity="0.1" stroke="#E57035" stroke-width="1"/>
+  <text x="67" y="314" text-anchor="middle" font-family="system-ui" font-size="8" fill="#E57035">VM</text>
+  <!-- Shield mini -->
+  <circle cx="148" cy="235" r="8" fill="#E57035" opacity="0.2"/>
+  <text x="148" y="238" text-anchor="middle" font-family="system-ui" font-size="8" fill="#E57035">P</text>
+
+  <!-- Segment 2 -->
+  <rect x="185" y="225" width="130" height="120" rx="10" fill="white" stroke="#E57035" stroke-width="1.5"/>
+  <text x="250" y="245" text-anchor="middle" font-family="system-ui" font-size="10" font-weight="bold" fill="#E57035">Development</text>
+  <rect x="200" y="255" width="45" height="30" rx="4" fill="#E57035" opacity="0.1" stroke="#E57035" stroke-width="1"/>
+  <text x="222" y="274" text-anchor="middle" font-family="system-ui" font-size="8" fill="#E57035">VM</text>
+  <rect x="255" y="255" width="45" height="30" rx="4" fill="#E57035" opacity="0.1" stroke="#E57035" stroke-width="1"/>
+  <text x="277" y="274" text-anchor="middle" font-family="system-ui" font-size="8" fill="#E57035">VM</text>
+  <rect x="200" y="295" width="45" height="30" rx="4" fill="#E57035" opacity="0.1" stroke="#E57035" stroke-width="1"/>
+  <text x="222" y="314" text-anchor="middle" font-family="system-ui" font-size="8" fill="#E57035">VM</text>
+  <circle cx="303" cy="235" r="8" fill="#E57035" opacity="0.2"/>
+  <text x="303" y="238" text-anchor="middle" font-family="system-ui" font-size="8" fill="#E57035">P</text>
+
+  <!-- Segment 3 -->
+  <rect x="340" y="225" width="130" height="120" rx="10" fill="white" stroke="#E57035" stroke-width="1.5"/>
+  <text x="405" y="245" text-anchor="middle" font-family="system-ui" font-size="10" font-weight="bold" fill="#E57035">DMZ</text>
+  <rect x="355" y="255" width="45" height="30" rx="4" fill="#E57035" opacity="0.1" stroke="#E57035" stroke-width="1"/>
+  <text x="377" y="274" text-anchor="middle" font-family="system-ui" font-size="8" fill="#E57035">VM</text>
+  <rect x="410" y="255" width="45" height="30" rx="4" fill="#E57035" opacity="0.1" stroke="#E57035" stroke-width="1"/>
+  <text x="432" y="274" text-anchor="middle" font-family="system-ui" font-size="8" fill="#E57035">VM</text>
+  <circle cx="458" cy="235" r="8" fill="#E57035" opacity="0.2"/>
+  <text x="458" y="238" text-anchor="middle" font-family="system-ui" font-size="8" fill="#E57035">P</text>
+
+  <!-- Vertical connections from firewall to segments -->
+  <line x1="95" y1="205" x2="95" y2="225" stroke="#E57035" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <line x1="250" y1="205" x2="250" y2="225" stroke="#E57035" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <line x1="405" y1="205" x2="405" y2="225" stroke="#E57035" stroke-width="1.5" stroke-dasharray="4,2"/>
+
+  <!-- Blocked arrow between segments -->
+  <line x1="160" y1="285" x2="185" y2="285" stroke="#cc3333" stroke-width="1.5"/>
+  <text x="172" y="278" text-anchor="middle" font-family="system-ui" font-size="12" fill="#cc3333">x</text>
+  <line x1="315" y1="285" x2="340" y2="285" stroke="#cc3333" stroke-width="1.5"/>
+  <text x="327" y="278" text-anchor="middle" font-family="system-ui" font-size="12" fill="#cc3333">x</text>
+
+  <!-- Bottom labels -->
+  <text x="250" y="370" text-anchor="middle" font-family="system-ui" font-size="10" fill="#999">East-West traffic filtered at hypervisor level</text>
+  <text x="250" y="385" text-anchor="middle" font-family="system-ui" font-size="10" fill="#999">Policy-based micro-segmentation per workload</text>
+</svg>
