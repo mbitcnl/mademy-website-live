@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="400" viewBox="0 0 500 400">
+  <rect width="500" height="400" rx="20" fill="#FDF2ED"/>
+
+  <defs>
+    <marker id="arrow-orange" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L8,3 z" fill="#E57035"/>
+    </marker>
+  </defs>
+
+  <!-- Data Sources -->
+  <rect x="30" y="170" width="80" height="60" rx="10" fill="white" stroke="#E57035" stroke-width="2"/>
+  <ellipse cx="70" cy="190" rx="12" ry="4" fill="none" stroke="#E57035" stroke-width="1.5"/>
+  <line x1="58" y1="190" x2="58" y2="200" stroke="#E57035" stroke-width="1.5"/>
+  <line x1="82" y1="190" x2="82" y2="200" stroke="#E57035" stroke-width="1.5"/>
+  <ellipse cx="70" cy="200" rx="12" ry="4" fill="none" stroke="#E57035" stroke-width="1.5"/>
+  <text x="70" y="222" text-anchor="middle" font-family="system-ui" font-size="10" font-weight="bold" fill="#E57035">Data Sources</text>
+
+  <!-- Arrow 1 -->
+  <line x1="115" y1="200" x2="135" y2="200" stroke="#E57035" stroke-width="2" marker-end="url(#arrow-orange)"/>
+
+  <!-- Vector DB -->
+  <rect x="140" y="170" width="80" height="60" rx="10" fill="white" stroke="#E57035" stroke-width="2"/>
+  <g transform="translate(160 184)">
+    <rect x="0" y="0" width="6" height="6" fill="#E57035" opacity="0.5"/>
+    <rect x="8" y="0" width="6" height="6" fill="#E57035" opacity="0.7"/>
+    <rect x="16" y="0" width="6" height="6" fill="#E57035" opacity="0.5"/>
+    <rect x="24" y="0" width="6" height="6" fill="#E57035" opacity="0.9"/>
+    <rect x="32" y="0" width="6" height="6" fill="#E57035" opacity="0.5"/>
+    <rect x="0" y="8" width="6" height="6" fill="#E57035" opacity="0.7"/>
+    <rect x="8" y="8" width="6" height="6" fill="#E57035" opacity="0.9"/>
+    <rect x="16" y="8" width="6" height="6" fill="#E57035" opacity="0.5"/>
+    <rect x="24" y="8" width="6" height="6" fill="#E57035" opacity="0.7"/>
+    <rect x="32" y="8" width="6" height="6" fill="#E57035" opacity="0.9"/>
+  </g>
+  <text x="180" y="222" text-anchor="middle" font-family="system-ui" font-size="10" font-weight="bold" fill="#E57035">Vector DB</text>
+
+  <!-- Arrow 2 -->
+  <line x1="225" y1="200" x2="245" y2="200" stroke="#E57035" stroke-width="2" marker-end="url(#arrow-orange)"/>
+
+  <!-- Model Runtime -->
+  <rect x="250" y="170" width="80" height="60" rx="10" fill="white" stroke="#E57035" stroke-width="2"/>
+  <circle cx="290" cy="195" r="12" fill="none" stroke="#E57035" stroke-width="1.5"/>
+  <circle cx="284" cy="191" r="2" fill="#E57035"/>
+  <circle cx="296" cy="191" r="2" fill="#E57035"/>
+  <circle cx="290" cy="200" r="2" fill="#E57035"/>
+  <line x1="284" y1="191" x2="290" y2="200" stroke="#E57035" stroke-width="1"/>
+  <line x1="296" y1="191" x2="290" y2="200" stroke="#E57035" stroke-width="1"/>
+  <line x1="284" y1="191" x2="296" y2="191" stroke="#E57035" stroke-width="1"/>
+  <text x="290" y="222" text-anchor="middle" font-family="system-ui" font-size="10" font-weight="bold" fill="#E57035">Model Runtime</text>
+
+  <!-- Arrow 3 -->
+  <line x1="335" y1="200" x2="355" y2="200" stroke="#E57035" stroke-width="2" marker-end="url(#arrow-orange)"/>
+
+  <!-- Inference API -->
+  <rect x="360" y="170" width="80" height="60" rx="10" fill="white" stroke="#E57035" stroke-width="2"/>
+  <rect x="385" y="184" width="30" height="16" rx="3" fill="none" stroke="#E57035" stroke-width="1.5"/>
+  <line x1="392" y1="192" x2="408" y2="192" stroke="#E57035" stroke-width="1.5" marker-end="url(#arrow-orange)"/>
+  <text x="400" y="222" text-anchor="middle" font-family="system-ui" font-size="10" font-weight="bold" fill="#E57035">Inference API</text>
+</svg>

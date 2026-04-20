@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="400" viewBox="0 0 500 400">
+  <rect width="500" height="400" rx="20" fill="#FDF2ED"/>
+
+  <!-- vSphere Cluster outer rect -->
+  <rect x="30" y="60" width="440" height="300" rx="10" fill="none" stroke="#E57035" stroke-width="2" opacity="0.6"/>
+  <text x="50" y="55" font-family="system-ui" font-size="11" font-weight="bold" fill="#E57035">vSphere Cluster</text>
+
+  <!-- Supervisor inner rect -->
+  <rect x="60" y="90" width="380" height="50" rx="8" fill="#E57035" fill-opacity="0.15" stroke="#E57035" stroke-width="2"/>
+  <text x="250" y="115" text-anchor="middle" font-family="system-ui" font-size="12" font-weight="bold" fill="#E57035">Supervisor</text>
+  <text x="250" y="131" text-anchor="middle" font-family="system-ui" font-size="10" fill="#E57035">Kubernetes Control Plane</text>
+
+  <!-- Dashed connectors from Supervisor to namespaces -->
+  <line x1="105" y1="140" x2="105" y2="170" stroke="#E57035" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <line x1="255" y1="140" x2="255" y2="170" stroke="#E57035" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <line x1="405" y1="140" x2="405" y2="170" stroke="#E57035" stroke-width="1.5" stroke-dasharray="4,3"/>
+
+  <!-- Namespace A -->
+  <rect x="60" y="170" width="130" height="180" rx="10" fill="white" stroke="#E57035" stroke-width="2"/>
+  <text x="125" y="192" text-anchor="middle" font-family="system-ui" font-size="11" font-weight="bold" fill="#E57035">Namespace</text>
+  <text x="125" y="208" text-anchor="middle" font-family="system-ui" font-size="10" fill="#E57035">App-A</text>
+
+  <!-- VM icon (top) -->
+  <rect x="80" y="220" width="90" height="50" rx="6" fill="white" stroke="#E57035" stroke-width="1.5"/>
+  <rect x="92" y="228" width="66" height="25" rx="2" fill="none" stroke="#E57035" stroke-width="1"/>
+  <rect x="115" y="253" width="20" height="3" fill="#E57035" opacity="0.5"/>
+  <text x="125" y="267" text-anchor="middle" font-family="system-ui" font-size="9" fill="#E57035">VM</text>
+
+  <!-- Container icon (bottom) -->
+  <rect x="80" y="282" width="90" height="55" rx="6" fill="white" stroke="#E57035" stroke-width="1.5"/>
+  <rect x="95" y="292" width="16" height="12" rx="1" fill="#E57035" opacity="0.4"/>
+  <rect x="114" y="292" width="16" height="12" rx="1" fill="#E57035" opacity="0.4"/>
+  <rect x="133" y="292" width="16" height="12" rx="1" fill="#E57035" opacity="0.4"/>
+  <rect x="104" y="308" width="16" height="12" rx="1" fill="#E57035" opacity="0.5"/>
+  <rect x="123" y="308" width="16" height="12" rx="1" fill="#E57035" opacity="0.5"/>
+  <text x="125" y="334" text-anchor="middle" font-family="system-ui" font-size="9" fill="#E57035">Container</text>
+
+  <!-- Namespace B -->
+  <rect x="210" y="170" width="130" height="180" rx="10" fill="white" stroke="#E57035" stroke-width="2"/>
+  <text x="275" y="192" text-anchor="middle" font-family="system-ui" font-size="11" font-weight="bold" fill="#E57035">Namespace</text>
+  <text x="275" y="208" text-anchor="middle" font-family="system-ui" font-size="10" fill="#E57035">Platform</text>
+
+  <rect x="230" y="220" width="90" height="50" rx="6" fill="white" stroke="#E57035" stroke-width="1.5"/>
+  <rect x="242" y="228" width="66" height="25" rx="2" fill="none" stroke="#E57035" stroke-width="1"/>
+  <rect x="265" y="253" width="20" height="3" fill="#E57035" opacity="0.5"/>
+  <text x="275" y="267" text-anchor="middle" font-family="system-ui" font-size="9" fill="#E57035">VM</text>
+
+  <rect x="230" y="282" width="90" height="55" rx="6" fill="white" stroke="#E57035" stroke-width="1.5"/>
+  <rect x="245" y="292" width="16" height="12" rx="1" fill="#E57035" opacity="0.4"/>
+  <rect x="264" y="292" width="16" height="12" rx="1" fill="#E57035" opacity="0.4"/>
+  <rect x="283" y="292" width="16" height="12" rx="1" fill="#E57035" opacity="0.4"/>
+  <rect x="254" y="308" width="16" height="12" rx="1" fill="#E57035" opacity="0.5"/>
+  <rect x="273" y="308" width="16" height="12" rx="1" fill="#E57035" opacity="0.5"/>
+  <text x="275" y="334" text-anchor="middle" font-family="system-ui" font-size="9" fill="#E57035">Container</text>
+
+  <!-- Namespace C -->
+  <rect x="360" y="170" width="90" height="180" rx="10" fill="white" stroke="#E57035" stroke-width="2"/>
+  <text x="405" y="192" text-anchor="middle" font-family="system-ui" font-size="11" font-weight="bold" fill="#E57035">Namespace</text>
+  <text x="405" y="208" text-anchor="middle" font-family="system-ui" font-size="10" fill="#E57035">AI</text>
+
+  <rect x="370" y="220" width="70" height="50" rx="6" fill="white" stroke="#E57035" stroke-width="1.5"/>
+  <rect x="380" y="228" width="50" height="25" rx="2" fill="none" stroke="#E57035" stroke-width="1"/>
+  <rect x="397" y="253" width="16" height="3" fill="#E57035" opacity="0.5"/>
+  <text x="405" y="267" text-anchor="middle" font-family="system-ui" font-size="9" fill="#E57035">VM</text>
+
+  <rect x="370" y="282" width="70" height="55" rx="6" fill="white" stroke="#E57035" stroke-width="1.5"/>
+  <rect x="378" y="292" width="14" height="12" rx="1" fill="#E57035" opacity="0.4"/>
+  <rect x="395" y="292" width="14" height="12" rx="1" fill="#E57035" opacity="0.4"/>
+  <rect x="412" y="292" width="14" height="12" rx="1" fill="#E57035" opacity="0.4"/>
+  <rect x="386" y="308" width="14" height="12" rx="1" fill="#E57035" opacity="0.5"/>
+  <rect x="403" y="308" width="14" height="12" rx="1" fill="#E57035" opacity="0.5"/>
+  <text x="405" y="334" text-anchor="middle" font-family="system-ui" font-size="9" fill="#E57035">Container</text>
+</svg>

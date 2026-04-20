@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="400" viewBox="0 0 500 400">
+  <rect width="500" height="400" rx="20" fill="#FDF2ED"/>
+
+  <!-- Central rect -->
+  <rect x="175" y="150" width="150" height="100" rx="10" fill="white" stroke="#E57035" stroke-width="2"/>
+  <text x="250" y="195" text-anchor="middle" font-family="system-ui" font-size="14" font-weight="bold" fill="#E57035">VCF</text>
+  <text x="250" y="215" text-anchor="middle" font-family="system-ui" font-size="14" font-weight="bold" fill="#E57035">Operations</text>
+
+  <!-- Solid lines to each circle -->
+  <line x1="175" y1="170" x2="120" y2="115" stroke="#E57035" stroke-width="2"/>
+  <line x1="325" y1="170" x2="380" y2="115" stroke="#E57035" stroke-width="2"/>
+  <line x1="175" y1="230" x2="120" y2="285" stroke="#E57035" stroke-width="2"/>
+  <line x1="325" y1="230" x2="380" y2="285" stroke="#E57035" stroke-width="2"/>
+
+  <!-- Top-left: Lifecycle -->
+  <circle cx="90" cy="90" r="35" fill="white" stroke="#E57035" stroke-width="2"/>
+  <path d="M 80 82 A 10 10 0 1 1 78 92" stroke="#E57035" stroke-width="1.5" fill="none"/>
+  <polygon points="77,90 81,94 74,95" fill="#E57035"/>
+  <text x="90" y="102" text-anchor="middle" font-family="system-ui" font-size="10" font-weight="bold" fill="#E57035">Lifecycle</text>
+
+  <!-- Top-right: Identity -->
+  <circle cx="410" cy="90" r="35" fill="white" stroke="#E57035" stroke-width="2"/>
+  <circle cx="404" cy="83" r="5" fill="none" stroke="#E57035" stroke-width="1.5"/>
+  <line x1="408" y1="86" x2="418" y2="94" stroke="#E57035" stroke-width="1.5"/>
+  <line x1="415" y1="92" x2="418" y2="89" stroke="#E57035" stroke-width="1.5"/>
+  <line x1="417" y1="94" x2="420" y2="91" stroke="#E57035" stroke-width="1.5"/>
+  <text x="410" y="105" text-anchor="middle" font-family="system-ui" font-size="10" font-weight="bold" fill="#E57035">Identity</text>
+
+  <!-- Bottom-left: Certificates (shield) -->
+  <circle cx="90" cy="310" r="35" fill="white" stroke="#E57035" stroke-width="2"/>
+  <path d="M 90 290 L 80 295 L 80 305 Q 80 315 90 320 Q 100 315 100 305 L 100 295 Z" fill="#E57035" opacity="0.2" stroke="#E57035" stroke-width="1.5"/>
+  <text x="90" y="335" text-anchor="middle" font-family="system-ui" font-size="9" font-weight="bold" fill="#E57035">Certificates</text>
+
+  <!-- Bottom-right: Licensing (scroll) -->
+  <circle cx="410" cy="310" r="35" fill="white" stroke="#E57035" stroke-width="2"/>
+  <rect x="398" y="292" width="24" height="22" rx="2" fill="none" stroke="#E57035" stroke-width="1.5"/>
+  <line x1="402" y1="298" x2="418" y2="298" stroke="#E57035" stroke-width="1"/>
+  <line x1="402" y1="303" x2="418" y2="303" stroke="#E57035" stroke-width="1"/>
+  <line x1="402" y1="308" x2="414" y2="308" stroke="#E57035" stroke-width="1"/>
+  <text x="410" y="335" text-anchor="middle" font-family="system-ui" font-size="10" font-weight="bold" fill="#E57035">Licensing</text>
+</svg>

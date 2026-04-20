@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="400" viewBox="0 0 500 400">
+  <rect width="500" height="400" rx="20" fill="#FDF2ED"/>
+
+  <!-- Title -->
+  <text x="250" y="35" text-anchor="middle" font-family="system-ui" font-size="16" font-weight="bold" fill="#E57035">Proxmox VE Dashboard</text>
+
+  <!-- Browser frame -->
+  <rect x="30" y="50" width="440" height="320" rx="10" fill="white" stroke="#E57035" stroke-width="2"/>
+
+  <!-- Title bar -->
+  <rect x="30" y="50" width="440" height="28" rx="10" fill="#E57035" opacity="0.1"/>
+  <circle cx="50" cy="64" r="5" fill="#E57035" opacity="0.4"/>
+  <circle cx="65" cy="64" r="5" fill="#E57035" opacity="0.3"/>
+  <circle cx="80" cy="64" r="5" fill="#E57035" opacity="0.2"/>
+  <text x="250" y="68" text-anchor="middle" font-family="system-ui" font-size="9" fill="#E57035">Proxmox VE - Datacenter</text>
+
+  <!-- Sidebar -->
+  <rect x="30" y="78" width="100" height="292" fill="#E57035" opacity="0.06"/>
+  <line x1="130" y1="78" x2="130" y2="370" stroke="#E57035" stroke-width="1" opacity="0.2"/>
+
+  <!-- Sidebar items -->
+  <rect x="38" y="88" width="84" height="20" rx="4" fill="#E57035" opacity="0.15"/>
+  <text x="80" y="102" text-anchor="middle" font-family="system-ui" font-size="8" font-weight="bold" fill="#E57035">Datacenter</text>
+
+  <text x="48" y="125" font-family="system-ui" font-size="7" fill="#E57035" opacity="0.7">pve-node1</text>
+  <circle cx="42" cy="122" r="3" fill="#4CAF50"/>
+  <text x="56" y="140" font-family="system-ui" font-size="7" fill="#E57035" opacity="0.6">VM 100</text>
+  <text x="56" y="153" font-family="system-ui" font-size="7" fill="#E57035" opacity="0.6">VM 101</text>
+  <text x="56" y="166" font-family="system-ui" font-size="7" fill="#E57035" opacity="0.6">CT 200</text>
+
+  <text x="48" y="186" font-family="system-ui" font-size="7" fill="#E57035" opacity="0.7">pve-node2</text>
+  <circle cx="42" cy="183" r="3" fill="#4CAF50"/>
+  <text x="56" y="201" font-family="system-ui" font-size="7" fill="#E57035" opacity="0.6">VM 102</text>
+  <text x="56" y="214" font-family="system-ui" font-size="7" fill="#E57035" opacity="0.6">CT 201</text>
+
+  <text x="48" y="234" font-family="system-ui" font-size="7" fill="#E57035" opacity="0.7">pve-node3</text>
+  <circle cx="42" cy="231" r="3" fill="#4CAF50"/>
+  <text x="56" y="249" font-family="system-ui" font-size="7" fill="#E57035" opacity="0.6">VM 103</text>
+
+  <!-- Main content area -->
+  <!-- Cluster Status -->
+  <text x="145" y="98" font-family="system-ui" font-size="10" font-weight="bold" fill="#E57035">Cluster Status</text>
+
+  <!-- Status cards -->
+  <rect x="145" y="106" width="95" height="50" rx="6" fill="#E57035" opacity="0.12" stroke="#E57035" stroke-width="1"/>
+  <text x="192" y="122" text-anchor="middle" font-family="system-ui" font-size="8" fill="#E57035" opacity="0.7">Nodes</text>
+  <text x="192" y="142" text-anchor="middle" font-family="system-ui" font-size="18" font-weight="bold" fill="#E57035">3/3</text>
+
+  <rect x="250" y="106" width="95" height="50" rx="6" fill="#E57035" opacity="0.12" stroke="#E57035" stroke-width="1"/>
+  <text x="297" y="122" text-anchor="middle" font-family="system-ui" font-size="8" fill="#E57035" opacity="0.7">VMs Running</text>
+  <text x="297" y="142" text-anchor="middle" font-family="system-ui" font-size="18" font-weight="bold" fill="#E57035">4</text>
+
+  <rect x="355" y="106" width="100" height="50" rx="6" fill="#E57035" opacity="0.12" stroke="#E57035" stroke-width="1"/>
+  <text x="405" y="122" text-anchor="middle" font-family="system-ui" font-size="8" fill="#E57035" opacity="0.7">Containers</text>
+  <text x="405" y="142" text-anchor="middle" font-family="system-ui" font-size="18" font-weight="bold" fill="#E57035">3</text>
+
+  <!-- Resource Usage -->
+  <text x="145" y="180" font-family="system-ui" font-size="10" font-weight="bold" fill="#E57035">Resource Usage</text>
+
+  <!-- CPU bar -->
+  <text x="145" y="200" font-family="system-ui" font-size="8" fill="#E57035" opacity="0.7">CPU</text>
+  <rect x="175" y="192" width="260" height="12" rx="6" fill="#E57035" opacity="0.1"/>
+  <rect x="175" y="192" width="140" height="12" rx="6" fill="#E57035" opacity="0.6"/>
+  <text x="442" y="201" text-anchor="end" font-family="system-ui" font-size="7" fill="#E57035">54%</text>
+
+  <!-- Memory bar -->
+  <text x="145" y="222" font-family="system-ui" font-size="8" fill="#E57035" opacity="0.7">RAM</text>
+  <rect x="175" y="214" width="260" height="12" rx="6" fill="#E57035" opacity="0.1"/>
+  <rect x="175" y="214" width="195" height="12" rx="6" fill="#E57035" opacity="0.6"/>
+  <text x="442" y="223" text-anchor="end" font-family="system-ui" font-size="7" fill="#E57035">75%</text>
+
+  <!-- Storage bar -->
+  <text x="145" y="244" font-family="system-ui" font-size="8" fill="#E57035" opacity="0.7">Disk</text>
+  <rect x="175" y="236" width="260" height="12" rx="6" fill="#E57035" opacity="0.1"/>
+  <rect x="175" y="236" width="104" height="12" rx="6" fill="#E57035" opacity="0.6"/>
+  <text x="442" y="245" text-anchor="end" font-family="system-ui" font-size="7" fill="#E57035">40%</text>
+
+  <!-- Network bar -->
+  <text x="145" y="266" font-family="system-ui" font-size="8" fill="#E57035" opacity="0.7">Net</text>
+  <rect x="175" y="258" width="260" height="12" rx="6" fill="#E57035" opacity="0.1"/>
+  <rect x="175" y="258" width="52" height="12" rx="6" fill="#E57035" opacity="0.6"/>
+  <text x="442" y="267" text-anchor="end" font-family="system-ui" font-size="7" fill="#E57035">20%</text>
+
+  <!-- VM Table -->
+  <text x="145" y="295" font-family="system-ui" font-size="10" font-weight="bold" fill="#E57035">Virtual Machines</text>
+
+  <!-- Table header -->
+  <rect x="145" y="300" width="310" height="16" rx="3" fill="#E57035" opacity="0.12"/>
+  <text x="155" y="311" font-family="system-ui" font-size="7" font-weight="bold" fill="#E57035">ID</text>
+  <text x="185" y="311" font-family="system-ui" font-size="7" font-weight="bold" fill="#E57035">Name</text>
+  <text x="280" y="311" font-family="system-ui" font-size="7" font-weight="bold" fill="#E57035">Status</text>
+  <text x="340" y="311" font-family="system-ui" font-size="7" font-weight="bold" fill="#E57035">CPU</text>
+  <text x="390" y="311" font-family="system-ui" font-size="7" font-weight="bold" fill="#E57035">Memory</text>
+
+  <!-- Table rows -->
+  <text x="155" y="328" font-family="system-ui" font-size="7" fill="#E57035" opacity="0.7">100</text>
+  <text x="185" y="328" font-family="system-ui" font-size="7" fill="#E57035" opacity="0.7">web-server</text>
+  <circle cx="287" cy="325" r="3" fill="#4CAF50"/>
+  <text x="295" y="328" font-family="system-ui" font-size="7" fill="#4CAF50">running</text>
+  <text x="340" y="328" font-family="system-ui" font-size="7" fill="#E57035" opacity="0.7">23%</text>
+  <text x="390" y="328" font-family="system-ui" font-size="7" fill="#E57035" opacity="0.7">2.1 GB</text>
+
+  <text x="155" y="343" font-family="system-ui" font-size="7" fill="#E57035" opacity="0.7">101</text>
+  <text x="185" y="343" font-family="system-ui" font-size="7" fill="#E57035" opacity="0.7">db-primary</text>
+  <circle cx="287" cy="340" r="3" fill="#4CAF50"/>
+  <text x="295" y="343" font-family="system-ui" font-size="7" fill="#4CAF50">running</text>
+  <text x="340" y="343" font-family="system-ui" font-size="7" fill="#E57035" opacity="0.7">45%</text>
+  <text x="390" y="343" font-family="system-ui" font-size="7" fill="#E57035" opacity="0.7">8.0 GB</text>
+
+  <text x="155" y="358" font-family="system-ui" font-size="7" fill="#E57035" opacity="0.7">102</text>
+  <text x="185" y="358" font-family="system-ui" font-size="7" fill="#E57035" opacity="0.7">mail-server</text>
+  <circle cx="287" cy="355" r="3" fill="#999"/>
+  <text x="295" y="358" font-family="system-ui" font-size="7" fill="#999">stopped</text>
+  <text x="340" y="358" font-family="system-ui" font-size="7" fill="#E57035" opacity="0.7">0%</text>
+  <text x="390" y="358" font-family="system-ui" font-size="7" fill="#E57035" opacity="0.7">0 GB</text>
+</svg>

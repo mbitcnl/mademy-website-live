@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="400" viewBox="0 0 500 400">
+  <rect width="500" height="400" rx="20" fill="#FDF2ED"/>
+
+  <!-- Cloud icon -->
+  <ellipse cx="250" cy="80" rx="70" ry="35" fill="#E57035" opacity="0.15" stroke="#E57035" stroke-width="2"/>
+  <ellipse cx="220" cy="85" rx="40" ry="25" fill="#FDF2ED"/>
+  <ellipse cx="250" cy="75" rx="50" ry="30" fill="#E57035" opacity="0.2" stroke="#E57035" stroke-width="1.5"/>
+  <text x="250" y="82" text-anchor="middle" font-family="system-ui" font-size="13" font-weight="bold" fill="#E57035">VCF</text>
+
+  <!-- Title -->
+  <text x="250" y="135" text-anchor="middle" font-family="system-ui" font-size="16" font-weight="bold" fill="#333">Cloud Foundation — Unified Platform</text>
+
+  <!-- Connecting lines from cloud to blocks -->
+  <line x1="250" y1="100" x2="250" y2="155" stroke="#E57035" stroke-width="2" stroke-dasharray="4,3"/>
+  <line x1="250" y1="155" x2="80" y2="195" stroke="#E57035" stroke-width="2" stroke-dasharray="4,3"/>
+  <line x1="250" y1="155" x2="200" y2="195" stroke="#E57035" stroke-width="2" stroke-dasharray="4,3"/>
+  <line x1="250" y1="155" x2="310" y2="195" stroke="#E57035" stroke-width="2" stroke-dasharray="4,3"/>
+  <line x1="250" y1="155" x2="420" y2="195" stroke="#E57035" stroke-width="2" stroke-dasharray="4,3"/>
+
+  <!-- vSphere block -->
+  <rect x="30" y="195" width="100" height="70" rx="10" fill="white" stroke="#E57035" stroke-width="2"/>
+  <circle cx="80" cy="218" r="10" fill="#E57035" opacity="0.2"/>
+  <rect cx="80" x="73" y="211" width="14" height="14" rx="2" fill="none" stroke="#E57035" stroke-width="1.5"/>
+  <text x="80" y="252" text-anchor="middle" font-family="system-ui" font-size="13" font-weight="bold" fill="#E57035">vSphere</text>
+
+  <!-- NSX block -->
+  <rect x="148" y="195" width="100" height="70" rx="10" fill="white" stroke="#E57035" stroke-width="2"/>
+  <line x1="178" y1="218" x2="218" y2="218" stroke="#E57035" stroke-width="2"/>
+  <circle cx="178" cy="218" r="4" fill="#E57035"/>
+  <circle cx="218" cy="218" r="4" fill="#E57035"/>
+  <text x="198" y="252" text-anchor="middle" font-family="system-ui" font-size="13" font-weight="bold" fill="#E57035">NSX</text>
+
+  <!-- vSAN block -->
+  <rect x="265" y="195" width="100" height="70" rx="10" fill="white" stroke="#E57035" stroke-width="2"/>
+  <rect x="295" y="210" width="10" height="18" rx="2" fill="#E57035" opacity="0.4"/>
+  <rect x="310" y="210" width="10" height="18" rx="2" fill="#E57035" opacity="0.6"/>
+  <rect x="325" y="210" width="10" height="18" rx="2" fill="#E57035" opacity="0.8"/>
+  <text x="315" y="252" text-anchor="middle" font-family="system-ui" font-size="13" font-weight="bold" fill="#E57035">vSAN</text>
+
+  <!-- Tanzu block -->
+  <rect x="382" y="195" width="100" height="70" rx="10" fill="white" stroke="#E57035" stroke-width="2"/>
+  <rect x="415" y="208" width="22" height="22" rx="4" fill="none" stroke="#E57035" stroke-width="1.5"/>
+  <circle cx="426" cy="219" r="6" fill="#E57035" opacity="0.3"/>
+  <text x="432" y="252" text-anchor="middle" font-family="system-ui" font-size="13" font-weight="bold" fill="#E57035">Tanzu</text>
+
+  <!-- Horizontal connecting lines between blocks -->
+  <line x1="130" y1="230" x2="148" y2="230" stroke="#E57035" stroke-width="1.5"/>
+  <line x1="248" y1="230" x2="265" y2="230" stroke="#E57035" stroke-width="1.5"/>
+  <line x1="365" y1="230" x2="382" y2="230" stroke="#E57035" stroke-width="1.5"/>
+
+  <!-- Base platform bar -->
+  <rect x="30" y="300" width="452" height="50" rx="10" fill="#E57035" opacity="0.1" stroke="#E57035" stroke-width="2"/>
+  <text x="256" y="330" text-anchor="middle" font-family="system-ui" font-size="14" font-weight="bold" fill="#E57035">Unified SDDC Platform</text>
+
+  <!-- Connecting lines from blocks to platform -->
+  <line x1="80" y1="265" x2="80" y2="300" stroke="#E57035" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <line x1="198" y1="265" x2="198" y2="300" stroke="#E57035" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <line x1="315" y1="265" x2="315" y2="300" stroke="#E57035" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <line x1="432" y1="265" x2="432" y2="300" stroke="#E57035" stroke-width="1.5" stroke-dasharray="4,3"/>
+
+  <!-- Footer labels -->
+  <text x="80" y="375" text-anchor="middle" font-family="system-ui" font-size="10" fill="#999">Compute</text>
+  <text x="198" y="375" text-anchor="middle" font-family="system-ui" font-size="10" fill="#999">Network</text>
+  <text x="315" y="375" text-anchor="middle" font-family="system-ui" font-size="10" fill="#999">Storage</text>
+  <text x="432" y="375" text-anchor="middle" font-family="system-ui" font-size="10" fill="#999">Containers</text>
+</svg>

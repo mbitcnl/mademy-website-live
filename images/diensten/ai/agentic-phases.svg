@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="400" viewBox="0 0 500 400">
+  <rect width="500" height="400" rx="16" ry="16" fill="#FDF2ED"/>
+
+  <!-- Upward arrow on the left -->
+  <line x1="60" y1="280" x2="60" y2="70" stroke="#E57035" stroke-width="2.5" opacity="0.3"/>
+  <polygon points="52,75 60,55 68,75" fill="#E57035" opacity="0.4"/>
+  <text x="58" y="300" text-anchor="middle" font-family="system-ui" font-size="9" fill="#E57035" opacity="0.4" transform="rotate(-90,40,200)">AI Volwassenheid</text>
+
+  <!-- Step 1 (bottom): Assisted -->
+  <rect x="100" y="240" width="360" height="45" rx="8" fill="white" stroke="#E57035" stroke-width="1.5" opacity="0.6"/>
+  <rect x="100" y="240" width="6" height="45" rx="3" fill="#E57035" opacity="0.4"/>
+  <text x="125" y="267" font-family="system-ui" font-size="15" font-weight="600" fill="#E57035" opacity="0.6">Assisted</text>
+  <text x="450" y="267" text-anchor="end" font-family="system-ui" font-size="10" fill="#E57035" opacity="0.4">Mens stuurt, AI helpt</text>
+  <circle cx="85" cy="262" r="10" fill="#E57035" opacity="0.25"/>
+  <text x="85" y="266" text-anchor="middle" font-family="system-ui" font-size="10" font-weight="700" fill="white">1</text>
+
+  <!-- Step 2: Automated -->
+  <rect x="100" y="185" width="360" height="45" rx="8" fill="white" stroke="#E57035" stroke-width="1.5" opacity="0.75"/>
+  <rect x="100" y="185" width="6" height="45" rx="3" fill="#E57035" opacity="0.55"/>
+  <text x="125" y="212" font-family="system-ui" font-size="15" font-weight="600" fill="#E57035" opacity="0.75">Automated</text>
+  <text x="450" y="212" text-anchor="end" font-family="system-ui" font-size="10" fill="#E57035" opacity="0.5">AI voert taken uit</text>
+  <circle cx="85" cy="207" r="10" fill="#E57035" opacity="0.4"/>
+  <text x="85" y="211" text-anchor="middle" font-family="system-ui" font-size="10" font-weight="700" fill="white">2</text>
+
+  <!-- Step 3: Autonomous -->
+  <rect x="100" y="130" width="360" height="45" rx="8" fill="white" stroke="#E57035" stroke-width="1.5" opacity="0.9"/>
+  <rect x="100" y="130" width="6" height="45" rx="3" fill="#E57035" opacity="0.75"/>
+  <text x="125" y="157" font-family="system-ui" font-size="15" font-weight="600" fill="#E57035" opacity="0.9">Autonomous</text>
+  <text x="450" y="157" text-anchor="end" font-family="system-ui" font-size="10" fill="#E57035" opacity="0.6">AI beslist zelfstandig</text>
+  <circle cx="85" cy="152" r="10" fill="#E57035" opacity="0.6"/>
+  <text x="85" y="156" text-anchor="middle" font-family="system-ui" font-size="10" font-weight="700" fill="white">3</text>
+
+  <!-- Step 4 (top): Agentic -->
+  <rect x="100" y="75" width="360" height="45" rx="8" fill="white" stroke="#E57035" stroke-width="2.5"/>
+  <rect x="100" y="75" width="6" height="45" rx="3" fill="#E57035"/>
+  <text x="125" y="102" font-family="system-ui" font-size="15" font-weight="700" fill="#E57035">Agentic</text>
+  <text x="450" y="102" text-anchor="end" font-family="system-ui" font-size="10" fill="#E57035" opacity="0.7">AI plant, leert &amp; schaalt</text>
+  <circle cx="85" cy="97" r="10" fill="#E57035"/>
+  <text x="85" y="101" text-anchor="middle" font-family="system-ui" font-size="10" font-weight="700" fill="white">4</text>
+
+  <!-- Title -->
+  <text x="280" y="330" text-anchor="middle" font-family="system-ui" font-size="18" font-weight="600" fill="#E57035">Agentic AI Fasen</text>
+  <text x="280" y="355" text-anchor="middle" font-family="system-ui" font-size="13" fill="#E57035" opacity="0.7">Van assistentie naar autonomie</text>
+</svg>

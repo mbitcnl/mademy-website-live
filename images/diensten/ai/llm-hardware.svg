@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="400" viewBox="0 0 500 400">
+  <rect width="500" height="400" rx="16" ry="16" fill="#FDF2ED"/>
+
+  <!-- Server rack body -->
+  <rect x="80" y="60" width="200" height="240" rx="8" fill="white" stroke="#E57035" stroke-width="2.5"/>
+
+  <!-- GPU Card slots -->
+  <rect x="100" y="80" width="160" height="35" rx="4" fill="#E57035" fill-opacity="0.08" stroke="#E57035" stroke-width="1.5"/>
+  <text x="115" y="102" font-family="system-ui" font-size="11" font-weight="600" fill="#E57035">GPU 0</text>
+  <circle cx="240" y="98" r="5" fill="#E57035" opacity="0.8"/>
+
+  <rect x="100" y="125" width="160" height="35" rx="4" fill="#E57035" fill-opacity="0.08" stroke="#E57035" stroke-width="1.5"/>
+  <text x="115" y="147" font-family="system-ui" font-size="11" font-weight="600" fill="#E57035">GPU 1</text>
+  <circle cx="240" y="143" r="5" fill="#E57035" opacity="0.8"/>
+
+  <rect x="100" y="170" width="160" height="35" rx="4" fill="#E57035" fill-opacity="0.08" stroke="#E57035" stroke-width="1.5"/>
+  <text x="115" y="192" font-family="system-ui" font-size="11" font-weight="600" fill="#E57035">GPU 2</text>
+  <circle cx="240" y="188" r="5" fill="#E57035" opacity="0.8"/>
+
+  <rect x="100" y="215" width="160" height="35" rx="4" fill="#E57035" fill-opacity="0.08" stroke="#E57035" stroke-width="1.5"/>
+  <text x="115" y="237" font-family="system-ui" font-size="11" font-weight="600" fill="#E57035">GPU 3</text>
+  <circle cx="240" y="233" r="5" fill="#E57035" opacity="0.8"/>
+
+  <!-- Ventilation lines -->
+  <line x1="100" y1="265" x2="120" y2="265" stroke="#E57035" stroke-width="1" opacity="0.3"/>
+  <line x1="130" y1="265" x2="150" y2="265" stroke="#E57035" stroke-width="1" opacity="0.3"/>
+  <line x1="160" y1="265" x2="180" y2="265" stroke="#E57035" stroke-width="1" opacity="0.3"/>
+  <line x1="190" y1="265" x2="210" y2="265" stroke="#E57035" stroke-width="1" opacity="0.3"/>
+  <line x1="220" y1="265" x2="240" y2="265" stroke="#E57035" stroke-width="1" opacity="0.3"/>
+
+  <!-- Server feet -->
+  <rect x="100" y="300" width="30" height="6" rx="2" fill="#E57035" opacity="0.4"/>
+  <rect x="230" y="300" width="30" height="6" rx="2" fill="#E57035" opacity="0.4"/>
+
+  <!-- Performance bars -->
+  <text x="340" y="95" font-family="system-ui" font-size="11" fill="#E57035" opacity="0.7">Compute</text>
+  <rect x="340" y="102" width="120" height="12" rx="3" fill="#E57035" fill-opacity="0.1"/>
+  <rect x="340" y="102" width="108" height="12" rx="3" fill="#E57035" opacity="0.8"/>
+
+  <text x="340" y="140" font-family="system-ui" font-size="11" fill="#E57035" opacity="0.7">VRAM</text>
+  <rect x="340" y="147" width="120" height="12" rx="3" fill="#E57035" fill-opacity="0.1"/>
+  <rect x="340" y="147" width="96" height="12" rx="3" fill="#E57035" opacity="0.65"/>
+
+  <text x="340" y="185" font-family="system-ui" font-size="11" fill="#E57035" opacity="0.7">Throughput</text>
+  <rect x="340" y="192" width="120" height="12" rx="3" fill="#E57035" fill-opacity="0.1"/>
+  <rect x="340" y="192" width="84" height="12" rx="3" fill="#E57035" opacity="0.5"/>
+
+  <text x="340" y="230" font-family="system-ui" font-size="11" fill="#E57035" opacity="0.7">Efficiency</text>
+  <rect x="340" y="237" width="120" height="12" rx="3" fill="#E57035" fill-opacity="0.1"/>
+  <rect x="340" y="237" width="114" height="12" rx="3" fill="#E57035" opacity="0.75"/>
+
+  <!-- Title -->
+  <text x="250" y="340" text-anchor="middle" font-family="system-ui" font-size="18" font-weight="600" fill="#E57035">GPU Server Infrastructuur</text>
+  <text x="250" y="365" text-anchor="middle" font-family="system-ui" font-size="13" fill="#E57035" opacity="0.7">High-performance AI compute</text>
+</svg>

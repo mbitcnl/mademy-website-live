@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="400" viewBox="0 0 500 400">
+  <rect width="500" height="400" rx="16" ry="16" fill="#FDF2ED"/>
+
+  <!-- Layer 4 (bottom): API -->
+  <rect x="100" y="235" width="300" height="50" rx="8" fill="white" stroke="#E57035" stroke-width="2"/>
+  <rect x="110" y="245" width="8" height="30" rx="2" fill="#E57035" opacity="0.3"/>
+  <text x="135" y="265" font-family="system-ui" font-size="16" font-weight="600" fill="#E57035">API</text>
+  <text x="390" y="265" text-anchor="end" font-family="system-ui" font-size="11" fill="#E57035" opacity="0.5">REST / GraphQL</text>
+
+  <!-- Layer 3: Vector DB -->
+  <rect x="100" y="175" width="300" height="50" rx="8" fill="white" stroke="#E57035" stroke-width="2"/>
+  <rect x="110" y="185" width="8" height="30" rx="2" fill="#E57035" opacity="0.45"/>
+  <text x="135" y="205" font-family="system-ui" font-size="16" font-weight="600" fill="#E57035">Vector DB</text>
+  <text x="390" y="205" text-anchor="end" font-family="system-ui" font-size="11" fill="#E57035" opacity="0.5">Embeddings opslag</text>
+
+  <!-- Layer 2: RAG -->
+  <rect x="100" y="115" width="300" height="50" rx="8" fill="white" stroke="#E57035" stroke-width="2"/>
+  <rect x="110" y="125" width="8" height="30" rx="2" fill="#E57035" opacity="0.65"/>
+  <text x="135" y="145" font-family="system-ui" font-size="16" font-weight="600" fill="#E57035">RAG</text>
+  <text x="390" y="145" text-anchor="end" font-family="system-ui" font-size="11" fill="#E57035" opacity="0.5">Retrieval Augmented</text>
+
+  <!-- Layer 1 (top): LangChain -->
+  <rect x="100" y="55" width="300" height="50" rx="8" fill="white" stroke="#E57035" stroke-width="2.5"/>
+  <rect x="110" y="65" width="8" height="30" rx="2" fill="#E57035" opacity="0.9"/>
+  <text x="135" y="85" font-family="system-ui" font-size="16" font-weight="700" fill="#E57035">LangChain</text>
+  <text x="390" y="85" text-anchor="end" font-family="system-ui" font-size="11" fill="#E57035" opacity="0.5">Orchestratie</text>
+
+  <!-- Side arrows connecting layers -->
+  <line x1="80" y1="80" x2="80" y2="260" stroke="#E57035" stroke-width="2" opacity="0.2"/>
+  <polygon points="76,80 80,65 84,80" fill="#E57035" opacity="0.3"/>
+  <polygon points="76,260 80,275 84,260" fill="#E57035" opacity="0.3"/>
+
+  <!-- Right side decorative dots -->
+  <circle cx="430" cy="80" r="4" fill="#E57035" opacity="0.2"/>
+  <circle cx="430" cy="140" r="4" fill="#E57035" opacity="0.2"/>
+  <circle cx="430" cy="200" r="4" fill="#E57035" opacity="0.2"/>
+  <circle cx="430" cy="260" r="4" fill="#E57035" opacity="0.2"/>
+  <line x1="430" y1="84" x2="430" y2="136" stroke="#E57035" stroke-width="1" stroke-dasharray="3,3" opacity="0.2"/>
+  <line x1="430" y1="144" x2="430" y2="196" stroke="#E57035" stroke-width="1" stroke-dasharray="3,3" opacity="0.2"/>
+  <line x1="430" y1="204" x2="430" y2="256" stroke="#E57035" stroke-width="1" stroke-dasharray="3,3" opacity="0.2"/>
+
+  <!-- Title -->
+  <text x="250" y="330" text-anchor="middle" font-family="system-ui" font-size="18" font-weight="600" fill="#E57035">AI Tech Stack</text>
+  <text x="250" y="355" text-anchor="middle" font-family="system-ui" font-size="13" fill="#E57035" opacity="0.7">Modulaire architectuur</text>
+</svg>

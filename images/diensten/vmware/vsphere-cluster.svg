@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="400" viewBox="0 0 500 400">
+  <rect width="500" height="400" rx="20" fill="#FDF2ED"/>
+
+  <!-- Title -->
+  <text x="250" y="35" text-anchor="middle" font-family="system-ui" font-size="16" font-weight="bold" fill="#333">vSphere Cluster — HA / DRS</text>
+
+  <!-- Cluster boundary -->
+  <rect x="30" y="50" width="440" height="305" rx="15" fill="none" stroke="#E57035" stroke-width="2" stroke-dasharray="8,4"/>
+  <text x="250" y="72" text-anchor="middle" font-family="system-ui" font-size="11" fill="#E57035" font-weight="bold">CLUSTER</text>
+
+  <!-- Node 1 -->
+  <rect x="50" y="90" width="120" height="160" rx="10" fill="white" stroke="#E57035" stroke-width="2"/>
+  <rect x="50" y="90" width="120" height="28" rx="10" fill="#E57035" opacity="0.15"/>
+  <rect x="50" y="108" width="120" height="10" fill="#E57035" opacity="0.15"/>
+  <text x="110" y="108" text-anchor="middle" font-family="system-ui" font-size="11" font-weight="bold" fill="#E57035">ESXi Host 1</text>
+  <!-- VMs -->
+  <rect x="62" y="130" width="40" height="30" rx="4" fill="#E57035" opacity="0.12" stroke="#E57035" stroke-width="1"/>
+  <text x="82" y="149" text-anchor="middle" font-family="system-ui" font-size="9" fill="#E57035">VM1</text>
+  <rect x="118" y="130" width="40" height="30" rx="4" fill="#E57035" opacity="0.12" stroke="#E57035" stroke-width="1"/>
+  <text x="138" y="149" text-anchor="middle" font-family="system-ui" font-size="9" fill="#E57035">VM2</text>
+  <rect x="62" y="170" width="40" height="30" rx="4" fill="#E57035" opacity="0.12" stroke="#E57035" stroke-width="1"/>
+  <text x="82" y="189" text-anchor="middle" font-family="system-ui" font-size="9" fill="#E57035">VM3</text>
+  <!-- CPU/RAM bars -->
+  <text x="62" y="220" font-family="system-ui" font-size="8" fill="#999">CPU</text>
+  <rect x="80" y="213" width="78" height="6" rx="3" fill="#E57035" opacity="0.15"/>
+  <rect x="80" y="213" width="55" height="6" rx="3" fill="#E57035" opacity="0.6"/>
+  <text x="62" y="234" font-family="system-ui" font-size="8" fill="#999">RAM</text>
+  <rect x="80" y="227" width="78" height="6" rx="3" fill="#E57035" opacity="0.15"/>
+  <rect x="80" y="227" width="42" height="6" rx="3" fill="#E57035" opacity="0.6"/>
+
+  <!-- Node 2 -->
+  <rect x="190" y="90" width="120" height="160" rx="10" fill="white" stroke="#E57035" stroke-width="2"/>
+  <rect x="190" y="90" width="120" height="28" rx="10" fill="#E57035" opacity="0.15"/>
+  <rect x="190" y="108" width="120" height="10" fill="#E57035" opacity="0.15"/>
+  <text x="250" y="108" text-anchor="middle" font-family="system-ui" font-size="11" font-weight="bold" fill="#E57035">ESXi Host 2</text>
+  <rect x="202" y="130" width="40" height="30" rx="4" fill="#E57035" opacity="0.12" stroke="#E57035" stroke-width="1"/>
+  <text x="222" y="149" text-anchor="middle" font-family="system-ui" font-size="9" fill="#E57035">VM4</text>
+  <rect x="258" y="130" width="40" height="30" rx="4" fill="#E57035" opacity="0.12" stroke="#E57035" stroke-width="1"/>
+  <text x="278" y="149" text-anchor="middle" font-family="system-ui" font-size="9" fill="#E57035">VM5</text>
+  <rect x="202" y="170" width="40" height="30" rx="4" fill="#E57035" opacity="0.12" stroke="#E57035" stroke-width="1"/>
+  <text x="222" y="189" text-anchor="middle" font-family="system-ui" font-size="9" fill="#E57035">VM6</text>
+  <text x="202" y="220" font-family="system-ui" font-size="8" fill="#999">CPU</text>
+  <rect x="220" y="213" width="78" height="6" rx="3" fill="#E57035" opacity="0.15"/>
+  <rect x="220" y="213" width="60" height="6" rx="3" fill="#E57035" opacity="0.6"/>
+  <text x="202" y="234" font-family="system-ui" font-size="8" fill="#999">RAM</text>
+  <rect x="220" y="227" width="78" height="6" rx="3" fill="#E57035" opacity="0.15"/>
+  <rect x="220" y="227" width="50" height="6" rx="3" fill="#E57035" opacity="0.6"/>
+
+  <!-- Node 3 -->
+  <rect x="330" y="90" width="120" height="160" rx="10" fill="white" stroke="#E57035" stroke-width="2"/>
+  <rect x="330" y="90" width="120" height="28" rx="10" fill="#E57035" opacity="0.15"/>
+  <rect x="330" y="108" width="120" height="10" fill="#E57035" opacity="0.15"/>
+  <text x="390" y="108" text-anchor="middle" font-family="system-ui" font-size="11" font-weight="bold" fill="#E57035">ESXi Host 3</text>
+  <rect x="342" y="130" width="40" height="30" rx="4" fill="#E57035" opacity="0.12" stroke="#E57035" stroke-width="1"/>
+  <text x="362" y="149" text-anchor="middle" font-family="system-ui" font-size="9" fill="#E57035">VM7</text>
+  <rect x="398" y="130" width="40" height="30" rx="4" fill="#E57035" opacity="0.12" stroke="#E57035" stroke-width="1"/>
+  <text x="418" y="149" text-anchor="middle" font-family="system-ui" font-size="9" fill="#E57035">VM8</text>
+  <text x="342" y="220" font-family="system-ui" font-size="8" fill="#999">CPU</text>
+  <rect x="360" y="213" width="78" height="6" rx="3" fill="#E57035" opacity="0.15"/>
+  <rect x="360" y="213" width="30" height="6" rx="3" fill="#E57035" opacity="0.6"/>
+  <text x="342" y="234" font-family="system-ui" font-size="8" fill="#999">RAM</text>
+  <rect x="360" y="227" width="78" height="6" rx="3" fill="#E57035" opacity="0.15"/>
+  <rect x="360" y="227" width="25" height="6" rx="3" fill="#E57035" opacity="0.6"/>
+
+  <!-- Connection lines between nodes -->
+  <line x1="170" y1="170" x2="190" y2="170" stroke="#E57035" stroke-width="2"/>
+  <line x1="310" y1="170" x2="330" y2="170" stroke="#E57035" stroke-width="2"/>
+
+  <!-- HA badge -->
+  <rect x="100" y="270" width="70" height="30" rx="15" fill="#E57035" opacity="0.15" stroke="#E57035" stroke-width="1.5"/>
+  <text x="135" y="289" text-anchor="middle" font-family="system-ui" font-size="11" font-weight="bold" fill="#E57035">HA</text>
+
+  <!-- DRS badge -->
+  <rect x="215" y="270" width="70" height="30" rx="15" fill="#E57035" opacity="0.15" stroke="#E57035" stroke-width="1.5"/>
+  <text x="250" y="289" text-anchor="middle" font-family="system-ui" font-size="11" font-weight="bold" fill="#E57035">DRS</text>
+
+  <!-- vMotion badge -->
+  <rect x="330" y="270" width="80" height="30" rx="15" fill="#E57035" opacity="0.15" stroke="#E57035" stroke-width="1.5"/>
+  <text x="370" y="289" text-anchor="middle" font-family="system-ui" font-size="11" font-weight="bold" fill="#E57035">vMotion</text>
+
+  <!-- Bottom labels -->
+  <text x="135" y="330" text-anchor="middle" font-family="system-ui" font-size="9" fill="#999">High Availability</text>
+  <text x="250" y="330" text-anchor="middle" font-family="system-ui" font-size="9" fill="#999">Resource Scheduling</text>
+  <text x="370" y="330" text-anchor="middle" font-family="system-ui" font-size="9" fill="#999">Live Migration</text>
+
+  <!-- Shared storage -->
+  <rect x="100" y="355" width="300" height="30" rx="8" fill="#E57035" opacity="0.1" stroke="#E57035" stroke-width="1.5"/>
+  <text x="250" y="374" text-anchor="middle" font-family="system-ui" font-size="10" font-weight="bold" fill="#E57035">Shared Storage</text>
+</svg>

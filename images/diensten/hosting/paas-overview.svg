@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="400" viewBox="0 0 500 400">
+  <rect width="500" height="400" rx="20" fill="#FDF2ED"/>
+  <!-- Cloud shape -->
+  <ellipse cx="250" cy="130" rx="120" ry="60" fill="#FFFFFF" stroke="#E57035" stroke-width="2.5"/>
+  <ellipse cx="180" cy="140" rx="60" ry="45" fill="#FFFFFF"/>
+  <ellipse cx="320" cy="140" rx="60" ry="45" fill="#FFFFFF"/>
+  <ellipse cx="250" cy="120" rx="80" ry="50" fill="#FFFFFF"/>
+  <!-- Cloud border redraw on top -->
+  <path d="M140,160 Q140,100 200,90 Q220,60 270,65 Q320,55 340,90 Q380,95 380,140 Q385,170 350,175 L150,175 Q130,175 140,160 Z" fill="#FFFFFF" stroke="#E57035" stroke-width="2.5"/>
+  <!-- Server/VM icons inside cloud -->
+  <rect x="170" y="110" width="40" height="30" rx="4" fill="#E57035" opacity="0.85"/>
+  <rect x="175" y="115" width="30" height="4" rx="2" fill="#FFFFFF"/>
+  <rect x="175" y="122" width="30" height="4" rx="2" fill="#FFFFFF"/>
+  <circle cx="195" cy="133" r="3" fill="#FFFFFF"/>
+  <rect x="230" y="110" width="40" height="30" rx="4" fill="#E57035" opacity="0.85"/>
+  <rect x="235" y="115" width="30" height="4" rx="2" fill="#FFFFFF"/>
+  <rect x="235" y="122" width="30" height="4" rx="2" fill="#FFFFFF"/>
+  <circle cx="255" cy="133" r="3" fill="#FFFFFF"/>
+  <rect x="290" y="110" width="40" height="30" rx="4" fill="#E57035" opacity="0.85"/>
+  <rect x="295" y="115" width="30" height="4" rx="2" fill="#FFFFFF"/>
+  <rect x="295" y="122" width="30" height="4" rx="2" fill="#FFFFFF"/>
+  <circle cx="315" cy="133" r="3" fill="#FFFFFF"/>
+  <!-- Proxmox VE label -->
+  <text x="250" y="165" text-anchor="middle" font-family="system-ui" font-size="13" font-weight="bold" fill="#E57035">Proxmox VE</text>
+  <!-- Connection line -->
+  <line x1="250" y1="178" x2="250" y2="260" stroke="#E57035" stroke-width="2" stroke-dasharray="6,4"/>
+  <polygon points="244,255 250,268 256,255" fill="#E57035"/>
+  <!-- Laptop icon -->
+  <rect x="210" y="275" width="80" height="52" rx="6" fill="#FFFFFF" stroke="#E57035" stroke-width="2"/>
+  <rect x="218" y="282" width="64" height="36" rx="3" fill="#E57035" opacity="0.15"/>
+  <rect x="195" y="327" width="110" height="8" rx="4" fill="#E57035" opacity="0.6"/>
+  <!-- User icon above laptop -->
+  <circle cx="250" cy="298" r="8" fill="#E57035" opacity="0.5"/>
+  <text x="250" y="360" text-anchor="middle" font-family="system-ui" font-size="14" fill="#4A4A4A">Uw omgeving</text>
+</svg>

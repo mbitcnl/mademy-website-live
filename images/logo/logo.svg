@@ -1,0 +1,14 @@
+<svg width="180" height="46" viewBox="0 0 180 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g clip-path="url(#clip0_logo)">
+    <!-- Orange Circle Icon -->
+    <circle cx="23" cy="23" r="18" fill="#E57035"/>
+    <path d="M16 29L30 23L16 17V29Z" fill="white"/>
+    <!-- MadeMy Text -->
+    <text x="50" y="32" font-family="Inter, system-ui, sans-serif" font-size="26" font-weight="700" fill="#1A1A1A">MadeMy</text>
+  </g>
+  <defs>
+    <clipPath id="clip0_logo">
+      <rect width="180" height="46" fill="white"/>
+    </clipPath>
+  </defs>
+</svg>

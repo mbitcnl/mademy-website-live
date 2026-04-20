@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="400" viewBox="0 0 500 400">
+  <rect width="500" height="400" rx="20" fill="#FDF2ED"/>
+
+  <!-- Floor -->
+  <rect x="60" y="300" width="380" height="8" rx="4" fill="#E0C4B0"/>
+
+  <!-- Server Rack 1 -->
+  <rect x="100" y="140" width="70" height="160" rx="4" fill="#4A4A4A"/>
+  <rect x="108" y="150" width="54" height="18" rx="2" fill="#333"/>
+  <rect x="108" y="174" width="54" height="18" rx="2" fill="#333"/>
+  <rect x="108" y="198" width="54" height="18" rx="2" fill="#333"/>
+  <rect x="108" y="222" width="54" height="18" rx="2" fill="#333"/>
+  <rect x="108" y="246" width="54" height="18" rx="2" fill="#333"/>
+  <rect x="108" y="270" width="54" height="18" rx="2" fill="#333"/>
+  <!-- LEDs rack 1 -->
+  <circle cx="116" cy="159" r="2" fill="#4CAF50"/>
+  <circle cx="116" cy="183" r="2" fill="#4CAF50"/>
+  <circle cx="116" cy="207" r="2" fill="#E57035"/>
+  <circle cx="116" cy="231" r="2" fill="#4CAF50"/>
+  <circle cx="116" cy="255" r="2" fill="#4CAF50"/>
+  <circle cx="116" cy="279" r="2" fill="#4CAF50"/>
+
+  <!-- Server Rack 2 -->
+  <rect x="215" y="140" width="70" height="160" rx="4" fill="#4A4A4A"/>
+  <rect x="223" y="150" width="54" height="18" rx="2" fill="#333"/>
+  <rect x="223" y="174" width="54" height="18" rx="2" fill="#333"/>
+  <rect x="223" y="198" width="54" height="18" rx="2" fill="#333"/>
+  <rect x="223" y="222" width="54" height="18" rx="2" fill="#333"/>
+  <rect x="223" y="246" width="54" height="18" rx="2" fill="#333"/>
+  <rect x="223" y="270" width="54" height="18" rx="2" fill="#333"/>
+  <!-- LEDs rack 2 -->
+  <circle cx="231" cy="159" r="2" fill="#4CAF50"/>
+  <circle cx="231" cy="183" r="2" fill="#4CAF50"/>
+  <circle cx="231" cy="207" r="2" fill="#4CAF50"/>
+  <circle cx="231" cy="231" r="2" fill="#4CAF50"/>
+  <circle cx="231" cy="255" r="2" fill="#E57035"/>
+  <circle cx="231" cy="279" r="2" fill="#4CAF50"/>
+
+  <!-- Server Rack 3 -->
+  <rect x="330" y="140" width="70" height="160" rx="4" fill="#4A4A4A"/>
+  <rect x="338" y="150" width="54" height="18" rx="2" fill="#333"/>
+  <rect x="338" y="174" width="54" height="18" rx="2" fill="#333"/>
+  <rect x="338" y="198" width="54" height="18" rx="2" fill="#333"/>
+  <rect x="338" y="222" width="54" height="18" rx="2" fill="#333"/>
+  <rect x="338" y="246" width="54" height="18" rx="2" fill="#333"/>
+  <rect x="338" y="270" width="54" height="18" rx="2" fill="#333"/>
+  <!-- LEDs rack 3 -->
+  <circle cx="346" cy="159" r="2" fill="#4CAF50"/>
+  <circle cx="346" cy="183" r="2" fill="#4CAF50"/>
+  <circle cx="346" cy="207" r="2" fill="#4CAF50"/>
+  <circle cx="346" cy="231" r="2" fill="#E57035"/>
+  <circle cx="346" cy="255" r="2" fill="#4CAF50"/>
+  <circle cx="346" cy="279" r="2" fill="#4CAF50"/>
+
+  <!-- Cooling icon (top left) -->
+  <circle cx="70" cy="60" r="24" fill="none" stroke="#E57035" stroke-width="2"/>
+  <line x1="70" y1="42" x2="70" y2="78" stroke="#E57035" stroke-width="2"/>
+  <line x1="52" y1="60" x2="88" y2="60" stroke="#E57035" stroke-width="2"/>
+  <line x1="57" y1="47" x2="83" y2="73" stroke="#E57035" stroke-width="2"/>
+  <line x1="83" y1="47" x2="57" y2="73" stroke="#E57035" stroke-width="2"/>
+  <text x="70" y="100" text-anchor="middle" font-family="system-ui" font-size="11" fill="#E57035">Cooling</text>
+
+  <!-- Power icon (top center) -->
+  <rect x="225" y="36" width="50" height="30" rx="4" fill="none" stroke="#E57035" stroke-width="2"/>
+  <rect x="240" y="30" width="20" height="6" rx="2" fill="#E57035"/>
+  <line x1="250" y1="44" x2="245" y2="52" stroke="#E57035" stroke-width="2.5"/>
+  <line x1="245" y1="52" x2="255" y2="52" stroke="#E57035" stroke-width="2.5"/>
+  <line x1="255" y1="52" x2="250" y2="60" stroke="#E57035" stroke-width="2.5"/>
+  <text x="250" y="100" text-anchor="middle" font-family="system-ui" font-size="11" fill="#E57035">Power</text>
+
+  <!-- Security icon (top right) -->
+  <rect x="405" y="36" width="30" height="24" rx="4" fill="none" stroke="#E57035" stroke-width="2"/>
+  <circle cx="420" cy="46" r="4" fill="none" stroke="#E57035" stroke-width="2"/>
+  <line x1="420" y1="50" x2="420" y2="55" stroke="#E57035" stroke-width="2"/>
+  <rect x="410" y="60" width="20" height="4" rx="2" fill="#E57035"/>
+  <text x="420" y="100" text-anchor="middle" font-family="system-ui" font-size="11" fill="#E57035">Security</text>
+
+  <!-- Title -->
+  <text x="250" y="350" text-anchor="middle" font-family="system-ui" font-size="16" font-weight="bold" fill="#E57035">Datacenter Facility</text>
+  <text x="250" y="372" text-anchor="middle" font-family="system-ui" font-size="12" fill="#666">Enterprise-grade colocation environment</text>
+</svg>

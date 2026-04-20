@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="400" viewBox="0 0 500 400">
+  <rect width="500" height="400" rx="20" fill="#FDF2ED"/>
+  <!-- Server 1 -->
+  <rect x="55" y="80" width="110" height="160" rx="8" fill="#FFFFFF" stroke="#E57035" stroke-width="2"/>
+  <rect x="65" y="95" width="90" height="10" rx="3" fill="#E57035" opacity="0.25"/>
+  <rect x="65" y="112" width="90" height="10" rx="3" fill="#E57035" opacity="0.25"/>
+  <rect x="65" y="129" width="90" height="10" rx="3" fill="#E57035" opacity="0.25"/>
+  <circle cx="80" cy="165" r="5" fill="#E57035"/>
+  <circle cx="95" cy="165" r="5" fill="#E57035" opacity="0.4"/>
+  <rect x="65" y="180" width="90" height="20" rx="4" fill="#E57035" opacity="0.12"/>
+  <text x="110" y="195" text-anchor="middle" font-family="system-ui" font-size="10" fill="#4A4A4A">8C / 64GB</text>
+  <rect x="65" y="210" width="90" height="18" rx="4" fill="#E57035"/>
+  <text x="110" y="223" text-anchor="middle" font-family="system-ui" font-size="10" font-weight="bold" fill="#FFFFFF">Dedicated</text>
+  <!-- Server 2 -->
+  <rect x="195" y="80" width="110" height="160" rx="8" fill="#FFFFFF" stroke="#E57035" stroke-width="2"/>
+  <rect x="205" y="95" width="90" height="10" rx="3" fill="#E57035" opacity="0.25"/>
+  <rect x="205" y="112" width="90" height="10" rx="3" fill="#E57035" opacity="0.25"/>
+  <rect x="205" y="129" width="90" height="10" rx="3" fill="#E57035" opacity="0.25"/>
+  <circle cx="220" cy="165" r="5" fill="#E57035"/>
+  <circle cx="235" cy="165" r="5" fill="#E57035" opacity="0.4"/>
+  <rect x="205" y="180" width="90" height="20" rx="4" fill="#E57035" opacity="0.12"/>
+  <text x="250" y="195" text-anchor="middle" font-family="system-ui" font-size="10" fill="#4A4A4A">16C / 128GB</text>
+  <rect x="205" y="210" width="90" height="18" rx="4" fill="#E57035"/>
+  <text x="250" y="223" text-anchor="middle" font-family="system-ui" font-size="10" font-weight="bold" fill="#FFFFFF">Dedicated</text>
+  <!-- Server 3 -->
+  <rect x="335" y="80" width="110" height="160" rx="8" fill="#FFFFFF" stroke="#E57035" stroke-width="2"/>
+  <rect x="345" y="95" width="90" height="10" rx="3" fill="#E57035" opacity="0.25"/>
+  <rect x="345" y="112" width="90" height="10" rx="3" fill="#E57035" opacity="0.25"/>
+  <rect x="345" y="129" width="90" height="10" rx="3" fill="#E57035" opacity="0.25"/>
+  <circle cx="360" cy="165" r="5" fill="#E57035"/>
+  <circle cx="375" cy="165" r="5" fill="#E57035" opacity="0.4"/>
+  <rect x="345" y="180" width="90" height="20" rx="4" fill="#E57035" opacity="0.12"/>
+  <text x="390" y="195" text-anchor="middle" font-family="system-ui" font-size="10" fill="#4A4A4A">32C / 256GB</text>
+  <rect x="345" y="210" width="90" height="18" rx="4" fill="#E57035"/>
+  <text x="390" y="223" text-anchor="middle" font-family="system-ui" font-size="10" font-weight="bold" fill="#FFFFFF">Dedicated</text>
+  <!-- EU Flag icon -->
+  <circle cx="250" cy="300" r="30" fill="#003399"/>
+  <g transform="translate(250,300)">
+    <polygon points="0,-22 1.5,-18 5.5,-18 2,-15.5 3.5,-11.5 0,-14 -3.5,-11.5 -2,-15.5 -5.5,-18 -1.5,-18" fill="#FFCC00" transform="rotate(0)"/>
+    <polygon points="0,-22 1.5,-18 5.5,-18 2,-15.5 3.5,-11.5 0,-14 -3.5,-11.5 -2,-15.5 -5.5,-18 -1.5,-18" fill="#FFCC00" transform="rotate(30)"/>
+    <polygon points="0,-22 1.5,-18 5.5,-18 2,-15.5 3.5,-11.5 0,-14 -3.5,-11.5 -2,-15.5 -5.5,-18 -1.5,-18" fill="#FFCC00" transform="rotate(60)"/>
+    <polygon points="0,-22 1.5,-18 5.5,-18 2,-15.5 3.5,-11.5 0,-14 -3.5,-11.5 -2,-15.5 -5.5,-18 -1.5,-18" fill="#FFCC00" transform="rotate(90)"/>
+    <polygon points="0,-22 1.5,-18 5.5,-18 2,-15.5 3.5,-11.5 0,-14 -3.5,-11.5 -2,-15.5 -5.5,-18 -1.5,-18" fill="#FFCC00" transform="rotate(120)"/>
+    <polygon points="0,-22 1.5,-18 5.5,-18 2,-15.5 3.5,-11.5 0,-14 -3.5,-11.5 -2,-15.5 -5.5,-18 -1.5,-18" fill="#FFCC00" transform="rotate(150)"/>
+    <polygon points="0,-22 1.5,-18 5.5,-18 2,-15.5 3.5,-11.5 0,-14 -3.5,-11.5 -2,-15.5 -5.5,-18 -1.5,-18" fill="#FFCC00" transform="rotate(180)"/>
+    <polygon points="0,-22 1.5,-18 5.5,-18 2,-15.5 3.5,-11.5 0,-14 -3.5,-11.5 -2,-15.5 -5.5,-18 -1.5,-18" fill="#FFCC00" transform="rotate(210)"/>
+    <polygon points="0,-22 1.5,-18 5.5,-18 2,-15.5 3.5,-11.5 0,-14 -3.5,-11.5 -2,-15.5 -5.5,-18 -1.5,-18" fill="#FFCC00" transform="rotate(240)"/>
+    <polygon points="0,-22 1.5,-18 5.5,-18 2,-15.5 3.5,-11.5 0,-14 -3.5,-11.5 -2,-15.5 -5.5,-18 -1.5,-18" fill="#FFCC00" transform="rotate(270)"/>
+    <polygon points="0,-22 1.5,-18 5.5,-18 2,-15.5 3.5,-11.5 0,-14 -3.5,-11.5 -2,-15.5 -5.5,-18 -1.5,-18" fill="#FFCC00" transform="rotate(300)"/>
+    <polygon points="0,-22 1.5,-18 5.5,-18 2,-15.5 3.5,-11.5 0,-14 -3.5,-11.5 -2,-15.5 -5.5,-18 -1.5,-18" fill="#FFCC00" transform="rotate(330)"/>
+  </g>
+  <text x="250" y="355" text-anchor="middle" font-family="system-ui" font-size="14" fill="#4A4A4A">Europese datacenters</text>
+</svg>

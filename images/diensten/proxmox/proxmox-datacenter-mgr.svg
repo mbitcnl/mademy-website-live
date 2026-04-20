@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="400" viewBox="0 0 500 400">
+  <rect width="500" height="400" rx="20" fill="#FDF2ED"/>
+
+  <!-- Title -->
+  <text x="250" y="35" text-anchor="middle" font-family="system-ui" font-size="16" font-weight="bold" fill="#E57035">Datacenter Manager</text>
+
+  <!-- Central Dashboard -->
+  <rect x="150" y="55" width="200" height="130" rx="10" fill="white" stroke="#E57035" stroke-width="2.5"/>
+  <rect x="150" y="55" width="200" height="28" rx="10" fill="#E57035" opacity="0.15"/>
+  <text x="250" y="74" text-anchor="middle" font-family="system-ui" font-size="10" font-weight="bold" fill="#E57035">Central Dashboard</text>
+
+  <!-- Mini metrics in dashboard -->
+  <rect x="165" y="92" width="55" height="30" rx="4" fill="#E57035" opacity="0.06"/>
+  <text x="192" y="105" text-anchor="middle" font-family="system-ui" font-size="12" font-weight="bold" fill="#E57035">24</text>
+  <text x="192" y="117" text-anchor="middle" font-family="system-ui" font-size="6" fill="#E57035" opacity="0.6">Total VMs</text>
+
+  <rect x="225" y="92" width="55" height="30" rx="4" fill="#E57035" opacity="0.06"/>
+  <text x="252" y="105" text-anchor="middle" font-family="system-ui" font-size="12" font-weight="bold" fill="#4CAF50">3</text>
+  <text x="252" y="117" text-anchor="middle" font-family="system-ui" font-size="6" fill="#E57035" opacity="0.6">Clusters</text>
+
+  <rect x="285" y="92" width="55" height="30" rx="4" fill="#E57035" opacity="0.06"/>
+  <text x="312" y="105" text-anchor="middle" font-family="system-ui" font-size="12" font-weight="bold" fill="#E57035">9</text>
+  <text x="312" y="117" text-anchor="middle" font-family="system-ui" font-size="6" fill="#E57035" opacity="0.6">Nodes</text>
+
+  <!-- Mini chart -->
+  <rect x="165" y="130" width="170" height="40" rx="4" fill="#E57035" opacity="0.04"/>
+  <polyline points="170,162 185,155 200,158 215,148 230,150 245,142 260,145 275,138 290,140 305,135 320,130 330,132" fill="none" stroke="#E57035" stroke-width="1.5" opacity="0.5"/>
+  <text x="250" y="176" text-anchor="middle" font-family="system-ui" font-size="6" fill="#E57035" opacity="0.5">Resource utilization trend</text>
+
+  <!-- Connection lines to clusters -->
+  <line x1="175" y1="185" x2="80" y2="235" stroke="#E57035" stroke-width="1.5" opacity="0.4"/>
+  <line x1="250" y1="185" x2="250" y2="235" stroke="#E57035" stroke-width="1.5" opacity="0.4"/>
+  <line x1="325" y1="185" x2="420" y2="235" stroke="#E57035" stroke-width="1.5" opacity="0.4"/>
+
+  <!-- Cluster 1 -->
+  <rect x="15" y="235" width="130" height="110" rx="8" fill="white" stroke="#E57035" stroke-width="1.5"/>
+  <rect x="15" y="235" width="130" height="24" rx="8" fill="#E57035" opacity="0.1"/>
+  <text x="80" y="251" text-anchor="middle" font-family="system-ui" font-size="8" font-weight="bold" fill="#E57035">Cluster: Production</text>
+
+  <circle cx="35" cy="272" r="4" fill="#4CAF50"/>
+  <text x="50" y="275" font-family="system-ui" font-size="7" fill="#E57035" opacity="0.7">node-1 (active)</text>
+  <circle cx="35" cy="288" r="4" fill="#4CAF50"/>
+  <text x="50" y="291" font-family="system-ui" font-size="7" fill="#E57035" opacity="0.7">node-2 (active)</text>
+  <circle cx="35" cy="304" r="4" fill="#4CAF50"/>
+  <text x="50" y="307" font-family="system-ui" font-size="7" fill="#E57035" opacity="0.7">node-3 (active)</text>
+
+  <text x="80" y="332" text-anchor="middle" font-family="system-ui" font-size="7" fill="#E57035" opacity="0.5">12 VMs | 4 CTs</text>
+
+  <!-- Cluster 2 -->
+  <rect x="185" y="235" width="130" height="110" rx="8" fill="white" stroke="#E57035" stroke-width="1.5"/>
+  <rect x="185" y="235" width="130" height="24" rx="8" fill="#E57035" opacity="0.1"/>
+  <text x="250" y="251" text-anchor="middle" font-family="system-ui" font-size="8" font-weight="bold" fill="#E57035">Cluster: Staging</text>
+
+  <circle cx="205" cy="272" r="4" fill="#4CAF50"/>
+  <text x="220" y="275" font-family="system-ui" font-size="7" fill="#E57035" opacity="0.7">node-4 (active)</text>
+  <circle cx="205" cy="288" r="4" fill="#4CAF50"/>
+  <text x="220" y="291" font-family="system-ui" font-size="7" fill="#E57035" opacity="0.7">node-5 (active)</text>
+  <circle cx="205" cy="304" r="4" fill="#FF9800"/>
+  <text x="220" y="307" font-family="system-ui" font-size="7" fill="#E57035" opacity="0.7">node-6 (maint)</text>
+
+  <text x="250" y="332" text-anchor="middle" font-family="system-ui" font-size="7" fill="#E57035" opacity="0.5">8 VMs | 2 CTs</text>
+
+  <!-- Cluster 3 -->
+  <rect x="355" y="235" width="130" height="110" rx="8" fill="white" stroke="#E57035" stroke-width="1.5"/>
+  <rect x="355" y="235" width="130" height="24" rx="8" fill="#E57035" opacity="0.1"/>
+  <text x="420" y="251" text-anchor="middle" font-family="system-ui" font-size="8" font-weight="bold" fill="#E57035">Cluster: Dev/Test</text>
+
+  <circle cx="375" cy="272" r="4" fill="#4CAF50"/>
+  <text x="390" y="275" font-family="system-ui" font-size="7" fill="#E57035" opacity="0.7">node-7 (active)</text>
+  <circle cx="375" cy="288" r="4" fill="#4CAF50"/>
+  <text x="390" y="291" font-family="system-ui" font-size="7" fill="#E57035" opacity="0.7">node-8 (active)</text>
+  <circle cx="375" cy="304" r="4" fill="#4CAF50"/>
+  <text x="390" y="307" font-family="system-ui" font-size="7" fill="#E57035" opacity="0.7">node-9 (active)</text>
+
+  <text x="420" y="332" text-anchor="middle" font-family="system-ui" font-size="7" fill="#E57035" opacity="0.5">4 VMs | 6 CTs</text>
+
+  <!-- Footer -->
+  <text x="250" y="370" text-anchor="middle" font-family="system-ui" font-size="9" fill="#E57035" opacity="0.5">Unified management across all Proxmox clusters</text>
+
+  <!-- Sync indicators -->
+  <rect x="165" y="380" width="170" height="14" rx="7" fill="white" stroke="#E57035" stroke-width="1" opacity="0.5"/>
+  <circle cx="180" cy="387" r="3" fill="#4CAF50"/>
+  <text x="250" y="391" text-anchor="middle" font-family="system-ui" font-size="7" fill="#E57035" opacity="0.6">All clusters synced - Last: 2 min ago</text>
+</svg>

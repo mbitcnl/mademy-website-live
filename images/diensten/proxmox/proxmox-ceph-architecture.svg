@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="400" viewBox="0 0 500 400">
+  <rect width="500" height="400" rx="20" fill="#FDF2ED"/>
+
+  <!-- Title -->
+  <text x="250" y="35" text-anchor="middle" font-family="system-ui" font-size="16" font-weight="bold" fill="#E57035">Ceph Architecture</text>
+
+  <!-- Top: Client Applications Layer -->
+  <rect x="50" y="55" width="400" height="45" rx="8" fill="white" stroke="#E57035" stroke-width="1.5"/>
+  <text x="250" y="73" text-anchor="middle" font-family="system-ui" font-size="10" font-weight="bold" fill="#E57035">Client Applications</text>
+  <text x="250" y="90" text-anchor="middle" font-family="system-ui" font-size="8" fill="#E57035" opacity="0.6">VMs | Containers | S3 Apps | File Shares</text>
+
+  <!-- Arrow down -->
+  <line x1="250" y1="100" x2="250" y2="115" stroke="#E57035" stroke-width="1.5" opacity="0.4"/>
+  <polygon points="244,112 256,112 250,120" fill="#E57035" opacity="0.4"/>
+
+  <!-- Access Layer: RBD, CephFS, RGW -->
+  <rect x="50" y="122" width="400" height="50" rx="8" fill="white" stroke="#E57035" stroke-width="2"/>
+  <text x="250" y="138" text-anchor="middle" font-family="system-ui" font-size="9" font-weight="bold" fill="#E57035">Access Protocols</text>
+
+  <rect x="70" y="145" width="100" height="20" rx="4" fill="#E57035" opacity="0.15"/>
+  <text x="120" y="159" text-anchor="middle" font-family="system-ui" font-size="8" fill="#E57035">RBD (Block)</text>
+
+  <rect x="200" y="145" width="100" height="20" rx="4" fill="#E57035" opacity="0.15"/>
+  <text x="250" y="159" text-anchor="middle" font-family="system-ui" font-size="8" fill="#E57035">CephFS (File)</text>
+
+  <rect x="330" y="145" width="100" height="20" rx="4" fill="#E57035" opacity="0.15"/>
+  <text x="380" y="159" text-anchor="middle" font-family="system-ui" font-size="8" fill="#E57035">RGW (Object)</text>
+
+  <!-- Arrow down -->
+  <line x1="250" y1="172" x2="250" y2="187" stroke="#E57035" stroke-width="1.5" opacity="0.4"/>
+  <polygon points="244,184 256,184 250,192" fill="#E57035" opacity="0.4"/>
+
+  <!-- LIBRADOS Layer -->
+  <rect x="50" y="194" width="400" height="35" rx="8" fill="#E57035" opacity="0.08" stroke="#E57035" stroke-width="1.5"/>
+  <text x="250" y="216" text-anchor="middle" font-family="system-ui" font-size="10" font-weight="bold" fill="#E57035">LIBRADOS</text>
+
+  <!-- Arrow down -->
+  <line x1="250" y1="229" x2="250" y2="244" stroke="#E57035" stroke-width="1.5" opacity="0.4"/>
+  <polygon points="244,241 256,241 250,249" fill="#E57035" opacity="0.4"/>
+
+  <!-- RADOS Layer -->
+  <rect x="50" y="251" width="400" height="40" rx="8" fill="#E57035" opacity="0.12" stroke="#E57035" stroke-width="2"/>
+  <text x="250" y="268" text-anchor="middle" font-family="system-ui" font-size="11" font-weight="bold" fill="#E57035">RADOS</text>
+  <text x="250" y="283" text-anchor="middle" font-family="system-ui" font-size="7" fill="#E57035" opacity="0.7">Reliable Autonomous Distributed Object Store</text>
+
+  <!-- Arrow down -->
+  <line x1="150" y1="291" x2="150" y2="306" stroke="#E57035" stroke-width="1.5" opacity="0.4"/>
+  <polygon points="144,303 156,303 150,311" fill="#E57035" opacity="0.4"/>
+  <line x1="250" y1="291" x2="250" y2="306" stroke="#E57035" stroke-width="1.5" opacity="0.4"/>
+  <polygon points="244,303 256,303 250,311" fill="#E57035" opacity="0.4"/>
+  <line x1="350" y1="291" x2="350" y2="306" stroke="#E57035" stroke-width="1.5" opacity="0.4"/>
+  <polygon points="344,303 356,303 350,311" fill="#E57035" opacity="0.4"/>
+
+  <!-- Bottom: Daemon Layer -->
+  <rect x="50" y="313" width="400" height="55" rx="8" fill="white" stroke="#E57035" stroke-width="2"/>
+  <text x="250" y="330" text-anchor="middle" font-family="system-ui" font-size="9" font-weight="bold" fill="#E57035">Ceph Daemons</text>
+
+  <!-- OSD -->
+  <rect x="65" y="338" width="80" height="22" rx="5" fill="#E57035" opacity="0.2"/>
+  <text x="105" y="353" text-anchor="middle" font-family="system-ui" font-size="8" font-weight="bold" fill="#E57035">OSD</text>
+
+  <!-- MON -->
+  <rect x="160" y="338" width="80" height="22" rx="5" fill="#E57035" opacity="0.2"/>
+  <text x="200" y="353" text-anchor="middle" font-family="system-ui" font-size="8" font-weight="bold" fill="#E57035">MON</text>
+
+  <!-- MDS -->
+  <rect x="255" y="338" width="80" height="22" rx="5" fill="#E57035" opacity="0.2"/>
+  <text x="295" y="353" text-anchor="middle" font-family="system-ui" font-size="8" font-weight="bold" fill="#E57035">MDS</text>
+
+  <!-- MGR -->
+  <rect x="350" y="338" width="80" height="22" rx="5" fill="#E57035" opacity="0.2"/>
+  <text x="390" y="353" text-anchor="middle" font-family="system-ui" font-size="8" font-weight="bold" fill="#E57035">MGR</text>
+
+  <!-- Descriptions -->
+  <text x="105" y="375" text-anchor="middle" font-family="system-ui" font-size="6" fill="#E57035" opacity="0.5">Object Store</text>
+  <text x="200" y="375" text-anchor="middle" font-family="system-ui" font-size="6" fill="#E57035" opacity="0.5">Cluster Map</text>
+  <text x="295" y="375" text-anchor="middle" font-family="system-ui" font-size="6" fill="#E57035" opacity="0.5">Metadata</text>
+  <text x="390" y="375" text-anchor="middle" font-family="system-ui" font-size="6" fill="#E57035" opacity="0.5">Manager</text>
+
+  <!-- Footer -->
+  <text x="250" y="395" text-anchor="middle" font-family="system-ui" font-size="8" fill="#E57035" opacity="0.5">Layered Software-Defined Storage Architecture</text>
+</svg>

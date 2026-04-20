@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="400" viewBox="0 0 500 400">
+  <rect width="500" height="400" rx="20" fill="#FDF2ED"/>
+
+  <!-- Title -->
+  <text x="250" y="35" text-anchor="middle" font-family="system-ui" font-size="16" font-weight="bold" fill="#E57035">Backup &amp; Restore</text>
+
+  <!-- Timeline line -->
+  <line x1="50" y1="130" x2="450" y2="130" stroke="#E57035" stroke-width="2" opacity="0.3"/>
+
+  <!-- Timeline labels -->
+  <text x="250" y="70" text-anchor="middle" font-family="system-ui" font-size="10" fill="#E57035" opacity="0.6">Backup Timeline</text>
+
+  <!-- Snapshot 1 -->
+  <circle cx="80" cy="130" r="12" fill="white" stroke="#E57035" stroke-width="2"/>
+  <rect x="68" y="124" width="24" height="12" rx="2" fill="#E57035" opacity="0.2"/>
+  <text x="80" y="133" text-anchor="middle" font-family="system-ui" font-size="6" fill="#E57035">BAK</text>
+  <text x="80" y="108" text-anchor="middle" font-family="system-ui" font-size="7" fill="#E57035" opacity="0.7">Mon</text>
+  <text x="80" y="158" text-anchor="middle" font-family="system-ui" font-size="6" fill="#E57035" opacity="0.5">12.1 GB</text>
+
+  <!-- Snapshot 2 -->
+  <circle cx="170" cy="130" r="12" fill="white" stroke="#E57035" stroke-width="2"/>
+  <rect x="158" y="124" width="24" height="12" rx="2" fill="#E57035" opacity="0.2"/>
+  <text x="170" y="133" text-anchor="middle" font-family="system-ui" font-size="6" fill="#E57035">BAK</text>
+  <text x="170" y="108" text-anchor="middle" font-family="system-ui" font-size="7" fill="#E57035" opacity="0.7">Tue</text>
+  <text x="170" y="158" text-anchor="middle" font-family="system-ui" font-size="6" fill="#E57035" opacity="0.5">0.8 GB</text>
+  <text x="170" y="168" text-anchor="middle" font-family="system-ui" font-size="5" fill="#E57035" opacity="0.4">(incremental)</text>
+
+  <!-- Snapshot 3 -->
+  <circle cx="260" cy="130" r="12" fill="white" stroke="#E57035" stroke-width="2"/>
+  <rect x="248" y="124" width="24" height="12" rx="2" fill="#E57035" opacity="0.2"/>
+  <text x="260" y="133" text-anchor="middle" font-family="system-ui" font-size="6" fill="#E57035">BAK</text>
+  <text x="260" y="108" text-anchor="middle" font-family="system-ui" font-size="7" fill="#E57035" opacity="0.7">Wed</text>
+  <text x="260" y="158" text-anchor="middle" font-family="system-ui" font-size="6" fill="#E57035" opacity="0.5">1.2 GB</text>
+  <text x="260" y="168" text-anchor="middle" font-family="system-ui" font-size="5" fill="#E57035" opacity="0.4">(incremental)</text>
+
+  <!-- Snapshot 4 - Selected -->
+  <circle cx="350" cy="130" r="15" fill="#E57035" opacity="0.15" stroke="#E57035" stroke-width="2.5"/>
+  <circle cx="350" cy="130" r="10" fill="#E57035" opacity="0.3"/>
+  <text x="350" y="134" text-anchor="middle" font-family="system-ui" font-size="6" fill="white" font-weight="bold">BAK</text>
+  <text x="350" y="108" text-anchor="middle" font-family="system-ui" font-size="7" font-weight="bold" fill="#E57035">Thu</text>
+  <text x="350" y="158" text-anchor="middle" font-family="system-ui" font-size="6" fill="#E57035" opacity="0.5">0.5 GB</text>
+  <text x="350" y="93" text-anchor="middle" font-family="system-ui" font-size="7" font-weight="bold" fill="#E57035">SELECTED</text>
+
+  <!-- Snapshot 5 -->
+  <circle cx="430" cy="130" r="12" fill="white" stroke="#E57035" stroke-width="2"/>
+  <rect x="418" y="124" width="24" height="12" rx="2" fill="#E57035" opacity="0.2"/>
+  <text x="430" y="133" text-anchor="middle" font-family="system-ui" font-size="6" fill="#E57035">BAK</text>
+  <text x="430" y="108" text-anchor="middle" font-family="system-ui" font-size="7" fill="#E57035" opacity="0.7">Fri</text>
+  <text x="430" y="158" text-anchor="middle" font-family="system-ui" font-size="6" fill="#E57035" opacity="0.5">0.9 GB</text>
+
+  <!-- Restore arrow -->
+  <defs>
+    <marker id="restoreArrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#E57035"/>
+    </marker>
+  </defs>
+
+  <path d="M350,150 C350,200 300,210 250,240" stroke="#E57035" stroke-width="2.5" fill="none" marker-end="url(#restoreArrow)" stroke-dasharray="6,3"/>
+
+  <text x="330" y="205" font-family="system-ui" font-size="9" font-weight="bold" fill="#E57035">Restore</text>
+
+  <!-- Target VM -->
+  <rect x="140" y="245" width="220" height="100" rx="10" fill="white" stroke="#E57035" stroke-width="2"/>
+  <rect x="140" y="245" width="220" height="28" rx="10" fill="#E57035" opacity="0.1"/>
+  <text x="250" y="264" text-anchor="middle" font-family="system-ui" font-size="10" font-weight="bold" fill="#E57035">Restored VM</text>
+
+  <!-- VM details -->
+  <text x="155" y="290" font-family="system-ui" font-size="8" fill="#E57035" opacity="0.7">Name: web-server</text>
+  <text x="155" y="305" font-family="system-ui" font-size="8" fill="#E57035" opacity="0.7">ID: VM 100</text>
+  <text x="155" y="320" font-family="system-ui" font-size="8" fill="#E57035" opacity="0.7">State: Thursday snapshot</text>
+
+  <!-- Status indicator -->
+  <rect x="280" y="278" width="65" height="22" rx="11" fill="#4CAF50" opacity="0.15"/>
+  <circle cx="293" cy="289" r="4" fill="#4CAF50"/>
+  <text x="320" y="293" text-anchor="middle" font-family="system-ui" font-size="8" fill="#4CAF50">Running</text>
+
+  <!-- Restore progress -->
+  <text x="280" y="315" font-family="system-ui" font-size="7" fill="#E57035" opacity="0.6">Restore: Complete</text>
+  <rect x="280" y="320" width="65" height="6" rx="3" fill="#E57035" opacity="0.1"/>
+  <rect x="280" y="320" width="65" height="6" rx="3" fill="#4CAF50" opacity="0.5"/>
+
+  <!-- Options -->
+  <rect x="80" y="362" width="100" height="24" rx="12" fill="white" stroke="#E57035" stroke-width="1"/>
+  <text x="130" y="378" text-anchor="middle" font-family="system-ui" font-size="8" fill="#E57035">File-level</text>
+
+  <rect x="200" y="362" width="100" height="24" rx="12" fill="white" stroke="#E57035" stroke-width="1"/>
+  <text x="250" y="378" text-anchor="middle" font-family="system-ui" font-size="8" fill="#E57035">Full VM</text>
+
+  <rect x="320" y="362" width="100" height="24" rx="12" fill="white" stroke="#E57035" stroke-width="1"/>
+  <text x="370" y="378" text-anchor="middle" font-family="system-ui" font-size="8" fill="#E57035">Live Restore</text>
+</svg>

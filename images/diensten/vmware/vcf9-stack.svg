@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="400" viewBox="0 0 500 400">
+  <rect width="500" height="400" rx="20" fill="#FDF2ED"/>
+
+  <!-- Cloud icon -->
+  <ellipse cx="250" cy="70" rx="70" ry="35" fill="#E57035" opacity="0.15" stroke="#E57035" stroke-width="2"/>
+  <ellipse cx="220" cy="75" rx="40" ry="25" fill="#FDF2ED"/>
+  <ellipse cx="250" cy="65" rx="50" ry="30" fill="#E57035" opacity="0.2" stroke="#E57035" stroke-width="1.5"/>
+  <text x="250" y="72" text-anchor="middle" font-family="system-ui" font-size="13" font-weight="bold" fill="#E57035">VCF 9</text>
+
+  <!-- Dashed connectors from cloud to each component -->
+  <line x1="250" y1="100" x2="77" y2="180" stroke="#E57035" stroke-width="2" stroke-dasharray="4,3"/>
+  <line x1="250" y1="100" x2="170" y2="180" stroke="#E57035" stroke-width="2" stroke-dasharray="4,3"/>
+  <line x1="250" y1="100" x2="250" y2="180" stroke="#E57035" stroke-width="2" stroke-dasharray="4,3"/>
+  <line x1="250" y1="100" x2="330" y2="180" stroke="#E57035" stroke-width="2" stroke-dasharray="4,3"/>
+  <line x1="250" y1="100" x2="423" y2="180" stroke="#E57035" stroke-width="2" stroke-dasharray="4,3"/>
+
+  <!-- vSphere block -->
+  <rect x="35" y="180" width="85" height="75" rx="10" fill="white" stroke="#E57035" stroke-width="2"/>
+  <rect x="63" y="198" width="28" height="20" rx="2" fill="none" stroke="#E57035" stroke-width="1.5"/>
+  <line x1="70" y1="205" x2="84" y2="205" stroke="#E57035" stroke-width="1"/>
+  <line x1="70" y1="211" x2="84" y2="211" stroke="#E57035" stroke-width="1"/>
+  <text x="77" y="242" text-anchor="middle" font-family="system-ui" font-size="12" font-weight="bold" fill="#E57035">vSphere</text>
+
+  <!-- vSAN block -->
+  <rect x="128" y="180" width="85" height="75" rx="10" fill="white" stroke="#E57035" stroke-width="2"/>
+  <rect x="150" y="198" width="40" height="7" rx="2" fill="#E57035" opacity="0.4"/>
+  <rect x="150" y="208" width="40" height="7" rx="2" fill="#E57035" opacity="0.6"/>
+  <rect x="150" y="218" width="40" height="7" rx="2" fill="#E57035" opacity="0.8"/>
+  <text x="170" y="242" text-anchor="middle" font-family="system-ui" font-size="12" font-weight="bold" fill="#E57035">vSAN</text>
+
+  <!-- NSX block -->
+  <rect x="221" y="180" width="85" height="75" rx="10" fill="white" stroke="#E57035" stroke-width="2"/>
+  <line x1="237" y1="212" x2="290" y2="212" stroke="#E57035" stroke-width="2"/>
+  <circle cx="237" cy="212" r="4" fill="#E57035"/>
+  <circle cx="290" cy="212" r="4" fill="#E57035"/>
+  <text x="263" y="242" text-anchor="middle" font-family="system-ui" font-size="12" font-weight="bold" fill="#E57035">NSX</text>
+
+  <!-- VCF Ops block -->
+  <rect x="314" y="180" width="85" height="75" rx="10" fill="white" stroke="#E57035" stroke-width="2"/>
+  <rect x="336" y="215" width="8" height="12" rx="1" fill="#E57035" opacity="0.5"/>
+  <rect x="348" y="205" width="8" height="22" rx="1" fill="#E57035" opacity="0.7"/>
+  <rect x="360" y="195" width="8" height="32" rx="1" fill="#E57035" opacity="0.9"/>
+  <text x="357" y="247" text-anchor="middle" font-family="system-ui" font-size="11" font-weight="bold" fill="#E57035">VCF Ops</text>
+
+  <!-- VCF Auto block (gear) -->
+  <rect x="407" y="180" width="85" height="75" rx="10" fill="white" stroke="#E57035" stroke-width="2"/>
+  <circle cx="449" cy="213" r="11" fill="none" stroke="#E57035" stroke-width="1.5"/>
+  <circle cx="449" cy="213" r="4" fill="#E57035" opacity="0.4"/>
+  <rect x="447" y="198" width="4" height="4" fill="#E57035"/>
+  <rect x="447" y="224" width="4" height="4" fill="#E57035"/>
+  <rect x="434" y="211" width="4" height="4" fill="#E57035"/>
+  <rect x="460" y="211" width="4" height="4" fill="#E57035"/>
+  <rect x="438" y="202" width="4" height="4" fill="#E57035" transform="rotate(45 440 204)"/>
+  <rect x="458" y="202" width="4" height="4" fill="#E57035" transform="rotate(45 460 204)"/>
+  <rect x="438" y="222" width="4" height="4" fill="#E57035" transform="rotate(45 440 224)"/>
+  <rect x="458" y="222" width="4" height="4" fill="#E57035" transform="rotate(45 460 224)"/>
+  <text x="449" y="247" text-anchor="middle" font-family="system-ui" font-size="11" font-weight="bold" fill="#E57035">VCF Auto</text>
+
+  <!-- Footer labels -->
+  <text x="77" y="300" text-anchor="middle" font-family="system-ui" font-size="11" font-weight="bold" fill="#E57035">Compute</text>
+  <text x="170" y="300" text-anchor="middle" font-family="system-ui" font-size="11" font-weight="bold" fill="#E57035">Storage</text>
+  <text x="263" y="300" text-anchor="middle" font-family="system-ui" font-size="11" font-weight="bold" fill="#E57035">Network</text>
+  <text x="357" y="300" text-anchor="middle" font-family="system-ui" font-size="11" font-weight="bold" fill="#E57035">Operate</text>
+  <text x="449" y="300" text-anchor="middle" font-family="system-ui" font-size="11" font-weight="bold" fill="#E57035">Automate</text>
+</svg>

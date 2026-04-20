@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="400" viewBox="0 0 500 400">
+  <rect width="500" height="400" rx="20" fill="#FDF2ED"/>
+
+  <!-- Title -->
+  <text x="250" y="35" text-anchor="middle" font-family="system-ui" font-size="16" font-weight="bold" fill="#333">NSX — Software-Defined Networking</text>
+
+  <!-- Physical layer -->
+  <rect x="30" y="310" width="440" height="50" rx="8" fill="white" stroke="#E57035" stroke-width="1.5"/>
+  <text x="250" y="340" text-anchor="middle" font-family="system-ui" font-size="11" font-weight="bold" fill="#E57035">Physical Network Infrastructure</text>
+  <line x1="80" y1="325" x2="420" y2="325" stroke="#E57035" stroke-width="1" opacity="0.3" stroke-dasharray="3,2"/>
+
+  <!-- Virtual layer -->
+  <rect x="30" y="240" width="440" height="55" rx="8" fill="#E57035" opacity="0.06" stroke="#E57035" stroke-width="1.5"/>
+  <text x="250" y="262" text-anchor="middle" font-family="system-ui" font-size="11" font-weight="bold" fill="#E57035">Virtual Network Layer (Overlay)</text>
+  <text x="250" y="280" text-anchor="middle" font-family="system-ui" font-size="9" fill="#999">VXLAN / Geneve Tunnels</text>
+  <!-- Tunnel lines -->
+  <line x1="80" y1="275" x2="180" y2="275" stroke="#E57035" stroke-width="1" opacity="0.4"/>
+  <line x1="200" y1="275" x2="300" y2="275" stroke="#E57035" stroke-width="1" opacity="0.4"/>
+  <line x1="320" y1="275" x2="420" y2="275" stroke="#E57035" stroke-width="1" opacity="0.4"/>
+
+  <!-- Connecting arrows between layers -->
+  <line x1="150" y1="295" x2="150" y2="310" stroke="#E57035" stroke-width="1.5" stroke-dasharray="3,2"/>
+  <line x1="250" y1="295" x2="250" y2="310" stroke="#E57035" stroke-width="1.5" stroke-dasharray="3,2"/>
+  <line x1="350" y1="295" x2="350" y2="310" stroke="#E57035" stroke-width="1.5" stroke-dasharray="3,2"/>
+
+  <!-- Micro-segmentation zones -->
+  <!-- Zone 1: Web -->
+  <rect x="30" y="55" width="135" height="170" rx="10" fill="white" stroke="#E57035" stroke-width="2"/>
+  <rect x="30" y="55" width="135" height="25" rx="10" fill="#E57035" opacity="0.15"/>
+  <rect x="30" y="70" width="135" height="10" fill="#E57035" opacity="0.15"/>
+  <text x="97" y="73" text-anchor="middle" font-family="system-ui" font-size="10" font-weight="bold" fill="#E57035">Web Tier</text>
+
+  <rect x="45" y="90" width="50" height="35" rx="5" fill="#E57035" opacity="0.1" stroke="#E57035" stroke-width="1"/>
+  <text x="70" y="112" text-anchor="middle" font-family="system-ui" font-size="8" fill="#E57035">Web-1</text>
+  <rect x="100" y="90" width="50" height="35" rx="5" fill="#E57035" opacity="0.1" stroke="#E57035" stroke-width="1"/>
+  <text x="125" y="112" text-anchor="middle" font-family="system-ui" font-size="8" fill="#E57035">Web-2</text>
+
+  <!-- Firewall icon -->
+  <rect x="55" y="140" width="80" height="20" rx="4" fill="#E57035" opacity="0.2" stroke="#E57035" stroke-width="1"/>
+  <text x="95" y="154" text-anchor="middle" font-family="system-ui" font-size="8" fill="#E57035">Firewall</text>
+  <text x="97" y="195" text-anchor="middle" font-family="system-ui" font-size="8" fill="#999">Segment A</text>
+
+  <!-- Zone 2: App -->
+  <rect x="182" y="55" width="135" height="170" rx="10" fill="white" stroke="#E57035" stroke-width="2"/>
+  <rect x="182" y="55" width="135" height="25" rx="10" fill="#E57035" opacity="0.15"/>
+  <rect x="182" y="70" width="135" height="10" fill="#E57035" opacity="0.15"/>
+  <text x="249" y="73" text-anchor="middle" font-family="system-ui" font-size="10" font-weight="bold" fill="#E57035">App Tier</text>
+
+  <rect x="197" y="90" width="50" height="35" rx="5" fill="#E57035" opacity="0.1" stroke="#E57035" stroke-width="1"/>
+  <text x="222" y="112" text-anchor="middle" font-family="system-ui" font-size="8" fill="#E57035">App-1</text>
+  <rect x="252" y="90" width="50" height="35" rx="5" fill="#E57035" opacity="0.1" stroke="#E57035" stroke-width="1"/>
+  <text x="277" y="112" text-anchor="middle" font-family="system-ui" font-size="8" fill="#E57035">App-2</text>
+
+  <rect x="207" y="140" width="80" height="20" rx="4" fill="#E57035" opacity="0.2" stroke="#E57035" stroke-width="1"/>
+  <text x="247" y="154" text-anchor="middle" font-family="system-ui" font-size="8" fill="#E57035">Firewall</text>
+  <text x="249" y="195" text-anchor="middle" font-family="system-ui" font-size="8" fill="#999">Segment B</text>
+
+  <!-- Zone 3: DB -->
+  <rect x="335" y="55" width="135" height="170" rx="10" fill="white" stroke="#E57035" stroke-width="2"/>
+  <rect x="335" y="55" width="135" height="25" rx="10" fill="#E57035" opacity="0.15"/>
+  <rect x="335" y="70" width="135" height="10" fill="#E57035" opacity="0.15"/>
+  <text x="402" y="73" text-anchor="middle" font-family="system-ui" font-size="10" font-weight="bold" fill="#E57035">DB Tier</text>
+
+  <rect x="350" y="90" width="50" height="35" rx="5" fill="#E57035" opacity="0.1" stroke="#E57035" stroke-width="1"/>
+  <text x="375" y="112" text-anchor="middle" font-family="system-ui" font-size="8" fill="#E57035">DB-1</text>
+  <rect x="405" y="90" width="50" height="35" rx="5" fill="#E57035" opacity="0.1" stroke="#E57035" stroke-width="1"/>
+  <text x="430" y="112" text-anchor="middle" font-family="system-ui" font-size="8" fill="#E57035">DB-2</text>
+
+  <rect x="360" y="140" width="80" height="20" rx="4" fill="#E57035" opacity="0.2" stroke="#E57035" stroke-width="1"/>
+  <text x="400" y="154" text-anchor="middle" font-family="system-ui" font-size="8" fill="#E57035">Firewall</text>
+  <text x="402" y="195" text-anchor="middle" font-family="system-ui" font-size="8" fill="#999">Segment C</text>
+
+  <!-- Arrows between zones -->
+  <line x1="165" y1="107" x2="182" y2="107" stroke="#E57035" stroke-width="1.5"/>
+  <polygon points="180,103 187,107 180,111" fill="#E57035"/>
+  <line x1="317" y1="107" x2="335" y2="107" stroke="#E57035" stroke-width="1.5"/>
+  <polygon points="333,103 340,107 333,111" fill="#E57035"/>
+
+  <!-- Connecting zones to virtual layer -->
+  <line x1="97" y1="225" x2="97" y2="240" stroke="#E57035" stroke-width="1.5" stroke-dasharray="3,2"/>
+  <line x1="249" y1="225" x2="249" y2="240" stroke="#E57035" stroke-width="1.5" stroke-dasharray="3,2"/>
+  <line x1="402" y1="225" x2="402" y2="240" stroke="#E57035" stroke-width="1.5" stroke-dasharray="3,2"/>
+
+  <!-- Micro-segmentation label -->
+  <text x="250" y="385" text-anchor="middle" font-family="system-ui" font-size="10" fill="#999">Micro-Segmentation: Each tier isolated with distributed firewall rules</text>
+</svg>

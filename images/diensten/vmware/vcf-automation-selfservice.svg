@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="400" viewBox="0 0 500 400">
+  <rect width="500" height="400" rx="20" fill="#FDF2ED"/>
+
+  <defs>
+    <marker id="arrow-orange" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L8,3 z" fill="#E57035"/>
+    </marker>
+  </defs>
+
+  <!-- Developer (left) -->
+  <circle cx="55" cy="150" r="12" fill="white" stroke="#E57035" stroke-width="2"/>
+  <path d="M 40 190 Q 40 168 55 168 Q 70 168 70 190 Z" fill="white" stroke="#E57035" stroke-width="2"/>
+  <text x="55" y="215" text-anchor="middle" font-family="system-ui" font-size="11" font-weight="bold" fill="#E57035">Developer</text>
+
+  <!-- Arrow to Service Broker -->
+  <line x1="85" y1="180" x2="175" y2="180" stroke="#E57035" stroke-width="2" marker-end="url(#arrow-orange)"/>
+
+  <!-- Service Broker center -->
+  <rect x="180" y="150" width="140" height="60" rx="10" fill="white" stroke="#E57035" stroke-width="2"/>
+  <text x="250" y="185" text-anchor="middle" font-family="system-ui" font-size="14" font-weight="bold" fill="#E57035">Service Broker</text>
+
+  <!-- Arrow to right side -->
+  <line x1="325" y1="180" x2="365" y2="180" stroke="#E57035" stroke-width="2" marker-end="url(#arrow-orange)"/>
+
+  <!-- Right column: IaaS (Supervisor) -->
+  <rect x="370" y="110" width="110" height="55" rx="10" fill="white" stroke="#E57035" stroke-width="2"/>
+  <text x="425" y="134" text-anchor="middle" font-family="system-ui" font-size="11" font-weight="bold" fill="#E57035">IaaS</text>
+  <text x="425" y="150" text-anchor="middle" font-family="system-ui" font-size="10" fill="#E57035">Supervisor</text>
+
+  <!-- Right column: Kubernetes (VKS) -->
+  <rect x="370" y="195" width="110" height="55" rx="10" fill="white" stroke="#E57035" stroke-width="2"/>
+  <text x="425" y="219" text-anchor="middle" font-family="system-ui" font-size="11" font-weight="bold" fill="#E57035">Kubernetes</text>
+  <text x="425" y="235" text-anchor="middle" font-family="system-ui" font-size="10" fill="#E57035">VKS</text>
+
+  <!-- Branch lines from Service Broker to two right rects -->
+  <line x1="365" y1="180" x2="365" y2="135" stroke="#E57035" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <line x1="365" y1="135" x2="370" y2="135" stroke="#E57035" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <line x1="365" y1="180" x2="365" y2="222" stroke="#E57035" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <line x1="365" y1="222" x2="370" y2="222" stroke="#E57035" stroke-width="1.5" stroke-dasharray="4,3"/>
+
+  <!-- Bottom row: three supporting rects -->
+  <rect x="50" y="290" width="110" height="50" rx="10" fill="white" stroke="#E57035" stroke-width="2"/>
+  <text x="105" y="320" text-anchor="middle" font-family="system-ui" font-size="11" font-weight="bold" fill="#E57035">Cloud Assembly</text>
+
+  <rect x="195" y="290" width="110" height="50" rx="10" fill="white" stroke="#E57035" stroke-width="2"/>
+  <text x="250" y="320" text-anchor="middle" font-family="system-ui" font-size="11" font-weight="bold" fill="#E57035">Policies</text>
+
+  <rect x="340" y="290" width="110" height="50" rx="10" fill="white" stroke="#E57035" stroke-width="2"/>
+  <text x="395" y="320" text-anchor="middle" font-family="system-ui" font-size="11" font-weight="bold" fill="#E57035">IaC</text>
+
+  <!-- Dotted connectors between bottom rects -->
+  <line x1="160" y1="315" x2="195" y2="315" stroke="#E57035" stroke-width="1.5" stroke-dasharray="2,3"/>
+  <line x1="305" y1="315" x2="340" y2="315" stroke="#E57035" stroke-width="1.5" stroke-dasharray="2,3"/>
+</svg>

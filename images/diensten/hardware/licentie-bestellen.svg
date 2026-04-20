@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="400" viewBox="0 0 500 400">
+  <rect width="500" height="400" fill="#FDF2ED" rx="20"/>
+
+  <!-- Title -->
+  <text x="250" y="42" text-anchor="middle" font-family="system-ui" font-size="20" font-weight="bold" fill="#333">Bestelproces</text>
+  <text x="250" y="64" text-anchor="middle" font-family="system-ui" font-size="13" fill="#666">In 4 stappen uw Proxmox licentie activeren</text>
+
+  <!-- Connecting line behind steps -->
+  <line x1="80" y1="160" x2="420" y2="160" stroke="#E57035" stroke-width="2" opacity="0.25"/>
+
+  <!-- Step 1: Inventarisatie -->
+  <g transform="translate(40, 100)">
+    <circle cx="40" cy="60" r="38" fill="white" stroke="#E57035" stroke-width="2.5"/>
+    <circle cx="40" cy="42" r="4" fill="#E57035"/>
+    <rect x="28" y="50" width="24" height="18" fill="none" stroke="#E57035" stroke-width="2" rx="2"/>
+    <line x1="32" y1="56" x2="48" y2="56" stroke="#E57035" stroke-width="1.5"/>
+    <line x1="32" y1="61" x2="44" y2="61" stroke="#E57035" stroke-width="1.5"/>
+    <!-- Number badge -->
+    <circle cx="40" cy="16" r="14" fill="#E57035"/>
+    <text x="40" y="21" text-anchor="middle" font-family="system-ui" font-size="14" font-weight="bold" fill="white">1</text>
+    <!-- Label -->
+    <text x="40" y="116" text-anchor="middle" font-family="system-ui" font-size="11" font-weight="bold" fill="#333">Inventarisatie</text>
+    <text x="40" y="132" text-anchor="middle" font-family="system-ui" font-size="9" fill="#888">Servers in kaart</text>
+  </g>
+
+  <!-- Arrow 1->2 -->
+  <g transform="translate(118, 152)">
+    <line x1="0" y1="8" x2="24" y2="8" stroke="#E57035" stroke-width="2" stroke-linecap="round"/>
+    <polygon points="22,2 32,8 22,14" fill="#E57035"/>
+  </g>
+
+  <!-- Step 2: Kies niveau -->
+  <g transform="translate(155, 100)">
+    <circle cx="40" cy="60" r="38" fill="white" stroke="#E57035" stroke-width="2.5"/>
+    <!-- Layers/tier icon -->
+    <polygon points="40,38 58,48 40,58 22,48" fill="none" stroke="#E57035" stroke-width="2" stroke-linejoin="round"/>
+    <polygon points="40,48 58,58 40,68 22,58" fill="none" stroke="#E57035" stroke-width="2" stroke-linejoin="round" opacity="0.6"/>
+    <!-- Number badge -->
+    <circle cx="40" cy="16" r="14" fill="#E57035"/>
+    <text x="40" y="21" text-anchor="middle" font-family="system-ui" font-size="14" font-weight="bold" fill="white">2</text>
+    <!-- Label -->
+    <text x="40" y="116" text-anchor="middle" font-family="system-ui" font-size="11" font-weight="bold" fill="#333">Kies niveau</text>
+    <text x="40" y="132" text-anchor="middle" font-family="system-ui" font-size="9" fill="#888">Community tot Premium</text>
+  </g>
+
+  <!-- Arrow 2->3 -->
+  <g transform="translate(233, 152)">
+    <line x1="0" y1="8" x2="24" y2="8" stroke="#E57035" stroke-width="2" stroke-linecap="round"/>
+    <polygon points="22,2 32,8 22,14" fill="#E57035"/>
+  </g>
+
+  <!-- Step 3: Offerte -->
+  <g transform="translate(270, 100)">
+    <circle cx="40" cy="60" r="38" fill="white" stroke="#E57035" stroke-width="2.5"/>
+    <!-- Document/euro icon -->
+    <rect x="26" y="40" width="28" height="34" fill="none" stroke="#E57035" stroke-width="2" rx="3"/>
+    <text x="40" y="63" text-anchor="middle" font-family="system-ui" font-size="18" font-weight="bold" fill="#E57035">&#8364;</text>
+    <!-- Number badge -->
+    <circle cx="40" cy="16" r="14" fill="#E57035"/>
+    <text x="40" y="21" text-anchor="middle" font-family="system-ui" font-size="14" font-weight="bold" fill="white">3</text>
+    <!-- Label -->
+    <text x="40" y="116" text-anchor="middle" font-family="system-ui" font-size="11" font-weight="bold" fill="#333">Offerte</text>
+    <text x="40" y="132" text-anchor="middle" font-family="system-ui" font-size="9" fill="#888">Transparante prijs</text>
+  </g>
+
+  <!-- Arrow 3->4 -->
+  <g transform="translate(348, 152)">
+    <line x1="0" y1="8" x2="24" y2="8" stroke="#E57035" stroke-width="2" stroke-linecap="round"/>
+    <polygon points="22,2 32,8 22,14" fill="#E57035"/>
+  </g>
+
+  <!-- Step 4: Activatie -->
+  <g transform="translate(385, 100)">
+    <circle cx="40" cy="60" r="38" fill="white" stroke="#E57035" stroke-width="2.5"/>
+    <!-- Power/activation icon -->
+    <path d="M40,42 L40,52" stroke="#E57035" stroke-width="3" stroke-linecap="round"/>
+    <path d="M30,47 A15,15 0 1,0 50,47" fill="none" stroke="#E57035" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- Number badge -->
+    <circle cx="40" cy="16" r="14" fill="#E57035"/>
+    <text x="40" y="21" text-anchor="middle" font-family="system-ui" font-size="14" font-weight="bold" fill="white">4</text>
+    <!-- Label -->
+    <text x="40" y="116" text-anchor="middle" font-family="system-ui" font-size="11" font-weight="bold" fill="#333">Activatie</text>
+    <text x="40" y="132" text-anchor="middle" font-family="system-ui" font-size="9" fill="#888">Direct operationeel</text>
+  </g>
+
+  <!-- Bottom info box -->
+  <rect x="60" y="290" width="380" height="80" fill="white" stroke="#E57035" stroke-width="1.5" rx="10" opacity="0.9"/>
+  <circle cx="100" cy="330" r="18" fill="#E57035" opacity="0.12"/>
+  <polyline points="92,330 98,336 110,324" fill="none" stroke="#E57035" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="130" y="322" font-family="system-ui" font-size="13" font-weight="bold" fill="#333">Snel en eenvoudig</text>
+  <text x="130" y="340" font-family="system-ui" font-size="11" fill="#666">Binnen 24 uur actief na bestelling.</text>
+  <text x="130" y="356" font-family="system-ui" font-size="11" fill="#666">Inclusief installatie-ondersteuning.</text>
+</svg>

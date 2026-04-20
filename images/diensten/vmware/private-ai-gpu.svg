@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="400" viewBox="0 0 500 400">
+  <rect width="500" height="400" rx="20" fill="#FDF2ED"/>
+
+  <!-- GPU rects row (top) -->
+  <rect x="60" y="60" width="80" height="50" rx="8" fill="white" stroke="#E57035" stroke-width="2"/>
+  <rect x="60" y="60" width="80" height="10" rx="8" fill="#E57035" opacity="0.3"/>
+  <rect x="60" y="64" width="80" height="6" fill="#E57035" opacity="0.3"/>
+  <text x="100" y="95" text-anchor="middle" font-family="system-ui" font-size="10" font-weight="bold" fill="#E57035">NVIDIA GPU</text>
+
+  <rect x="160" y="60" width="80" height="50" rx="8" fill="white" stroke="#E57035" stroke-width="2"/>
+  <rect x="160" y="60" width="80" height="10" rx="8" fill="#E57035" opacity="0.3"/>
+  <rect x="160" y="64" width="80" height="6" fill="#E57035" opacity="0.3"/>
+  <text x="200" y="95" text-anchor="middle" font-family="system-ui" font-size="10" font-weight="bold" fill="#E57035">NVIDIA GPU</text>
+
+  <rect x="260" y="60" width="80" height="50" rx="8" fill="white" stroke="#E57035" stroke-width="2"/>
+  <rect x="260" y="60" width="80" height="10" rx="8" fill="#E57035" opacity="0.3"/>
+  <rect x="260" y="64" width="80" height="6" fill="#E57035" opacity="0.3"/>
+  <text x="300" y="95" text-anchor="middle" font-family="system-ui" font-size="10" font-weight="bold" fill="#E57035">NVIDIA GPU</text>
+
+  <rect x="360" y="60" width="80" height="50" rx="8" fill="white" stroke="#E57035" stroke-width="2"/>
+  <rect x="360" y="60" width="80" height="10" rx="8" fill="#E57035" opacity="0.3"/>
+  <rect x="360" y="64" width="80" height="6" fill="#E57035" opacity="0.3"/>
+  <text x="400" y="95" text-anchor="middle" font-family="system-ui" font-size="10" font-weight="bold" fill="#E57035">NVIDIA GPU</text>
+
+  <!-- Connectors from GPUs to partitioning band -->
+  <line x1="100" y1="110" x2="100" y2="150" stroke="#E57035" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <line x1="200" y1="110" x2="200" y2="150" stroke="#E57035" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <line x1="300" y1="110" x2="300" y2="150" stroke="#E57035" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <line x1="400" y1="110" x2="400" y2="150" stroke="#E57035" stroke-width="1.5" stroke-dasharray="4,3"/>
+
+  <!-- vGPU Partitioning band -->
+  <rect x="40" y="150" width="420" height="40" rx="8" fill="#E57035" fill-opacity="0.15" stroke="#E57035" stroke-width="2"/>
+  <text x="250" y="175" text-anchor="middle" font-family="system-ui" font-size="13" font-weight="bold" fill="#E57035">vGPU Partitioning Layer</text>
+
+  <!-- Solid connectors to VMs -->
+  <line x1="135" y1="190" x2="135" y2="220" stroke="#E57035" stroke-width="2"/>
+  <line x1="255" y1="190" x2="255" y2="220" stroke="#E57035" stroke-width="2"/>
+  <line x1="375" y1="190" x2="375" y2="220" stroke="#E57035" stroke-width="2"/>
+
+  <!-- VM rects -->
+  <rect x="90" y="220" width="90" height="80" rx="10" fill="white" stroke="#E57035" stroke-width="2"/>
+  <text x="135" y="252" text-anchor="middle" font-family="system-ui" font-size="12" font-weight="bold" fill="#E57035">VM 1</text>
+  <text x="135" y="275" text-anchor="middle" font-family="system-ui" font-size="10" fill="#E57035">vGPU</text>
+
+  <rect x="210" y="220" width="90" height="80" rx="10" fill="white" stroke="#E57035" stroke-width="2"/>
+  <text x="255" y="252" text-anchor="middle" font-family="system-ui" font-size="12" font-weight="bold" fill="#E57035">VM 2</text>
+  <text x="255" y="275" text-anchor="middle" font-family="system-ui" font-size="10" fill="#E57035">vGPU</text>
+
+  <rect x="330" y="220" width="90" height="80" rx="10" fill="white" stroke="#E57035" stroke-width="2"/>
+  <text x="375" y="252" text-anchor="middle" font-family="system-ui" font-size="12" font-weight="bold" fill="#E57035">VM 3</text>
+  <text x="375" y="275" text-anchor="middle" font-family="system-ui" font-size="10" fill="#E57035">vGPU</text>
+</svg>

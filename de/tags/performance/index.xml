@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Performance on MadeMy IT Solutions</title><link>https://mademy.nl/de/tags/performance/</link><description>Recent content in Performance on MadeMy IT Solutions</description><generator>Hugo</generator><language>de</language><lastBuildDate>Thu, 01 Feb 2024 10:00:00 +0100</lastBuildDate><atom:link href="https://mademy.nl/de/tags/performance/index.xml" rel="self" type="application/rss+xml"/><item><title>Best Practices für Windows-VMs in Proxmox VE</title><link>https://mademy.nl/de/blog/windows-vm-best-practices/</link><pubDate>Thu, 01 Feb 2024 10:00:00 +0100</pubDate><guid>https://mademy.nl/de/blog/windows-vm-best-practices/</guid><description>&lt;h1 id="best-practices-für-windows-vms-in-proxmox-ve"&gt;Best Practices für Windows-VMs in Proxmox VE&lt;/h1&gt;
+&lt;p&gt;Windows-VMs laufen hervorragend auf Proxmox VE, aber es gibt einige Optimierungen, die die Leistung und Stabilität erheblich verbessern. In diesem Artikel teilen wir unsere Erfahrungen.&lt;/p&gt;
+&lt;h2 id="vm-hardware-konfiguration"&gt;VM Hardware-Konfiguration&lt;/h2&gt;
+&lt;h3 id="cpu"&gt;CPU&lt;/h3&gt;
+&lt;h4 id="cpu-typ"&gt;CPU-Typ&lt;/h4&gt;
+&lt;p&gt;Wählen Sie &lt;strong&gt;&amp;ldquo;host&amp;rdquo;&lt;/strong&gt; als CPU-Typ für beste Leistung:&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;Hardware → Processors → Type: host
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Dies gibt der VM Zugriff auf alle CPU-Features des Hosts.&lt;/p&gt;
+&lt;h4 id="cores-vs-sockets"&gt;Cores vs Sockets&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Windows Desktop: 1 Socket, 2-8 Cores&lt;/li&gt;
+&lt;li&gt;Windows Server: 1-2 Sockets, 4-16 Cores&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Wichtig&lt;/strong&gt;: Windows-Lizenzen sind Socket-basiert&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="memory"&gt;Memory&lt;/h3&gt;
+&lt;h4 id="ballooning"&gt;Ballooning&lt;/h4&gt;
+&lt;p&gt;Deaktivieren Sie Memory Ballooning für stabile Leistung:&lt;/p&gt;</description></item></channel></rss>

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="400" viewBox="0 0 500 400">
+  <rect width="500" height="400" rx="16" ry="16" fill="#FDF2ED"/>
+
+  <!-- Brain icon -->
+  <circle cx="370" cy="140" r="40" fill="none" stroke="#E57035" stroke-width="2.5"/>
+  <path d="M350 140 Q355 115 370 115 Q385 115 390 140" fill="none" stroke="#E57035" stroke-width="2"/>
+  <path d="M350 140 Q355 165 370 165 Q385 165 390 140" fill="none" stroke="#E57035" stroke-width="2"/>
+  <line x1="370" y1="115" x2="370" y2="165" stroke="#E57035" stroke-width="1.5"/>
+  <circle cx="360" cy="130" r="3" fill="#E57035"/>
+  <circle cx="380" cy="130" r="3" fill="#E57035"/>
+  <circle cx="360" cy="150" r="3" fill="#E57035"/>
+  <circle cx="380" cy="150" r="3" fill="#E57035"/>
+
+  <!-- Neural connections -->
+  <line x1="360" y1="130" x2="380" y2="150" stroke="#E57035" stroke-width="1" opacity="0.5"/>
+  <line x1="380" y1="130" x2="360" y2="150" stroke="#E57035" stroke-width="1" opacity="0.5"/>
+
+  <!-- Card 3 (back) -->
+  <rect x="60" y="100" width="220" height="60" rx="8" fill="white" stroke="#E57035" stroke-width="2" opacity="0.5"/>
+  <text x="90" y="137" font-family="system-ui" font-size="16" font-weight="600" fill="#E57035" opacity="0.5">Qwen</text>
+  <rect x="210" y="120" width="50" height="20" rx="4" fill="#E57035" fill-opacity="0.1" stroke="#E57035" stroke-width="1" opacity="0.5"/>
+  <text x="235" y="134" text-anchor="middle" font-family="system-ui" font-size="9" fill="#E57035" opacity="0.5">72B</text>
+
+  <!-- Card 2 (middle) -->
+  <rect x="60" y="150" width="220" height="60" rx="8" fill="white" stroke="#E57035" stroke-width="2" opacity="0.75"/>
+  <text x="90" y="187" font-family="system-ui" font-size="16" font-weight="600" fill="#E57035" opacity="0.75">Mistral</text>
+  <rect x="210" y="170" width="50" height="20" rx="4" fill="#E57035" fill-opacity="0.1" stroke="#E57035" stroke-width="1" opacity="0.75"/>
+  <text x="235" y="184" text-anchor="middle" font-family="system-ui" font-size="9" fill="#E57035" opacity="0.75">Large</text>
+
+  <!-- Card 1 (front) -->
+  <rect x="60" y="200" width="220" height="60" rx="8" fill="white" stroke="#E57035" stroke-width="2"/>
+  <circle cx="85" cy="230" r="12" fill="#E57035" fill-opacity="0.15"/>
+  <text x="82" y="234" font-family="system-ui" font-size="10" fill="#E57035">AI</text>
+  <text x="110" y="237" font-family="system-ui" font-size="16" font-weight="600" fill="#E57035">Llama</text>
+  <rect x="210" y="220" width="50" height="20" rx="4" fill="#E57035" fill-opacity="0.15" stroke="#E57035" stroke-width="1"/>
+  <text x="235" y="234" text-anchor="middle" font-family="system-ui" font-size="9" fill="#E57035">405B</text>
+
+  <!-- Connecting dots from brain to cards -->
+  <line x1="330" y1="140" x2="280" y2="130" stroke="#E57035" stroke-width="1" opacity="0.3" stroke-dasharray="4,3"/>
+  <line x1="330" y1="150" x2="280" y2="180" stroke="#E57035" stroke-width="1" opacity="0.3" stroke-dasharray="4,3"/>
+  <line x1="330" y1="160" x2="280" y2="230" stroke="#E57035" stroke-width="1" opacity="0.3" stroke-dasharray="4,3"/>
+
+  <!-- Title -->
+  <text x="250" y="320" text-anchor="middle" font-family="system-ui" font-size="18" font-weight="600" fill="#E57035">Open-Source LLM Models</text>
+  <text x="250" y="345" text-anchor="middle" font-family="system-ui" font-size="13" fill="#E57035" opacity="0.7">Privaat &amp; op eigen infrastructuur</text>
+</svg>

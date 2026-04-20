@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="400" viewBox="0 0 500 400">
+  <rect width="500" height="400" rx="20" fill="#FDF2ED"/>
+
+  <!-- Title -->
+  <text x="250" y="35" text-anchor="middle" font-family="system-ui" font-size="16" font-weight="bold" fill="#E57035">Ceph Storage Cluster</text>
+
+  <!-- Monitor Nodes (top) -->
+  <text x="250" y="60" text-anchor="middle" font-family="system-ui" font-size="9" fill="#E57035" opacity="0.6">Monitor Nodes (MON)</text>
+
+  <circle cx="150" cy="90" r="22" fill="white" stroke="#E57035" stroke-width="1.5"/>
+  <text x="150" y="87" text-anchor="middle" font-family="system-ui" font-size="7" font-weight="bold" fill="#E57035">MON</text>
+  <text x="150" y="98" text-anchor="middle" font-family="system-ui" font-size="6" fill="#E57035" opacity="0.6">1</text>
+
+  <circle cx="250" cy="90" r="22" fill="white" stroke="#E57035" stroke-width="1.5"/>
+  <text x="250" y="87" text-anchor="middle" font-family="system-ui" font-size="7" font-weight="bold" fill="#E57035">MON</text>
+  <text x="250" y="98" text-anchor="middle" font-family="system-ui" font-size="6" fill="#E57035" opacity="0.6">2</text>
+
+  <circle cx="350" cy="90" r="22" fill="white" stroke="#E57035" stroke-width="1.5"/>
+  <text x="350" y="87" text-anchor="middle" font-family="system-ui" font-size="7" font-weight="bold" fill="#E57035">MON</text>
+  <text x="350" y="98" text-anchor="middle" font-family="system-ui" font-size="6" fill="#E57035" opacity="0.6">3</text>
+
+  <!-- Monitor connections -->
+  <line x1="172" y1="90" x2="228" y2="90" stroke="#E57035" stroke-width="1" opacity="0.3"/>
+  <line x1="272" y1="90" x2="328" y2="90" stroke="#E57035" stroke-width="1" opacity="0.3"/>
+
+  <!-- Connection lines MON to OSD -->
+  <line x1="150" y1="112" x2="100" y2="175" stroke="#E57035" stroke-width="1" opacity="0.2"/>
+  <line x1="250" y1="112" x2="250" y2="175" stroke="#E57035" stroke-width="1" opacity="0.2"/>
+  <line x1="350" y1="112" x2="400" y2="175" stroke="#E57035" stroke-width="1" opacity="0.2"/>
+
+  <!-- OSD Node 1 -->
+  <rect x="30" y="175" width="140" height="120" rx="8" fill="white" stroke="#E57035" stroke-width="2"/>
+  <rect x="30" y="175" width="140" height="25" rx="8" fill="#E57035" opacity="0.1"/>
+  <text x="100" y="192" text-anchor="middle" font-family="system-ui" font-size="9" font-weight="bold" fill="#E57035">OSD Node 1</text>
+
+  <rect x="42" y="210" width="50" height="22" rx="4" fill="#E57035" opacity="0.15"/>
+  <text x="67" y="225" text-anchor="middle" font-family="system-ui" font-size="7" fill="#E57035">OSD.0</text>
+  <rect x="98" y="210" width="50" height="22" rx="4" fill="#E57035" opacity="0.15"/>
+  <text x="123" y="225" text-anchor="middle" font-family="system-ui" font-size="7" fill="#E57035">OSD.1</text>
+  <rect x="42" y="238" width="50" height="22" rx="4" fill="#E57035" opacity="0.15"/>
+  <text x="67" y="253" text-anchor="middle" font-family="system-ui" font-size="7" fill="#E57035">OSD.2</text>
+  <rect x="98" y="238" width="50" height="22" rx="4" fill="#E57035" opacity="0.15"/>
+  <text x="123" y="253" text-anchor="middle" font-family="system-ui" font-size="7" fill="#E57035">OSD.3</text>
+  <text x="100" y="282" text-anchor="middle" font-family="system-ui" font-size="7" fill="#E57035" opacity="0.5">4x NVMe</text>
+
+  <!-- OSD Node 2 -->
+  <rect x="180" y="175" width="140" height="120" rx="8" fill="white" stroke="#E57035" stroke-width="2"/>
+  <rect x="180" y="175" width="140" height="25" rx="8" fill="#E57035" opacity="0.1"/>
+  <text x="250" y="192" text-anchor="middle" font-family="system-ui" font-size="9" font-weight="bold" fill="#E57035">OSD Node 2</text>
+
+  <rect x="192" y="210" width="50" height="22" rx="4" fill="#E57035" opacity="0.15"/>
+  <text x="217" y="225" text-anchor="middle" font-family="system-ui" font-size="7" fill="#E57035">OSD.4</text>
+  <rect x="248" y="210" width="50" height="22" rx="4" fill="#E57035" opacity="0.15"/>
+  <text x="273" y="225" text-anchor="middle" font-family="system-ui" font-size="7" fill="#E57035">OSD.5</text>
+  <rect x="192" y="238" width="50" height="22" rx="4" fill="#E57035" opacity="0.15"/>
+  <text x="217" y="253" text-anchor="middle" font-family="system-ui" font-size="7" fill="#E57035">OSD.6</text>
+  <rect x="248" y="238" width="50" height="22" rx="4" fill="#E57035" opacity="0.15"/>
+  <text x="273" y="253" text-anchor="middle" font-family="system-ui" font-size="7" fill="#E57035">OSD.7</text>
+  <text x="250" y="282" text-anchor="middle" font-family="system-ui" font-size="7" fill="#E57035" opacity="0.5">4x NVMe</text>
+
+  <!-- OSD Node 3 -->
+  <rect x="330" y="175" width="140" height="120" rx="8" fill="white" stroke="#E57035" stroke-width="2"/>
+  <rect x="330" y="175" width="140" height="25" rx="8" fill="#E57035" opacity="0.1"/>
+  <text x="400" y="192" text-anchor="middle" font-family="system-ui" font-size="9" font-weight="bold" fill="#E57035">OSD Node 3</text>
+
+  <rect x="342" y="210" width="50" height="22" rx="4" fill="#E57035" opacity="0.15"/>
+  <text x="367" y="225" text-anchor="middle" font-family="system-ui" font-size="7" fill="#E57035">OSD.8</text>
+  <rect x="398" y="210" width="50" height="22" rx="4" fill="#E57035" opacity="0.15"/>
+  <text x="423" y="225" text-anchor="middle" font-family="system-ui" font-size="7" fill="#E57035">OSD.9</text>
+  <rect x="342" y="238" width="50" height="22" rx="4" fill="#E57035" opacity="0.15"/>
+  <text x="367" y="253" text-anchor="middle" font-family="system-ui" font-size="7" fill="#E57035">OSD.10</text>
+  <rect x="398" y="238" width="50" height="22" rx="4" fill="#E57035" opacity="0.15"/>
+  <text x="423" y="253" text-anchor="middle" font-family="system-ui" font-size="7" fill="#E57035">OSD.11</text>
+  <text x="400" y="282" text-anchor="middle" font-family="system-ui" font-size="7" fill="#E57035" opacity="0.5">4x NVMe</text>
+
+  <!-- Replication arrows -->
+  <defs>
+    <marker id="cephArrow" markerWidth="6" markerHeight="5" refX="6" refY="2.5" orient="auto">
+      <polygon points="0 0, 6 2.5, 0 5" fill="#E57035"/>
+    </marker>
+  </defs>
+  <line x1="170" y1="240" x2="178" y2="240" stroke="#E57035" stroke-width="1.5" marker-end="url(#cephArrow)" opacity="0.5"/>
+  <line x1="320" y1="240" x2="328" y2="240" stroke="#E57035" stroke-width="1.5" marker-end="url(#cephArrow)" opacity="0.5"/>
+  <text x="175" y="232" text-anchor="middle" font-family="system-ui" font-size="5" fill="#E57035" opacity="0.5">replica</text>
+  <text x="325" y="232" text-anchor="middle" font-family="system-ui" font-size="5" fill="#E57035" opacity="0.5">replica</text>
+
+  <!-- Pools section -->
+  <text x="250" y="320" text-anchor="middle" font-family="system-ui" font-size="9" font-weight="bold" fill="#E57035">Storage Pools</text>
+
+  <rect x="55" y="330" width="100" height="30" rx="6" fill="white" stroke="#E57035" stroke-width="1.5"/>
+  <rect x="60" y="335" width="14" height="20" rx="2" fill="#E57035" opacity="0.3"/>
+  <text x="115" y="349" text-anchor="middle" font-family="system-ui" font-size="8" fill="#E57035">RBD Pool</text>
+
+  <rect x="200" y="330" width="100" height="30" rx="6" fill="white" stroke="#E57035" stroke-width="1.5"/>
+  <rect x="205" y="335" width="14" height="20" rx="2" fill="#E57035" opacity="0.3"/>
+  <text x="260" y="349" text-anchor="middle" font-family="system-ui" font-size="8" fill="#E57035">CephFS</text>
+
+  <rect x="345" y="330" width="100" height="30" rx="6" fill="white" stroke="#E57035" stroke-width="1.5"/>
+  <rect x="350" y="335" width="14" height="20" rx="2" fill="#E57035" opacity="0.3"/>
+  <text x="405" y="349" text-anchor="middle" font-family="system-ui" font-size="8" fill="#E57035">RGW Pool</text>
+
+  <!-- Footer -->
+  <text x="250" y="385" text-anchor="middle" font-family="system-ui" font-size="8" fill="#E57035" opacity="0.5">Distributed Storage with 3x Replication</text>
+</svg>
