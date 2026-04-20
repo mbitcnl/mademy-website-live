@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Performance on MadeMy IT Solutions</title><link>https://mademy.nl/nl/tags/performance/</link><description>Recent content in Performance on MadeMy IT Solutions</description><generator>Hugo</generator><language>nl</language><lastBuildDate>Mon, 09 Mar 2026 21:59:41 +0100</lastBuildDate><atom:link href="https://mademy.nl/nl/tags/performance/index.xml" rel="self" type="application/rss+xml"/><item><title>Best Practices voor Windows VM's in Proxmox VE</title><link>https://mademy.nl/nl/blog/windows-vm-best-practices/</link><pubDate>Thu, 01 Feb 2024 10:00:00 +0100</pubDate><guid>https://mademy.nl/nl/blog/windows-vm-best-practices/</guid><description>&lt;h1 id="best-practices-voor-windows-vms-in-proxmox-ve"&gt;Best Practices voor Windows VM&amp;rsquo;s in Proxmox VE&lt;/h1&gt;
+&lt;p&gt;Windows VM&amp;rsquo;s draaien uitstekend op Proxmox VE, maar er zijn enkele optimalisaties die de performance en stabiliteit significant verbeteren. In dit artikel delen wij onze ervaring.&lt;/p&gt;
+&lt;h2 id="vm-hardware-configuratie"&gt;VM Hardware Configuratie&lt;/h2&gt;
+&lt;h3 id="cpu"&gt;CPU&lt;/h3&gt;
+&lt;h4 id="cpu-type"&gt;CPU Type&lt;/h4&gt;
+&lt;p&gt;Kies &lt;strong&gt;&amp;ldquo;host&amp;rdquo;&lt;/strong&gt; als CPU type voor de beste performance:&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;Hardware → Processors → Type: host
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Dit geeft de VM toegang tot alle CPU features van de host.&lt;/p&gt;
+&lt;h4 id="cores-vs-sockets"&gt;Cores vs Sockets&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Windows Desktop: 1 socket, 2-8 cores&lt;/li&gt;
+&lt;li&gt;Windows Server: 1-2 sockets, 4-16 cores&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Belangrijk&lt;/strong&gt;: Windows licenties zijn socket-gebaseerd&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="memory"&gt;Memory&lt;/h3&gt;
+&lt;h4 id="ballooning"&gt;Ballooning&lt;/h4&gt;
+&lt;p&gt;Schakel memory ballooning uit voor stabiele performance:&lt;/p&gt;</description></item></channel></rss>
